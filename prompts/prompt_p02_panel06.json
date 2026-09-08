@@ -1,0 +1,30 @@
+{
+  "panel_id": "p02_panel06",
+  "watermark": "P02-PN06",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视侧面，妻子 90 度侧面站立但头从肩膀方向转过来 30-40 度回头望客卧门；一只手叉腰，另一只手扶门框；脸是 90 度侧脸 + 1/4 正面；眼睛望向客卧门方向；表情生气已升级到临界——眉头锁死、眼角 1-2mm 抽动、下唇略外推。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top-right",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "起来了，怎么还睡呢，起来起来。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up side view of a 30-something East Asian Chinese woman standing in the hallway outside the guest-bedroom door. Body turned 90 degrees sideways but her head turning 30-40 degrees back over her shoulder toward the door, looking back at it as if expecting an answer. One hand on her hip, the other hand resting on the door frame. Face shown in 90-degree side profile plus one-quarter front. Expression at the boiling point — eyebrows drawn down and inward at the bridge locked tight (the most compressed scowl in this page), eyes narrowed to slits with the slightest 1-2mm twitch at the outer corner, mouth closed with lips pressed together but the lower lip pushed out very slightly, jaw clenched hard so the masseter muscle is clearly defined. Long straight black hair tied in a low ponytail swinging slightly with her turn, single pearl stud earring catching light, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the hand on her hip and the hand on the door frame. Hallway ceiling light warm white from upper right, cold white morning light slicing from the door seam across her face side creating the strongest cool-warm contrast on this page. Mood: the critical point before she barges in. Text watermark 'P02-PN06' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible inside the bedroom, decorative hallway art, daylight from a window, any second character, soft flattering lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 拖鞋）+ face_features（低马尾 + 珍珠耳钉 + 裸粉美甲 + 锁骨链）+ 妻子_生气 expression_signature 临界版（眉头锁死 + 眼角 1-2mm 抽动 + 下唇略外推 + 咬肌最凸）+ 单手叉腰 + 另一手扶门框（base-v1 scene_anchors.bedroom_guest_room_entrance 姿态）",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway（冷暖对比最强的一格）"
+  }
+}

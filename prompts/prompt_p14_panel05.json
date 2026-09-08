@@ -1,0 +1,29 @@
+{
+  "panel_id": "p14_panel05",
+  "watermark": "P14-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子扬起手招呼（拿指甲剪）；表情不耐烦。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_不耐烦.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌，李斌！帮我指甲剪拿一下。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese woman on the grey sofa, one hand now raised higher at shoulder height in a beckoning gesture. mouth open in mid-command. Long straight black hair completely down, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings, fresh nude-pink gel manicure visible on the raised hand. Warm yellow-white living room light. Mood: the third summon, the impatience tipping into actual annoyance. Text watermark 'P14-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the frame, decorative hallway art, daylight from a window, second character, bloodshot eyes, romantic soft lighting, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_不耐烦（嘴张）",
+    "lighting_match_anchors": "妻子_不耐烦 lighting_preference_for_this_expression.preferred"
+  }
+}

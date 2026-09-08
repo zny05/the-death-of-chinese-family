@@ -1,0 +1,19 @@
+{
+  "panel_id": "p03_panel02",
+  "watermark": "P03-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视跟拍，妻子大步迈向画面右侧（朝窗户方向），腿一前一后形成跨步；一只手臂伸向前面，另一只手臂向后摆动；低马尾扬起；背景虚化客卧床头柜、白色墙壁、皱褶海军蓝被子一角；速度线在妻子身后拉出 3-4 条。",
+  "character_anchors_invoked": ["character_妻子.json#base-v1"],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level tracking medium shot of a 30-something East Asian Chinese woman striding forward toward the right side of the frame (toward the bedroom window). One leg forward and one leg back in a clear long stride, one arm reaching forward toward the window direction, the other arm swinging back behind her for balance. Long straight black hair tied in a low ponytail flying up from the forward momentum. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers half slipping at the heel from the stride, fresh nude-pink gel manicure on the reaching hand. Background soft-focus: a small wooden nightstand, plain white bedroom wall, a corner of a crumpled navy blue duvet. Three to four speed lines radiating from behind her to emphasize the charge. Side view, single pearl stud earring catching light, masseter muscle tensed, jaw clenched. Mood: the burst, the launch. Text watermark 'P03-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, smiling, husband visible in bed, decorative bedroom art, daylight from a side window, second character, soft flattering lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 拖鞋半脱）+ face_features（低马尾扬起 + 珍珠耳钉 + 咬肌紧绷）+ motion_anchors.pulling_curtain_open 预备动作（重心前脚 + 头略后仰 + 一只手臂伸前）",
+    "lighting_match_anchors": true
+  }
+}

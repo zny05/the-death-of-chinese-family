@@ -1,0 +1,19 @@
+{
+  "panel_id": "p02_panel01",
+  "watermark": "P02-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "全景仰视 15 度，紧闭的客卧门浅米色木质，银色球形把手，门下方 3-4cm 高的冷白晨光透出门缝，门框左侧贴着一张虚化的卡通贴纸，走廊顶灯从画面右上方斜入打门板。无人。",
+  "character_anchors_invoked": [],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Low-angle establishing wide shot from the hallway side looking up about 15 degrees at a closed light-beige wooden guest-bedroom door. A round brushed-silver doorknob in the middle. A clear bright blade of cold white morning light leaks from under the door, about 3-4cm tall. A small cartoon sticker (childlike drawing) on the left side of the door frame, slightly out of focus. Hallway ceiling light from upper right casts a soft top light on the door panel, keeping the door from looking completely flat black. No people. No text on the door. The mood is a held breath before a sound breaks the silence. Text watermark 'P02-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "people in frame, anime proportions, decorative door carvings, a peephole, numbers on the door, daylight streaming in from the side, any furniture in the hallway",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "no characters — anchors not invoked",
+    "lighting_match_anchors": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "character_id": "wife",
+  "expression_id": "impatient",
+  "character_name_cn": "妻子",
+  "expression_name_cn": "不耐烦",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_妻子.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "looking away from the husband, glancing at the phone or the door or the clock — the classic 'I've lost interest' eye direction, not quite rolling but pointedly elsewhere",
+    "brows": "slightly raised in the middle, not furrowed — a 'done with this' arch, not an angry one",
+    "mouth": "slightly open, exhaling a short impatient breath, the lips relaxed but the jaw set, no active scolding happening in this frame",
+    "head": "turned 20-30 degrees away from husband, chin slightly up — the body language says 'I'm waiting for you to finish'",
+    "overall_impression": "the face of someone who has said the same thing 50 times and is now going through the motions — used heavily on Page 4 (空调/电视噪音段), Page 10 (phone call about durian), Page 14 (consecutive summons: water / durian / nail clipper)"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_default": "as in base-v1 — fitted cream ribbed long-sleeve knit top + light grey high-waisted yoga leggings",
+    "default_posture_override": "weight shifted to one hip, one hand on hip, the other hand holding phone or remote, eyes already on the next task"
+  },
+  "micro_motion": {
+    "static": "standing with weight shifted, eyes on the phone or the door",
+    "subtle_motion": "exhaled breath through parted lips; finger tap on phone screen; one eyebrow lifts a millimeter higher when husband still doesn't respond",
+    "transition_to": ["生气", "轻蔑"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "flat ambient room light — no drama, this is the mundane middle of an argument, not a climax",
+    "avoid": "any dramatic light — would falsely elevate the moment",
+    "narrative_pairing": "living_room_sofa or kitchen_table scene anchors"
+  },
+  "voice_lines_examples": [
+    "李斌快点快点，把榴莲拿出来",
+    "说话呀！"
+  ],
+  "prompt_snippet_en": "impatient done-with-this expression, eyes looking away from the husband toward the phone or door or clock, classic lost-interest eye direction not quite rolling but pointedly elsewhere, eyebrows slightly raised in the middle in a done-with-this arch (not angry), mouth slightly open with exhaled breath through parted lips, lips relaxed but jaw set, no active scolding happening, head turned 20-30 degrees away from husband with chin slightly up, long straight black hair tied in low ponytail, fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings, weight shifted to one hip, one hand on hip with fresh nude-pink manicure visible, other hand holding smartphone with rose-pink silicone case, pearl stud earrings, small gold locket at neckline, flat ambient room light, Chinese modern comic style, soft cinematic lighting",
+  "do_not_render": [
+    "angry scowl (this is not anger, this is fatigue with the husband)",
+    "full eye-roll (too active, this is more like a look-away)",
+    "shouting mouth",
+    "dramatic shadows",
+    "explicit yawn (this is interpersonal fatigue, not boredom)"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '不耐烦'。注意：本表情与 '生气' 容易混淆——'生气' 是主动出击施压，'不耐烦' 是被动等待结束。不得仅写文件名。"
+}

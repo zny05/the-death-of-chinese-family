@@ -1,0 +1,31 @@
+{
+  "panel_id": "p13_panel01",
+  "watermark": "P13-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子坐在沙发上（瑜伽归来装部分已换家居服）；脸 3/4 侧面蹙眉；表情生气；手握零食袋撕开一包；背景客厅电视模糊。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "上哪儿去啊，让你玩你现在就等不喋是吧。跟你说个事，妈的，气死我了。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese woman sitting on the grey fabric sofa in the living room, having changed out of her yoga outfit into casual home clothes — fitted cream ribbed long-sleeve knit top and light grey high-waisted yoga leggings. Long straight black hair completely down now, not in a ponytail. Face shown in three-quarter side view, eyebrows drawn down and inward at the bridge in a scowl, eyes narrowed, mouth closed with lips pressed together, jaw clenched. One hand grips a translucent plastic snack bag and tears open a bag of snacks. The TV is a soft cool blue glow in the background. Warm yellow-white living room light. Mood: she has something to say, the next chapter of the night is about to start. Text watermark 'P13-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the frame, decorative hallway art, daylight from a window, second character, bloodshot eyes, romantic soft lighting, friend/girlfriend character visible in the frame",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤）+ face_features（长直黑发完全散 + 珍珠耳钉 + 裸粉美甲）+ 妻子_生气",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.evening_living_room（暖白偏黄 + 电视冷光）",
+    "girlfriend_protocol": "闺蜜不进画面，仅通过对白提及"
+  }
+}

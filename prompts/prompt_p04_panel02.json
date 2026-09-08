@@ -1,0 +1,22 @@
+{
+  "panel_id": "p04_panel02",
+  "watermark": "P04-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视（妻子反打视角），李斌坐在床上头微抬看妻子方向（眼半睁）；一只手臂仍搭在被子上；头发更乱（揉了一下）；嘴半张着（仍在说话）；人物位置在画面下半部上方留白；背景窗帘已开窗外城市轮廓虚化。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_疲惫闭眼.json#expression-v1（持续说话态）"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Eye-level medium close-up reverse shot from the wife's standing position looking at the husband sitting on the bed. A 30-something East Asian Chinese man sitting upright on the guest-bed, head tilted slightly up looking toward camera-left (the wife's direction). One arm still resting on the duvet which has been pulled down to his chest. Short black hair even messier than before — he has just rubbed it with his hand in the habitual wake-up gesture. Eyes only half-open with gaze unfocused, mouth half-open still mid-speech, two-to-three-day stubble shadow visible. Loose grey cotton crew-neck t-shirt. The figure sits in the lower half of the frame with significant empty space above his head. Background soft-focus: opened curtain with the morning cityscape blurred beyond. Cool blue-grey bedroom interior with warm morning sunlight from the right back-lighting his head. Mood: the effort of speaking, the body trying to rise against the posture default of collapse. Text watermark 'P04-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, fully open alert eyes, smiling, tears, bright flat lighting, wife visible in frame, decorative bedroom art, soft romantic mood, well-groomed hair, second character",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发更乱 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤）+ default_posture（肩膀略塌但头微抬）+ scene_anchors.bedroom_guest_room（海军蓝皱褶被子拉到胸口）+ 李斌_疲惫闭眼 持续说话版（眼半睁 + 目光涣散 + 嘴微张）",
+    "lighting_match_anchors": true
+  }
+}

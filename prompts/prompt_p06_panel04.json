@@ -1,0 +1,30 @@
+{
+  "panel_id": "p06_panel04",
+  "watermark": "P06-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 中近景平视（李斌视角望向妻子），妻子已转身回头望向李斌（3/4 侧面）；单边嘴角冷笑上扬其他五官冷淡；头微后仰下巴抬；高马尾、瑜伽出门装；她的影子斜斜打在地上。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_alt.yoga_class_going_out）",
+    "character_妻子_轻蔑.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_chinese": "过生日人老公给我闺蜜送一个多重的那是大金镯子，你给我送什么了？转那点可怜的红包都犹豫半天，啧啧啧，不跟你说了，你帮我扣一下后面的扣子，这衣服我新买的，我还没穿呢。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up from the husband's seated POV looking up at his wife who has half-turned back toward him. Cold contempt expression — signature one-sided mouth curl with only one corner lifted into a smirk that does not reach the eyes, eyes looking down their nose at the target (the raised-chin lowered-gaze combination unique to contempt), the inner end of the brow on the curl side lifted slightly while the other brow stays flat creating an asymmetric disdain arch, mouth closed with the lifted corner tighter than the other, controlled almost-amused sneer, no flush no tear completely composed cheeks, head slightly tilted back and to one side with chin raised high looking down the nose, physical superiority posture. Long straight black hair in a high ponytail, single pearl stud earring, small gold locket at neckline. Black sports bra layered under a sage green zip-up jacket, charcoal grey high-waisted leggings, fresh nude-pink gel manicure visible on a hand resting on the hip. Warm tungsten lamp from a low angle lighting her from below the chin creating a slight horror-movie underlighting that emphasizes the smirk coldness. Her shadow falls diagonally on the floor. Mood: the coldest moment of the page, the darning contempt of 'married me you hit the jackpot'. Text watermark 'P06-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "eyes crinkled in a real laugh, symmetric smile, any flush or tear, soft flattering window light, husband visible in the frame, decorative hallway art, second character, flowers or warm background cues",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_alt.yoga_class_going_out + face_features（高马尾 + 珍珠耳钉 + 锁骨链 + 裸粉美甲）+ 妻子_轻蔑 expression_signature（单边冷笑 + 不对称眉 + 抬下巴俯视 + 不眨眼 + 冷脸无泪无红）+ 灯光偏好（暖白钨丝灯低角度打下巴）",
+    "lighting_match_anchors": "妻子_轻蔑 lighting_preference_for_this_expression.preferred（暖白钨丝灯从低角度打下巴）"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "panel_id": "p09_panel01",
+  "watermark": "P09-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，李斌坐在沙发上（接续 Page 08 姿态）；目光从手机转向电视方向（画面外）；电视里在播假面骑士变身集锦（画面外但读者从李斌表情知道）；脸仍无语状态但眼神略有变化。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1（眼神方向开始转变）"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of the 30-something East Asian Chinese husband sitting on the L-shaped grey fabric sofa continuing from the previous page. He is turning his gaze away from the black smartphone in his hands toward the off-frame television direction, his eyes lifting from the downcast position. The speechless exasperated expression is still in place but the eyes are beginning to come alive — the unfocused middle-distance gaze is starting to point at something specific off-camera, a first faint hint of attention. Eyebrows flat, lips pressed together, two-to-three-day stubble shadow visible, dark circles under the eyes, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants. The TV glow casts a faint cool light on his face in addition to the warm morning window light. Mood: the first loosening of the silence, the still water beginning to ripple. Text watermark 'P09-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, smiling, wife visible in frame, decorative hallway art, daylight from a window, second character, romantic soft lighting, full Duchenne smile (this is only the onset of change)",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤）+ 李斌_无语 起始变化版（眼半睁 + 目光方向开始转变 + 眉平 + 嘴闭紧）+ scene_anchors.living_room_sofa",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "panel_id": "p06_panel06",
+  "watermark": "P06-PN06",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视，李斌坐在客厅或玄关旁，脸是 3/4 侧面；眼睛半睁目光望向中景的墙（不看妻子）；眉头平（无语特征）；嘴闭紧；他的手正在帮忙扣扣子（动作模糊化重点）；妻子不在画面内但读者知道他在配合。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "top-left",
+      "tail_pointing": "画面外",
+      "text_zh": "你赶快下去吧，人滴滴司机等你多长时间了？每次都这样。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up on a 30-something East Asian Chinese man seated near the entryway, shot from the wife's perspective looking down at him as she stands at the door. Speechless exasperated expression — eyes half-lidded with slightly unfocused gaze looking past the camera at a middle-distance point on the wall (not making eye contact), eyebrows flat and expressionless neither raised nor furrowed, mouth closed with lips pressed together and a tiny breath between them, slight asymmetry with the left corner a millimeter lower than the right, head level facing forward but eyes off-target. Two-to-three-day stubble shadow visible, dark circles under the eyes, short black slightly messy side-swept hair. One hand is doing the small busywork of helping fasten a button on the wife's jacket (the wife is off-frame behind the camera). Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants. Flat ambient room light with no strong shadows. Mood: the silent helper, the resignation of doing a small task while the bigger argument hovers unspoken. Text watermark 'P06-PN06' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, open mouth as if speaking, eye-roll visible, sigh lines, hands balled into fists, wife visible in the frame, decorative hallway art, daylight from a window, soft romantic mood",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤）+ default_posture（肩膀略塌 + 脖子略前伸）+ 李斌_无语 expression_signature（眼半睁不聚焦 + 眉平 + 嘴闭紧毫米不对称）",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred（平光环境光）"
+  }
+}

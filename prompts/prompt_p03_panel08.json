@@ -1,0 +1,22 @@
+{
+  "panel_id": "p03_panel08",
+  "watermark": "P03-PN08",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，李斌蜷缩在床上，整个人用海军蓝被子蒙到只剩头；一只手臂横搭在额头（按 motion_anchors.waking_up）；另一只手缩在被子里面；眼睛仍然完全闭合但眉头皱紧；全身缩成一团胎儿蜷缩姿态；阳光从画面右上方斜入把被子的褶皱打亮。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_疲惫闭眼.json#expression-v1"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Eye-level medium close-up of a 30-something East Asian Chinese man curled up on the guest-bedroom bed, only his head visible above the navy blue duvet which is pulled up to his chin. One arm thrown over the forehead, the other hand tucked under the duvet. Eyes fully closed, eyelids squeezed tight, lashes pressed against under-eye dark circles, eyebrows inner ends pulled up and pinched tightly together, lips pressed together hard, jaw clenched, two-to-three-day stubble shadow visible. Short black slightly messy side-swept hair. The whole body in a fetal curl under the duvet, defensively curled. Morning sunlight slanting in from the upper right making the duvet folds glow warmly while the rest of the bedroom stays cool blue-grey. Mood: the last panel of the page, the man under the duvet versus the woman who has just taken the room, the asymmetry is now complete. Text watermark 'P03-PN08' in the bottom-right corner.",
+  "negative_prompt_en": "open or half-open eyes, any smile, tears, wife visible in frame, decorative bedroom art, bright flat lighting, second character, soft romantic mood, sunrise colors",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤）+ default_posture（肩膀塌、脖子前伸）+ motion_anchors.waking_up（手臂横搭额头 + 被子拉到下巴）+ 李斌_疲惫闭眼 expression_signature（眼全闭 + 内眉蹙紧 + 唇压成线）+ scene_anchors.bedroom_guest_room（海军蓝被子）",
+    "lighting_match_anchors": "李斌_疲惫闭眼 lighting_preference_for_this_expression.preferred（晨光斜打被子褶皱 + 室内冷蓝灰阴影）"
+  }
+}

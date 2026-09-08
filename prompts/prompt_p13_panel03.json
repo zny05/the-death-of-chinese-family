@@ -1,0 +1,31 @@
+{
+  "panel_id": "p13_panel03",
+  "watermark": "P13-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子手叉腰站起来；表情生气（回到 default 态）；脸 3/4 侧面怒视李斌；单手叉腰 + 另一手指向李斌。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "不是，哪里又轮得到你来说我朋友了，人家再不好，没招惹你好吗。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese woman now standing up from the grey sofa, one hand on her hip, the other arm extended with index finger pointing at the off-frame husband direction. Face shown in three-quarter side view, the scowl returned after the tantrum episode, eyebrows drawn down and inward at the bridge in a hard scowl, eyes narrowed to slits, mouth closed with lips pressed together, jaw clenched, slight flush on cheeks. Long straight black hair completely down around her shoulders, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the pointing hand. Warm yellow-white living room light. Mood: the counter-counter-attack, the scolding has shifted target from the girlfriend to the husband. Text watermark 'P13-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the frame, decorative hallway art, daylight from a window, second character, bloodshot eyes, anime anger vein marks, friend/girlfriend character visible, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_生气 回到 default 态 + 单手叉腰 + 手指指向",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.evening_living_room",
+    "girlfriend_protocol": "闺蜜 '她' 仅通过对白提及"
+  }
+}

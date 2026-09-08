@@ -1,0 +1,27 @@
+{
+  "panel_id": "p03_panel07",
+  "watermark": "P03-PN07",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视略俯 5-10 度，床铺的一角，两只泡沫拖鞋乱扔——一只在床沿另一只掉在地板上；拖鞋之间散落一双灰色棉袜；海军蓝被子皱巴巴地堆在床的一半；阳光从画面右上方斜入把拖鞋和袜子打亮；床沿下方露出一小截李斌肩膀（埋在被子里）。",
+  "character_anchors_invoked": ["character_李斌.json#base-v1（仅肩膀露出）"],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top-center",
+      "tail_pointing": "画面外妻子方向",
+      "text_zh": "拖鞋也乱扔"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot tilted down 5-10 degrees showing a corner of the unmade guest-bedroom bed. Two scuffed off-white foam slippers lie carelessly tossed — one half on the bed edge, the other fallen onto the floor below. Between the slippers a pair of crumpled grey cotton socks. A crumpled navy blue duvet piles on one side of the bed. Morning sunlight from the upper right of the frame strikes the slippers and socks making them glow and emphasizing the mess. A small sliver of the husband's shoulder is just visible at the bottom edge under the duvet, the loose grey cotton crew-neck t-shirt collar showing. Cool blue-grey bedroom interior with a warm sunlight beam from the side. Mood: the evidence, the small still life of domestic disorder caught and exposed by the light. Text watermark 'P03-PN07' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, wife's face or full figure visible, decorative bedroom art, bright daylight interior, second character in frame, soft romantic lighting, clean bedroom",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 wardrobe_default 领口（宽松灰色棉质圆领T恤）+ scene_anchors.bedroom_guest_room（海军蓝皱褶被子 + 床沿泡沫拖鞋 + 灰色棉袜）",
+    "lighting_match_anchors": true
+  }
+}

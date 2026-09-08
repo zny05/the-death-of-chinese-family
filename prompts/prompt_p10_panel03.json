@@ -1,0 +1,30 @@
+{
+  "panel_id": "p10_panel03",
+  "watermark": "P10-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，李斌把手机举到耳边；肩膀明显塌着；表情无语（更累了）；外卖盒在一侧手边；脸被打上手机屏幕的冷光 + 暖白环境。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子（电话声音）",
+      "position": "right",
+      "tail_pointing": "画面外",
+      "text_zh": "什么在吃饭在吃饭的？你现在就去拿呀，我懒得说你了李斌"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese man sitting on the sofa holding a black smartphone in matte-black case pressed against his right ear with his right hand. Shoulders visibly slumped, neck slightly forward, the surrender posture. Speechless exasperated expression — eyes half-lidded with gaze looking slightly down and away, eyebrows flat, lips pressed together, dark circles under the eyes, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt. The cool blue light from the phone screen paints one side of his face while warm white living room light fills the other. An opened takeout food container sits beside him on a small table. Mood: the answer to the phone, the verbal surrender. Text watermark 'P10-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, open mouth speaking (he is only listening), smiling, wife visible in frame, decorative hallway art, daylight from a window, second character, exaggerated cartoonish sweat drops, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤）+ default_posture（肩膀略塌 + 脖子略前伸）+ 李斌_无语 expression_signature（眼半睁 + 眉平 + 嘴闭紧）",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred + 冷暖对比（手机屏幕冷光 vs 客厅暖白）"
+  }
+}

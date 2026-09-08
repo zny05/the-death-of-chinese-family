@@ -1,0 +1,90 @@
+{
+  "character_id": "wife",
+  "character_name_cn": "妻子",
+  "role": "女主角 / 李斌的妻子",
+  "version": "base-v1",
+  "created": "2026-09-05",
+  "privacy_note": "原文中妻子的身份做了隐私保护处理；本锚点仅用于漫画视觉表现，不映射现实人物。",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "demographics": {
+    "gender": "female",
+    "age_range": "30-34",
+    "ethnicity": "East Asian Chinese",
+    "build": "petite, slim, average height",
+    "height_impression": "160-164cm, slightly shorter than husband, often wears low heels at home",
+    "skin_tone": "fair, well-maintained, foundation always visible (she wears makeup at home)"
+  },
+  "face_features": {
+    "face_shape": "soft oval, slightly pointed chin",
+    "hair": {
+      "style": "long straight black hair, waist-length, often tied in a low ponytail at home, down when going out",
+      "length": "waist-length",
+      "texture": "smooth, dyed ends slightly brassy from sun",
+      "color": "natural black roots with subtle dark brown ends"
+    },
+    "eyebrows": "shaped, high arch, thin to medium thickness — gives a permanent scrutinizing expression at rest",
+    "eyes": "double eyelids, larger and rounder than husband's, dark brown, sharp focus, often narrowed when scolding",
+    "nose": "slim bridge, slightly upturned tip",
+    "mouth": "medium lips, well-defined lip line (lipstick even at home), corners often pursed when displeased",
+    "facial_hair": "none",
+    "distinctive_marks": "fresh manicure with nude-pink gel polish (a recurring detail in the story); pearl stud earrings"
+  },
+  "wardrobe_default": {
+    "top": "fitted cream ribbed long-sleeve knit top, slightly cropped, tucked in at the waist",
+    "bottom": "light grey high-waisted yoga leggings at home; charcoal A-line midi skirt when going out",
+    "footwear_brief": "light grey memory-foam house slippers, fluffy cuff",
+    "accessories": "small gold locket on a thin chain (visible at neckline), hair tie on left wrist as bracelet, smartphone in a rose-pink silicone case",
+    "fit": "form-fitting at home, always put-together — visual contrast with husband's worn t-shirt"
+  },
+  "wardrobe_alt": {
+    "yoga_class_going_out": "black sports bra layered under a sage green zip-up jacket, charcoal leggings, white sneakers, hair in high ponytail, tote bag with a yoga mat strap",
+    "yoga_class_returned": "same going-out outfit, slightly flushed cheeks, hair slightly loosened, holding a plastic bag of leftover snacks"
+  },
+  "default_posture": "spine straight, chin slightly raised, one hand often on hip or holding something — a 'ready to inspect' stance",
+  "scene_anchors": {
+    "bedroom_guest_room_entrance": "standing in the doorway at 45-degree angle to camera, one hand on the door frame, toothbrush in the other hand during morning calls",
+    "living_room_doorway": "standing in the doorway between bedroom and living room, hand on hip, scanning the room",
+    "kitchen_table_exit_morning": "standing at the front door, one hand on the doorknob, the other hand adjusting her bag strap",
+    "balcony_doorway_pointing": "standing at the balcony sliding door, one finger pointing toward the plant pot"
+  },
+  "angle_descriptions": {
+    "front_view": "face-on, symmetrical, chin up — gives a 'surveying' presence",
+    "three_quarter_view": "head turned 30 degrees to her right, eyes sharp toward off-camera target — most common during scolding",
+    "side_profile": "head turned 90 degrees, ponytail silhouette visible, jawline clean — used when she storms past camera",
+    "low_angle": "camera below waist level looking up — used to emphasize her dominance in argument scenes",
+    "high_angle_overhead": "camera above looking down on her — used rarely, only when she sits dejected (almost never in this story)",
+    "over_shoulder_behind_husband": "camera behind husband's head/shoulder, her full figure sharp in background — used heavily to show 'being watched / judged' from husband's POV"
+  },
+  "lighting_preference": {
+    "default": "soft window light from the left (camera-right), warm overall, slightly overexposed skin — she 'glows' more than husband",
+    "morning_bedroom_doorway": "backlit by hallway light, hair rim light, face slightly in shadow — intimidating silhouette",
+    "evening_living_room": "warm TV-backlight glow on her face when she sits on the sofa, the room otherwise cool",
+    "night_climax": "single ceiling light from behind camera, casting her shadow forward onto husband — she becomes 'the light source'"
+  },
+  "motion_anchors": {
+    "brushing_teeth_walking": "one hand holding electric toothbrush, the other gesturing while talking, slight head bob",
+    "pulling_curtain_open": "both hands gripping the curtain edge mid-chest height, body weight on front foot, head tilted back slightly",
+    "pointing_at_cabbage_powder_or_smoking_cig": "index finger extended, arm straight, head tilted forward, eyes locked on target",
+    "door_slam_or_throw_pillow": "right arm cocked back, wrist flicked, body twisted — physical punctuation of speech",
+    "adjusting_outfit_before_yoga": "one hand pulling zipper up, the other tucking hair behind ear, looking down at her own reflection"
+  },
+  "rendering_constraints": {
+    "do_not_include": [
+      "aspect ratio flags (e.g. --ar) — controlled centrally",
+      "page-panel watermark text — added per-prompt in Step 6",
+      "exaggerated cartoonish cute proportions",
+      "any identifying real-person features (privacy-protected character)"
+    ],
+    "always_include_in_prompts": [
+      "Chinese modern comic style",
+      "naturalistic character proportions",
+      "soft cinematic lighting",
+      "long straight black hair, waist-length",
+      "fresh nude-pink manicure"
+    ]
+  },
+  "usage_note_for_step_4_5_6": "后续分镜或生图提示词中，对妻子的描述必须**原文引用**本文件中 `face_features`、`wardrobe_default`、`default_posture`、`angle_descriptions`、`motion_anchors` 中的具体短语，不得使用文件名标注或文件链接引用。",
+  "changelog": [
+    {"date": "2026-09-05", "change": "初版基础锚点（base-v1），隐私保护处理"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "panel_id": "p06_panel01",
+  "watermark": "P06-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视（室内望向玄关），妻子站在玄关一手扶鞋柜另一手拿着手机（rose-pink 硅胶壳）发消息或刚发完；脸是 3/4 侧面，能看到蹙眉但已恢复平静；背景玄关鞋柜、几双鞋。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_default）",
+    "character_妻子_生气.json#expression-v1（平静交代版）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "right",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "快递码我发给你了，记得等会帮我拿个快递。我要出去一会儿。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot from the living-room side looking toward the entryway. A 30-something East Asian Chinese woman stands at the entryway, one hand resting on the small entryway shoe cabinet for balance, the other hand holding a smartphone in a rose-pink silicone case, just having sent a message or in the act of sending. Face shown in three-quarter side view, the scowl mostly relaxed into a routine businesslike expression, eyebrows no longer pinched tight, mouth closed, jaw set but not clenched. Long straight black hair tied in a low ponytail, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on both hands. Background: entryway shoe cabinet with several pairs of shoes lined up (slippers, sneakers), an umbrella in a stand. Hallway ceiling light warm white. Mood: the dispatch, the assignment of tasks before she leaves. Text watermark 'P06-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the room, decorative hallway art, daylight from a window, second character, bloodshot eyes",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 拖鞋）+ face_features（低马尾 + 珍珠耳钉 + 锁骨链 + 裸粉美甲 + rose-pink 硅胶手机壳）+ 妻子_生气 平静交代版（眉松开 + 嘴闭 + 颌咬肌不凸）",
+    "lighting_match_anchors": true
+  }
+}

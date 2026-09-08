@@ -1,0 +1,50 @@
+{
+  "panel_id": "p18_splash",
+  "watermark": "P18-SPLASH",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 跨页全屏大图（两页拼合，全本最终帧）。左页：李斌的半脸 3/4 侧面，首次坐直，肩方，头右侧倾 5 度，下巴微抬，眼半睁望向前方，眼底有思考湿意但不流泪；深灰色拉链外套（未拉上兜帽在肩）。中央折页：⭐⭐ 两只手紧握特写（李斌手从左页伸出 + MC 鲁迅手从右页伸出，两手交叉紧握，一束暖光直下打在手中央）。右页：MC 鲁迅的前臂 + 袖口（米白色男式休闲衬衫，不露脸），另一只手悬在桌面（摆手动作），背景黑色西装外套搭椅背。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_若有所思的沉默.json#expression-v1（⭐ 首次启用）",
+    "MC 鲁迅：⭐ 首次以局部身体/剪影出场，不露脸（不进锚点库）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top",
+      "page_side": "right",
+      "text_zh": "我刚想开口，就见他摆手，随后斩钉截铁道——"
+    },
+    {
+      "type": "对话框",
+      "speaker": "李斌",
+      "position": "mid",
+      "page_side": "left",
+      "tail_pointing": "李斌的嘴部方向",
+      "text_zh": "就叫《李斌之死》。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Two-page spread illustration that reads as a single continuous scene when the book is opened flat, no panel divisions, eye-level medium distance about 1 meter. The scene is a small matchmaking table at night, two men seated across from each other. LEFT PAGE (about 50% empty space) shows the husband's half-face in three-quarter side view for the first and only time sitting upright — eyes open and slightly narrowed, focused on something off-camera (the narrator across the table), faint reflective wetness at the lower lids (not tears, just thinking-moisture), eyebrows slightly drawn together in concentration not anger, inner brow ends lifted as if asking himself a question, mouth closed with lips together and lower lip slightly fuller, head tilted slightly to the right by 5 degrees, chin slightly up, shoulders squared for the first time in the whole book (no longer collapsed), neck no longer forward. Wearing a faded grey cotton crew-neck t-shirt under an unzipped dark grey zip-up hoodie with the hood resting on the shoulders, short black slightly messy side-swept hair, dark circles under the eyes still present but face more awake than earlier scenes, clean-shaven jaw with no stubble. CENTER FOLD (the emotional peak) shows a close-up of two male hands tightly clasped together across the small table — the husband's hand from the left and the narrator's hand from the right, fingers interlocked in a firm grip, a single warm overhead light casting a soft pool directly on the hands making them the brightest element of the page. RIGHT PAGE (about 50% empty space) shows only the narrator's partial body without revealing the face — a forearm in a beige men's casual shirt cuff visible at the wrist, the other hand raised slightly in a mid-wave gesture above the table, a black blazer draped over the back of the chair behind. The single warm overhead light source casts a soft pool on the table between the two figures, the rest of the room in cool ambient shadow, two islands of warmth separated by darkness. The atmosphere is the quietest and most solemn page of the entire book, the moment a man names his own death. Mood: the climax, the stillness before the cover closes. Text watermark 'P18-L' in the bottom-right corner of the left page and 'P18-R' in the bottom-right corner of the right page, both in small white text.",
+  "negative_prompt_en": "tears streaming down cheeks, smile or any warmth at the mouth (this is sober, not relieved), background details of the home apartment (this is no longer his apartment), wife or any other character in frame, exaggerated heroic pose — he is a tired man who has named his own death, anime proportions, romantic soft lighting, bright colors, dramatic shadows outside the table pool, daylight, second character in the background, decorative items like flowers",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "watermark_left": "P18-L",
+    "watermark_right": "P18-R",
+    "watermark_combined": "P18-SPLASH",
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈但脸更活）+ 李斌_若有所思的沉默 wardrobe_for_this_moment（宽松灰色棉质圆领T恤 + 深灰色拉链外套未拉上兜帽在肩）+ expression_signature（眼半睁有焦距 + 眉微蹙 + 内眉端微挑 + 嘴闭紧下唇略厚 + 头右侧倾 5 度 + 头微抬 + ⭐ 坐直肩方）+ default_posture_override（upright, neck no longer forward）；MC 鲁迅 仅前臂袖口 + 手（不露脸，不进锚点库）",
+    "lighting_match_anchors": "李斌_若有所思的沉默 lighting_preference_for_this_expression.preferred（单顶灯暖白直射桌面 + 室内冷阴影 + 两岛暖光）",
+    "splash_page_metadata": {
+      "panel_type": "two_page_spread",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "跨页不分格，panel_id 命名 p18_splash 复用 Page 08/15 命名",
+      "watermark_naming": "跨页级联合水印 P18-SPLASH，左页 P18-L + 右页 P18-R",
+      "narrative_function": "Act Ⅴ 收官 + 全本最终帧 + 命名瞬间",
+      "mc_lu_xun_protocol": "MC 鲁迅首次出场，仅显示前臂 + 袖口 + 手，不露脸（按用户要求）"
+    }
+  }
+}

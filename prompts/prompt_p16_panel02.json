@@ -1,0 +1,30 @@
+{
+  "panel_id": "p16_panel02",
+  "watermark": "P16-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子的近脸特写（90 度侧面 + 1/4 正面）；嘴小闭唇笑（2-3mm）；但眼睛不笑（眼窝有阴影）；身体仍微微前倾。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_突然温柔.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "对——是——，我今天情绪有点不好了，也怪我那死教练。老是说别人这身材好，那身材好了，到我这就这难练出来那不好出效果，说什么天赋。老公，老公别生气了，我给你倒杯果汁好吧。你吃饭没，我给你点外卖。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up showing the 30-something East Asian Chinese woman from the previous panel in an even tighter face shot, framed 90-degree side profile plus one-quarter front, with the most chilling aspect of the sudden-soft expression — the mouth is doing the small closed-lip smile (corners lifted gently by only 2-3 millimeters, lips soft) but the eyes are NOT joining, the eyelids are lowered to half-cover the iris but the eye sockets are deep in shadow from the off-side warm lamp light, creating a mouth-soft-eyes-hard asymmetry. Eyebrows completely relaxed, no flush, slightly paler than usual, head tilted slightly to the side with chin lowered. Long straight black hair completely down, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top. Warm intimate lamp light from the side with soft glow on the mouth area but shadows in the eye sockets, the warmth is there but the eyes are not fully lit. Mood: the most chilling single expression of the whole book, the soft mouth and the hard eyes side by side. Text watermark 'P16-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "genuine crinkled-eyes warm smile, high blush, eyes crinkled in joy, perfectly symmetrical soft expression, both mouth AND eyes smiling, background warmth like flowers or sunset, husband visible in the frame, decorative hallway art, daylight from a window, second character, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_突然温柔 嘴软眼睛硬版（嘴小闭唇笑 2-3mm + 眼半盖但眼窝阴影）",
+    "lighting_match_anchors": "妻子_突然温柔 lighting_preference_for_this_expression.preferred（嘴区有光 + 眼窝阴影）"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "panel_id": "p05_panel02",
+  "watermark": "P05-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，卫生间马桶盖翻开着（敞开姿态）；马桶坐圈边缘有几滴溅出来的水渍（细节）；旁边卫生纸卷、卫生间瓷砖墙；卫生间灯从画面左上方打光。无人。",
+  "character_anchors_invoked": [],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "right",
+      "tail_pointing": "画面外（卫生间门口方向）",
+      "text_zh": "又溅到马桶上，到处都是的"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a Chinese apartment bathroom. Center frame: a white ceramic toilet with the lid raised up against the tank in an open position. Several small splashes of water visible on the toilet seat ring under close inspection — a small but damning detail. Beside the toilet a roll of toilet paper on a holder, plain off-white ceramic tile background. Bathroom ceiling light from upper left casting a warm white wash on the scene. No people in the frame. Cool blue-grey tone in the shadows of the tile. Mood: the first piece of evidence on the inspection list, the camera shows what the wife is looking at. Text watermark 'P05-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "people in frame, anime proportions, decorative bathroom art, daylight from a window, romantic bathroom mood, bidet visible, second character, soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "no characters in this panel",
+    "lighting_match_anchors": true
+  }
+}

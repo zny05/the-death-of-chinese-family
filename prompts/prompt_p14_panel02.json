@@ -1,0 +1,29 @@
+{
+  "panel_id": "p14_panel02",
+  "watermark": "P14-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视夫妻分镜：左半画李斌走进客卧（背对镜头半侧身）+ 右半画妻子留在客厅（坐在沙发上背对李斌方向），中间是门框。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1（背面）",
+    "character_妻子.json#base-v1（背面）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top",
+      "text_zh": "（老哥进卧室，妻子留在客厅看电视。）"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium split-panel composition (not actually split — drawn as one scene) showing two separate zones divided by the door frame in the center. LEFT SIDE: the husband walking into the guest bedroom, his back to the camera, half-side body, one hand reaching for the bedroom door to push it, short black slightly messy side-swept hair, wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants, the grey slippers. RIGHT SIDE: the wife remaining on the grey fabric sofa in the living room, her back to the camera, long straight black hair down her back, fitted cream ribbed long-sleeve knit top, the TV's cool white-blue light washing over her. Center: the door frame and the wall in between. Warm yellow-white light on the left bedroom side, cool TV backlight on the right living room side. Mood: the temporary split, the brief separation before the summons chain begins. Text watermark 'P14-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, faces visible to camera (both figures have backs to camera), smiling, decorative hallway art, daylight from a window, second character, romantic soft lighting, dramatic shadows, third character in the bedroom",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features 背影（短黑发）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤 + 浅灰拖鞋）；妻子 face_features 背影（长直黑发披散）+ wardrobe_default（紧身奶白罗纹长袖针织衫）",
+    "lighting_match_anchors": "冷暖对比（卧室暖白 + 客厅冷蓝灰）"
+  }
+}

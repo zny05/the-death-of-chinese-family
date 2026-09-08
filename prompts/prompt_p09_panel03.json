@@ -1,0 +1,29 @@
+{
+  "panel_id": "p09_panel03",
+  "watermark": "P09-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 横向长格（横向通栏），平视中景。李斌站在卧室门口，双手握着一个塑料玩具腰带（黑色塑料 + 银色塑料扣，matte finish）系在T恤外侧；一只手握腰带扣做出 henshin 姿势，另一只手张开手指；笑 Duchenne 真笑；头微后仰下巴抬；卧室门框在他身后，门里是海军蓝被子白色枕头；地板灯暖白从背后打光头发有暖白光晕。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_腰带变身的笑.json#expression-v1"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "left",
+      "text_zh": "变身！",
+      "style": "大号粗体"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot framed in a wide horizontal band across the page. A 30-something East Asian Chinese man standing in his guest-bedroom doorway in a mock transformation pose, both hands gripping a plastic toy rider belt buckled at the waist over his loose faded grey cotton t-shirt — the belt is matte black plastic with a silver-colored plastic buckle (kept matte, not glowing or neon). One hand gripping the buckle as if about to snap it closed, the other hand flung out with fingers spread in the classic henshin gesture. Genuine joyful Duchenne smile — eyes squinted in real laughter, lower lids pushed up creating small creases, slight wet shine at the corners, eyebrows raised and relaxed, mouth open in a soft laugh with upper teeth just visible, lips relaxed, cheeks pushed up by the smile with faint natural flush, head tilted slightly back and chin up, short black slightly messy side-swept hair slightly disheveled, two-day stubble shadow on the jaw. Behind him the doorway opens into the guest bedroom with a navy blue duvet and white pillow visible. Warm tungsten floor lamp behind him casts a soft backlight outlining the messy hair with a slight lens flare off the plastic belt buckle. Mood: the only true laugh in the whole book, the brief return to a teenage self, the moment he earns his breath. Text watermark 'P09-PN03' in the bottom-right corner placed where it does not obscure the central belt buckle.",
+  "negative_prompt_en": "polite or restrained smile, perfect white teeth commercial grin, glowing or neon belt effects (keep it matte plastic), background full of sparkles (this is not a power-up moment), wife in frame, anime proportions, second character, exaggerated heroic pose",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈被笑挤淡）+ wardrobe_default 基础 + wardrobe_alt（黑色塑料腰带系在T恤外银色塑料扣 matte finish）+ 李斌_腰带变身的笑 expression_signature（眼笑眯起 + 下眼睑上推 + 嘴角上扬到颧骨 + 脸颊被笑推起 + 自然微红 + 头后仰下巴抬）+ motion_anchors.imitating_rider_belt（站立门口 + 双手握腰带 + 重心略前倾）+ scene_anchors.bedroom_guest_room（海军蓝被子 + 白色枕头）+ lighting_preference.preferred（暖白地板灯背后打光 + 头发暖白光晕）",
+    "lighting_match_anchors": "李斌_腰带变身的笑 lighting_preference_for_this_expression.preferred"
+  }
+}

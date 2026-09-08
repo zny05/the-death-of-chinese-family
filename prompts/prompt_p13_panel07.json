@@ -1,0 +1,30 @@
+{
+  "panel_id": "p13_panel07",
+  "watermark": "P13-PN07",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子回头（从 Panel 13.06 电视前回头）；脸 3/4 侧面；表情轻蔑；长直黑发披散。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_轻蔑.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "跟你开玩笑，你还当真了。你真有意思，人也看不上你，你是有钱还是有人，人能瞧得上你哪一块啊。娶到我，你算是烧高香了。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese woman who has just turned her head back from the previous forward-facing pose to look at her husband. Face shown in three-quarter side view. Cold contempt expression — signature one-sided mouth curl with only one corner lifted into a smirk that does not reach the eyes, eyes looking down their nose at the target, the inner end of the brow on the curl side lifted slightly while the other brow stays flat creating an asymmetric disdain arch, mouth closed with the lifted corner tighter than the other, controlled almost-amused sneer, no flush no tear completely composed cheeks, head slightly tilted back and to one side with chin raised high looking down the nose, physical superiority posture. Long straight black hair completely down around her shoulders, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings, fresh nude-pink gel manicure visible. Warm tungsten lamp from a low angle lighting her from below the chin creating slight horror-movie underlighting that emphasizes the smirk coldness. Mood: the most cutting line of the page, the cold contempt of '跟你开玩笑，你还当真了。你真有意思，人也看不上你，你是有钱还是有人，人能瞧得上你哪一块啊。娶到我，你算是烧高香了'. Text watermark 'P13-PN07' in the bottom-right corner.",
+  "negative_prompt_en": "eyes crinkled in a real laugh, symmetric smile, any flush or tear, soft flattering window light, husband visible in the frame, decorative hallway art, second character, flowers or warm background cues, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features（长直黑发完全散 + 珍珠耳钉 + 锁骨链 + 裸粉美甲）+ 妻子_轻蔑 expression_signature（轻蔑）+ 灯光偏好（暖白钨丝灯低角度打下巴）",
+    "lighting_match_anchors": "妻子_轻蔑 lighting_preference_for_this_expression.preferred（暖白钨丝灯从低角度打下巴）"
+  }
+}

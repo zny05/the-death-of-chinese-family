@@ -1,0 +1,44 @@
+{
+  "panel_id": "p21_panel01",
+  "watermark": "P21-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 整页不分格（splash page），平视。左半画（35% 宽度）：攥手特写——桌面的一小块（深色木纹），李斌的手（从左下方伸出）紧紧攥住 MC 鲁迅的手（手指关节发白），MC 鲁迅的手指被动地（被攥住，手指略张开没有回攥），米白色衬衫袖口被攥皱了一点，桌面上酒杯倒在一边。右半画（45% 宽度）：李斌的眼神极特写——眼睛全睁（完全睁开与 Page 18 半睁不同），瞳孔聚焦（直视镜头 / 直视 MC 鲁迅），眉微蹙（不是愤怒不是疲惫不是若有所思），目光如刀（读者能从眼里读出'决定'），内眉端微挑，嘴闭紧 + 下唇略厚，头微右侧倾 5 度 + 头微抬（下巴抬），穿着宽松灰色棉质圆领T恤领口 + 深灰色拉链外套领子。画面顶部和底部：漫射的冷蓝灰阴影（单顶灯冷白偏蓝不直接照亮）。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_若有所思的沉默.json#expression-v1（⭐ 最终态：眼全睁 + 目光如刀变体）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-band-full-width",
+      "text_zh": "我觉得有些冒昧，连忙告罪。四下找补说你喜欢什么样的，你车房现在怎么样啊，有意的岔开话题，跟他聊以后相亲的流程事项以及需要对接的手续。就在我自顾说话间，他忽然紧紧攥着我的手，我不明所以，再看向他时，发现他眼神冷峻，目光如刀一样犀利无比。"
+    },
+    {
+      "type": "对话框",
+      "speaker": "李斌",
+      "position": "right",
+      "tail_pointing": "李斌的嘴部方向",
+      "text_zh": "就叫《李斌之死》。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Full-page splash illustration, no panel divisions, eye-level. The page is split into two halves under a single cold overhead light. LEFT HALF (about 35% width): a tight close-up of two male hands at a dark wood table edge, the husband's right hand reaching in from the lower left gripping the narrator's right hand very firmly, the husband's fingers wrapped around the narrator's hand with the knuckles visibly white from the pressure, the narrator's fingers slightly open in the grip, not gripping back, the beige men's casual shirt cuff around the narrator's wrist slightly crumpled from the squeeze. A wine glass from the previous spread now lies tipped over on the table in the background, suggesting the impact of the grab. RIGHT HALF (about 45% width): the husband's face in extreme close-up from forehead to chin, his eyes fully open and locked on the camera (or the narrator off-frame), the pupils focused and sharp, eyebrows drawn slightly together not in anger or exhaustion or thought but in a knife-edge determination, inner brow ends lifted, mouth closed with lips pressed together and lower lip slightly fuller, head tilted slightly to the right by 5 degrees, chin slightly up, shoulders squared tight. Wearing a faded grey cotton crew-neck t-shirt under an unzipped dark grey zip-up hoodie, the hoodie collar framing the lower edge of the frame, short black slightly messy side-swept hair, dark circles under the eyes still present, clean-shaven jaw with no stubble. The lighting is a single cold overhead light source cooler than the previous spread, casting a cold white-blue pool on the right side of the face and the table, the rest of the page in deep cool blue-grey ambient shadow, the coldest frame of the entire book. No sound effect text on the page, the silence is the point. The atmosphere is the most inward-explosive frame of the book, no large motion only the grip and the gaze, two men at a table where one has just made a decision. Mood: the last frame, the gaze that names the death. Text watermark 'P21-PN01' in the bottom-right corner placed where it does not obscure the central face.",
+  "negative_prompt_en": "face of the narrator visible, anime proportions, smiling, decorative hallway art, daylight from a window, second character, romantic soft lighting, warm colors, dramatic shadows outside the cold pool, blood, weapons, tears streaming down cheeks, the husband looking away from the camera (he must look directly at it), wife visible in frame",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ 李斌_若有所思的沉默 ⭐ 最终态变体（眼全睁 + 瞳孔聚焦 + 眉微蹙 + 内眉端微挑 + 嘴闭紧下唇略厚 + 头右侧倾 5 度 + 头微抬 + 肩方正更紧）+ wardrobe_for_this_moment（宽松灰色棉质圆领T恤 + 深灰色拉链外套）；MC 鲁迅 仅被攥住的手（不露脸 + 不露前臂或更多身体 + 手是被动的）",
+    "lighting_match_anchors": "单顶灯冷白偏蓝（比 Page 19/20 更冷） + 漫射冷蓝灰阴影",
+    "splash_page_metadata": {
+      "panel_type": "full_page_splash",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "整页不分格，panel_id 命名 p21_panel01",
+      "watermark_naming": "页面级唯一水印 P21-PN01",
+      "narrative_function": "全本最终帧（Page 18 之后），攥手 + 目光如刀",
+      "final_frame_note": "全本情绪最内爆的一帧，无 SFX，只有攥和看"
+    }
+  }
+}

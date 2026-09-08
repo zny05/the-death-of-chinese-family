@@ -1,0 +1,22 @@
+{
+  "panel_id": "p09_panel02",
+  "watermark": "P09-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，李斌从沙发上站起的动作捕捉瞬间（半起）；眼睛开始发亮（从无语过渡到腰带变身的笑）；嘴角开始上扬（但还没完全笑开）；他在看假面骑士变身集锦后被激发，准备模仿。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "腰带变身的笑过渡态（眼神有光 + 嘴角上扬初始）"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese man captured in mid-action rising from the grey sofa, body half-up. His face shows the moment of activation: eyes opening wider with the first spark of life in them (no longer the unfocused middle-distance look of the speechless exhausted expression but a directed bright gaze), eyebrows lifting slightly, the beginning of a smile forming at the corners of the mouth though not yet fully open. Dark circles under the eyes still present but starting to be softened by the lifting cheeks. Two-to-three-day stubble shadow visible. Short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants, fluffy-cuff light grey memory-foam house slippers. Warm morning window light from the right plus the cool TV-backlight glow. Mood: the ignition, the spark that turns the dead-still page into the warm belt-buckle laugh of the next panel. Text watermark 'P09-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full Duchenne smile (this is the build-up only), wife visible in frame, decorative hallway art, daylight from a window, second character, romantic soft lighting, exaggerated cartoonish expression",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤 + 浅灰拖鞋）+ 腰带变身的笑 过渡态（眼开始有光 + 嘴角上扬初始）",
+    "lighting_match_anchors": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "panel_id": "p11_panel01",
+  "watermark": "P11-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 整页不分格（横向三段蒙太奇）。左段（30% 宽度）李斌坐在沙发上干坐，表情无语，画面静止；中段（40% 宽度）李斌蹲在地上擦地板，一只膝盖跪地另一只脚半蹲，袖子卷到前臂，抹布在地板上，画面正常清晰；右段（30% 宽度）李斌的多重重影（3-4 个相同身影依次排列），形成快进视觉残影，用速度线和虚化连接；横贯整个画面上方一条长条旁白框。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1",
+    "scene_anchors.living_room_sofa"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-band-full-width",
+      "text_zh": "（快递拿回来后，老哥在沙发上干坐了一会，紧接着进入了打扫卫生中……打扫卫生中……打扫卫生加速快放……时间流逝……）"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Full-page splash illustration as a horizontal three-band time-lapse montage, no panel divisions. LEFT BAND (about 30% width) shows the husband sitting on the grey fabric sofa in profile, head slightly bowed looking at the floor, holding the black smartphone loosely, speechless exhausted expression — half-lidded eyes looking unfocused, eyebrows flat, lips pressed together, dark circles under the eyes, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants, fluffy-cuff light grey slippers. Image is sharp and still, conveying static dead time. MIDDLE BAND (about 40% width) shows the husband in the act of wiping the floor, kneeling on one knee with the other leg half-squat, sleeves pushed up to the forearm, a grey cleaning cloth in his right hand pressing against the floor, eyes fixed on the floor in concentration, the same speechless tired expression. Wearing the same outfit. Image is sharp and clear, conveying actual labor. RIGHT BAND (about 30% width) shows the husband as three or four overlapping translucent silhouettes arranged in sequence across the band, each one in a slightly different pose of cleaning, connected by horizontal speed lines and motion blur, the silhouettes becoming more transparent and blurred as they move right, conveying time-lapse fast-forward. The lighting gradient from left to right subtly shifts from cool morning white to warm afternoon yellow to slightly dimmer late afternoon, implying the passage of several hours. A long horizontal narration band stretches across the top of the entire page above all three bands. The atmosphere is the quietest and most placid page of the book, no conflict, only time moving. Mood: a husband doing housework not out of will but out of having nothing else to do, time compressed into one frame. Text watermark 'P11-PN01' in the bottom-right corner placed where it does not obscure the central action.",
+  "negative_prompt_en": "anime proportions, smiling, wife visible in frame, second character, decorative hallway art, daylight streaming in through windows, romantic soft lighting, bright colors, dramatic shadows, manga speed lines outside the right band, decorative clock or hourglass shown explicitly",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤 + 浅灰拖鞋）+ motion_anchors.wiping_floor（跪地 + 袖子卷到前臂 + 眼睛盯地板）+ 李斌_无语 expression_signature + scene_anchors.living_room_sofa",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred + 横向色温梯度（冷白 → 暖黄 → 略暗）",
+    "splash_page_metadata": {
+      "panel_type": "full_page_splash_with_montage",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "整页不分格 + 蒙太奇，panel_id 命名 p11_panel01 与 Page 07 一致",
+      "watermark_naming": "页面级唯一水印 P11-PN01",
+      "narrative_function": "全本第一张时间蒙太奇 splash，一页装一整个下午",
+      "first_time_lapse_splash_in_book": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "panel_id": "p12_panel02",
+  "watermark": "P12-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子弯腰换鞋（从运动鞋换到拖鞋）；一只手把包挂到衣帽钩上；脸仍是 3/4 侧面；身体动作流畅但紧绷；身后背景：玄关的鞋柜、衣帽钩。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_alt.yoga_class_returned）",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "整天就是知道打游戏打游戏，钻那游戏里面，那家里不用我说，肯定又是……"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot in the entryway of a 30-something East Asian Chinese woman captured mid-motion bending down to switch from her white sneakers to the house slippers, one hand reaching up to hang her small crossbody bag on a wall-mounted coat hook. Yoga-class-returned outfit: sage green zip-up jacket, charcoal grey leggings, the white sneakers being stepped out of. Face shown in three-quarter side view, the scowl still locked in place, eyebrows drawn down and inward, eyes narrowed, mouth closed. Long straight black hair in a loosened high ponytail with several strands escaped around the face. Single pearl stud earring, small gold locket at neckline. Fresh nude-pink gel manicure visible on the hand hanging the bag. Warm yellow-white entryway light. Background: the entryway shoe cabinet with several pairs of shoes, a small umbrella stand, a wall clock showing evening time. Mood: the seamless transition from outdoors to in-command. Text watermark 'P12-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the room, decorative hallway art, daylight from a window, second character, bloodshot eyes, anime anger vein marks, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_alt.yoga_class_returned + face_features + 妻子_生气 + 单手叉腰变体（换鞋 + 挂包）",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.evening_living_room（暖白偏黄）"
+  }
+}

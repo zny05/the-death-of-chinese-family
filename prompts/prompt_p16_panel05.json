@@ -1,0 +1,30 @@
+{
+  "panel_id": "p16_panel05",
+  "watermark": "P16-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子脸近镜头；表情愤怒（眼露白圈 + 眉压 V 字 + 嘴张喊）；手抓住手机往身后收（保护姿态）。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_愤怒.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "你还想抢我手机?你还想打我是吧?我不给你过生日你就打我我是吧！"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese woman in the guest bedroom, her face near the camera. Rage expression at the second peak of the book — eyes wide open with both upper and lower lids pulled back exposing a thin ring of white sclera around the iris, eyebrows sharply drawn down and pinched inward at the bridge nearly forming a V, mouth open mid-shout with upper and lower teeth visible, lips pulled back into a snarl, face flushed red from neck up to the ears with foundation streaked at the jaw, visible veins at the temples and along the neck, head thrust forward. One arm pulled back behind her body clutching the rose-pink silicone case smartphone against her back, the protective posture of the accused. Long straight black hair completely down and loose, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top. Single overhead ceiling light from behind camera casting her shadow forward. Mood: the second peak, the counter-counter-attack, she is now the one accusing. Text watermark 'P16-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "cute anime anger marks, perfectly styled hair, tears, symmetrical cute anime proportions, smile of any kind, husband visible in the frame, decorative hallway art, daylight from a window, second character, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_愤怒 第二峰值（眼露白圈 + 眉压 V 字 + 嘴张喊 + 脸红 + 颈青筋 + 头前倾 + 手抓手机往后收保护）",
+    "lighting_match_anchors": "妻子_愤怒 lighting_preference_for_this_expression.preferred（背后顶光 + 妻子影投在画面外）"
+  }
+}

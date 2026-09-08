@@ -1,0 +1,30 @@
+{
+  "panel_id": "p06_panel02",
+  "watermark": "P06-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子拿起包准备出门；脸是 3/4 侧面，能看到蹙眉；一只手已搭在门把手上；背景玄关、鞋柜、门外隐约可见走廊。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_default）",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "买衣服?我妈衣服都给她买多到一天一换都穿不过来，下次还是给钱吧，哪里需要买什么衣服，莫名其妙的假孝心。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese woman in the entryway reaching for her small crossbody bag with one hand while the other hand is already on the front door brushed-silver handle ready to push it open. Face shown in three-quarter side view, eyebrows drawn down and inward at the bridge in a settled scowl, eyes narrowed, mouth closed with lips pressed together, jaw clenched. Long straight black hair tied in a low ponytail, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the hand on the door handle. Background: entryway shoe cabinet, a pair of white sneakers on the floor waiting to be switched into, the dim hallway light visible through the partially open door. Hallway ceiling light warm white. Mood: a sharp remark disguised as casual conversation, the puncturing 'fake filial piety' line. Text watermark 'P06-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the room, decorative hallway art, daylight from a window, second character, bloodshot eyes",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_生气 expression_signature + scene_anchors.kitchen_table_exit_morning（一只手搭在门把手上）",
+    "lighting_match_anchors": true
+  }
+}

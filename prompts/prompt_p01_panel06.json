@@ -1,0 +1,30 @@
+{
+  "panel_id": "p01_panel06",
+  "watermark": "P01-PN06",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "极特写平视正面，李斌脸部从额头到下巴，半张脸陷在白色枕头里；眼睛完全闭合（眼睑微紧），黑眼圈清晰，内眉上挑形成疲惫蹙眉，嘴唇压成一条细线，下巴略收向胸口约 10-15 度；一只手臂横搭在额头；被子边缘露出一点海军蓝；晨光从画面左上方斜入打在右半脸，左半脸陷在阴影里；光柱里有极淡的灰尘微粒。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_疲惫闭眼.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top-right",
+      "tail_pointing": "画面外的门口方向（妻子不在画面内）",
+      "text_zh": "李斌，起来了，几点了……"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Eye-level extreme close-up of a 30-something East Asian Chinese man's face from forehead to chin, half-buried in a white pillow. Eyes fully closed, eyelids slightly tensed (not relaxed sleep), lashes visible against dark circles, slight twitch at outer corners. Eyebrows: inner ends pulled up and pinched together — pained-tired furrow, not angry furrow. Mouth: lips pressed together in a thin line, corners neither smiling nor frowning, just held. Jaw subtly clenched, two-to-three-day stubble shadow visible. Head tilted slightly downward, chin tucked toward chest by 10-15 degrees. Short black slightly messy side-swept hair. One arm thrown over the forehead, the loose grey cotton crew-neck t-shirt collar slightly stretched at the neckline. White pillow, navy blue duvet edge visible at the bottom. Harsh morning sun slicing from upper left through a curtain gap onto one cheek only, the other half of the face in deep shadow, faint dust particles visible in the light beam. Cool blue-grey ambient bedroom shadow. Quiet, exhausted, suffocating mood. Text watermark 'P01-PN06' in the bottom-right corner.",
+  "negative_prompt_en": "open or half-open eyes, any smile, tears (this is exhaustion not sadness), exaggerated cartoonish sweat drops, anime proportions, bright flat lighting, wife visible in frame, soft romantic mood, sunrise colors",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣）+ wardrobe_default（宽松灰色棉质圆领T恤领口）+ default_posture + scene_anchors.bedroom_guestroom（白色枕头 + 海军蓝被子）+ 李斌_疲惫闭眼 expression_signature（眼全闭睑紧、内眉上挑、唇压成线、下巴略收）+ micro_motion.static（头垂眼闭）+ lighting_preference.preferred（晨光斜打在右半脸左半阴影）",
+    "lighting_match_anchors": "李斌_疲惫闭眼 lighting_preference_for_this_expression.preferred 严格对齐"
+  }
+}

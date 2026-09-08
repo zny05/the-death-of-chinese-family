@@ -1,0 +1,46 @@
+{
+  "panel_id": "p19_panel01",
+  "watermark": "P19-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 整页不分格（splash page），平视偏俯 5 度。左半画（30% 宽度）：A4 打印稿 3-4 张白纸摊在桌面，顶部夹着黑色长尾夹，纸上隐约可见中文段落。中右画（50% 宽度）：李斌坐在桌右侧 3/4 侧面，一只手握着打印稿右上角（手肘在桌上），表情若有所思的沉默（接续 Page 18 略放松），穿着宽松灰色棉质圆领T恤 + 深灰色拉链外套（未拉上兜帽在肩）。右下角（20% 宽度）：MC 鲁迅的前臂 + 袖口（米白色男式休闲衬衫）+ 一根食指指向打印稿某行，不露脸。单顶灯暖白直下两桌之间。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1（接续 Page 18 wardrobe_for_this_moment）",
+    "character_李斌_若有所思的沉默.json#expression-v1（看稿中的微放松变体）",
+    "MC 鲁迅：⭐ 局部身体/不露脸（严格遵循 Page 18 处理）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-band-full-width",
+      "text_zh": "今天这篇文章在写之前我拿给他看，他说怎么感觉有点纪录片的味道，这种家庭系列，是不是应该有个名字啊。"
+    },
+    {
+      "type": "对话框",
+      "speaker": "李斌",
+      "position": "right",
+      "tail_pointing": "李斌的嘴部方向",
+      "style": "斜体气泡（表示他在复述 / 引用）",
+      "text_zh": "……是不是应该有个名字啊。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Full-page splash illustration, no panel divisions, eye-level slightly high-angle 5-degree shot from between the two men at a small table at night. LEFT THIRD shows three or four A4 white printed pages spread on a small dark wood table, a black long-tail binder clip at the top holding the sheets together, faint Chinese text paragraphs visible on the pages but not meant to be readable. MIDDLE RIGHT shows the 30-something East Asian Chinese husband sitting in three-quarter side profile, his right elbow resting on the table, his right hand gripping the top-right corner of the printout, eyes half-lidded looking down at the pages with a thoughtful but slightly more relaxed expression than the previous spread — eyebrows slightly drawn together in concentration not anger, inner brow ends lifted, mouth closed with lips together, lower lip slightly fuller, head tilted slightly to the right by 5 degrees, chin slightly up, shoulders not perfectly squared but no longer collapsed either. Wearing a faded grey cotton crew-neck t-shirt under an unzipped dark grey zip-up hoodie with the hood resting on the shoulders, short black slightly messy side-swept hair, dark circles under the eyes still present, clean-shaven jaw with no stubble. LOWER RIGHT CORNER shows only the narrator's partial body without revealing the face — a forearm in a beige men's casual shirt cuff extending into the frame from the bottom right, the index finger extended and pointing at a specific line on the printout, the other fingers curled. A single warm overhead light source casts a soft pool on the table between the two figures, the rest of the room in cool ambient shadow, two islands of warmth separated by darkness, matching the previous spread. The atmosphere is the collaborative review, two men reading the same document under the same light, the moment before the joke. Mood: the conversation is about to turn. Text watermark 'P19-PN01' in the bottom-right corner placed where it does not obscure the narrator's sleeve or the central printout.",
+  "negative_prompt_en": "face of the narrator visible, anime proportions, smiling, decorative hallway art, daylight from a window, second character, romantic soft lighting, bright colors, dramatic shadows outside the table pool, western business meeting aesthetic, decorative items like flowers, blood, weapons",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ 李斌_若有所思的沉默 看稿微放松版（眼半睁 + 眉微蹙 + 嘴闭紧 + 头右侧倾 5 度 + 肩放松但未塌）+ wardrobe_for_this_moment（宽松灰色棉质圆领T恤 + 深灰色拉链外套未拉上兜帽在肩）；MC 鲁迅 仅前臂袖口 + 食指指向（不露脸，不进锚点库）",
+    "lighting_match_anchors": "李斌_若有所思的沉默 lighting_preference_for_this_expression.preferred（单顶灯暖白直下 + 室内冷阴影）",
+    "splash_page_metadata": {
+      "panel_type": "full_page_splash",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "整页不分格，panel_id 命名 p19_panel01 与 Page 07/11 splash 一致",
+      "watermark_naming": "页面级唯一水印 P19-PN01",
+      "narrative_function": "MC 鲁迅 + 李斌第一次共同审视同一份文件",
+      "mc_lu_xun_protocol": "MC 鲁迅仅前臂 + 袖口 + 食指指向，不露脸"
+    }
+  }
+}

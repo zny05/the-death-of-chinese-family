@@ -1,0 +1,47 @@
+{
+  "character_id": "wife",
+  "expression_id": "sudden_softness",
+  "character_name_cn": "妻子",
+  "expression_name_cn": "突然温柔",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_妻子.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "softened, the sharp focus of '生气' replaced by a half-lidded gentle look, eyelids lowered to half-cover the iris, lashes slightly downcast — not seductive, but a coerced domesticity",
+    "brows": "completely relaxed, inner ends no longer pinched — the tension of all other expressions is suddenly gone, replaced by an unsettling calm",
+    "mouth": "small closed-lip smile, corners lifted gently but only by 2-3 millimeters, lips soft — not a smirk, not a grin, just a careful small smile",
+    "cheeks": "no flush, slightly paler than usual — the mask of calm, the body has stopped its fight response",
+    "head": "tilted slightly to the side, chin lowered (opposite of '轻蔑'), the body language of leaning in rather than looking down",
+    "overall_impression": "the face of a woman who has just lost the moral high ground and is recalibrating — used on Page 13 ('不错, 什么不错. 你觉得她不错你就被这小贱人骗了' transition) and Page 16 ('好了老公, 咱们不闹了行吗. 老公别生气了, 我给你倒杯果汁好吧') — these are the most chilling moments in the story"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_default": "as in base-v1 — fitted cream ribbed long-sleeve knit top + light grey high-waisted yoga leggings",
+    "default_posture_override": "leaning slightly toward the husband, one hand reaching toward his arm or shoulder, body no longer squared for confrontation"
+  },
+  "micro_motion": {
+    "static": "leaning toward husband, hand near his arm, small close-lip smile",
+    "subtle_motion": "small swallowing motion before speaking (the throat click of choosing words carefully); fingers slowly reaching out as if to touch his arm but stopping short; the smile flickers off and on like a candle in wind when husband doesn't immediately respond",
+    "transition_to": ["生气", "撒泼"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "warm intimate lamp light from the side, soft glow on the face but shadows in the eye sockets — the warmth is there but the eyes are not fully lit, the smile doesn't reach them",
+    "avoid": "even full lighting on the face — the slight asymmetry between warm mouth and shadowed eyes is the point",
+    "narrative_pairing": "sitting next to husband on sofa or at dining table"
+  },
+  "voice_lines_examples": [
+    "好了老公，咱们不闹了行吗",
+    "老公别生气了，我给你倒杯果汁好吧"
+  ],
+  "prompt_snippet_en": "sudden soft manipulative expression, eyes softened with the sharp focus of anger replaced by a half-lidded gentle look, eyelids lowered to half-cover the iris and lashes slightly downcast (coerced domesticity not seduction), eyebrows completely relaxed with inner ends no longer pinched, the tension of all other expressions suddenly gone replaced by an unsettling calm, small closed-lip smile with corners lifted gently but only by 2-3 millimeters and lips soft (not smirk not grin, careful small smile), no flush on cheeks slightly paler than usual the mask of calm, head tilted slightly to the side with chin lowered (opposite of contempt), body language of leaning in, long straight black hair loose around shoulders, fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings, one hand slowly reaching toward husband's arm, fresh nude-pink manicure visible on the reaching hand, pearl stud earrings, small gold locket at neckline, warm intimate lamp light from the side with soft glow on face but shadows in the eye sockets the warmth there but eyes not fully lit smile does not reach them, sitting next to husband on sofa, Chinese modern comic style, soft cinematic lighting, emotional weight",
+  "do_not_render": [
+    "genuine crinkled-eyes warm smile (this is a calculated mask, not warmth)",
+    "high blush or rosy cheeks",
+    "eyes crinkled in joy",
+    "perfectly symmetrical soft expression",
+    "background warmth like flowers or sunset — keep it interior lamp light only"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '突然温柔'，并显式注明 '这是全书最让人不安的表情——比愤怒更冷'。本表情全本只用 2 次（Page 13、Page 16），不可滥用。不得仅写文件名。"
+}

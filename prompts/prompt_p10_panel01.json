@@ -1,0 +1,29 @@
+{
+  "panel_id": "p10_panel01",
+  "watermark": "P10-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，李斌坐在沙发上手机屏幕朝上；屏幕亮着显示'老婆 来电'（绿色横幅）；李斌目光望向手机（向下）；表情无语；手边有外卖盒（已开吃）；背景客厅沙发一角。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "top-right",
+      "text_zh": "叮——",
+      "style": "小字浅灰色"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese man sitting on the grey fabric sofa with his black smartphone in matte-black case lying on his knee with the screen facing up. The phone screen is glowing and shows a Chinese incoming call interface with the caller name in large characters, a green accept button at the bottom, the time at the top. The man's eyes are half-lidded looking down at the phone, eyebrows flat, lips pressed together, dark circles under his eyes, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants. An opened takeout food container sits beside him on the sofa or a small table. Warm white living room light plus the cool phone screen light reflecting on his face. Mood: the silent before the call, the brief still before the storm of the wife's voice returns. Text watermark 'P10-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, smiling, wife visible in frame, decorative hallway art, daylight from a window, second character, romantic soft lighting, exaggerated cartoonish sweat drops",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤）+ 李斌_无语 expression_signature（眼半睁 + 眉平 + 嘴闭紧）",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred"
+  }
+}

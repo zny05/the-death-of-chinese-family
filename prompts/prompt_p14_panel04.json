@@ -1,0 +1,30 @@
+{
+  "panel_id": "p14_panel04",
+  "watermark": "P14-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子伸手指向厨房方向（拿榴莲）；表情不耐烦升级（眉头更紧、嘴张得更大）；语气比 14.03 急。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_不耐烦.json#expression-v1（升级版）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌快点快点，把榴莲拿出来。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese woman on the grey sofa, one arm now more emphatically extended toward the off-frame kitchen direction, the index finger pointing. Impatient expression escalating — eyes still averted from the husband direction but with a slight narrowing, eyebrows drawn down a touch more from the previous frame, mouth opening wider mid-command. Long straight black hair completely down, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings, fresh nude-pink gel manicure visible on the pointing hand. Warm yellow-white living room light. Mood: the second summon, the impatience growing louder. Text watermark 'P14-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the frame, decorative hallway art, daylight from a window, second character, bloodshot eyes, romantic soft lighting, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_不耐烦 升级版（眉压更多 + 嘴张更大 + 手指指向）",
+    "lighting_match_anchors": "妻子_不耐烦 lighting_preference_for_this_expression.preferred"
+  }
+}

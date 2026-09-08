@@ -1,0 +1,30 @@
+{
+  "panel_id": "p02_panel05",
+  "watermark": "P02-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视略仰 10 度，妻子 90 度纯侧脸站立客卧门外，单手叉腰，脸朝客卧门方向（不看镜头）；侧脸可见眉压紧、嘴闭紧、咬肌轮廓明显；走廊灯把她全身打成剪影边缘，头发肩线有暖白光晕。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "top-left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "我不多说啊，你赶紧给我起来啊，这一天天忙的要死，我还有事儿呢。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level slightly low-angle close-up (about 10 degrees up) on the 90-degree pure side profile of a 30-something East Asian Chinese woman standing just outside the guest-bedroom door. One hand on her hip, the other arm at her side. Face shown in pure side profile looking toward the door (not at camera). Expression: eyebrows drawn down and inward at the bridge forming a hard scowl, mouth closed with lips pressed together tightly so the lip line is sharp, masseter muscle visibly tensed at the jaw, slight flush on the visible cheek. Long straight black hair tied in a low ponytail hanging down her back, single pearl stud earring visible, small gold locket visible at the neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the hand resting on hip. Hallway ceiling light from behind her casts a warm white halo on her hair edges and shoulder line, making her a near-silhouette against the closed door, face slightly in shadow but the scowl still readable. Mood: the third call, the longest sentence so far, body leaning into authority. Text watermark 'P02-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, three-quarter or frontal face shot, smiling, open mouth, husband visible, decorative hallway art, daylight from a window, any second character, completely flat lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 拖鞋）+ face_features 侧脸可见项（低马尾 + 珍珠耳钉 + 裸粉美甲 + 锁骨链）+ 妻子_生气 expression_signature（眉压紧、嘴闭紧、咬肌凸）+ 单手叉腰变体 + base-v1 default_posture 全开",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway（走廊顶灯背后暖白剪影 + 头发肩线暖白光晕）"
+  }
+}

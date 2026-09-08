@@ -1,0 +1,22 @@
+{
+  "panel_id": "p03_panel06",
+  "watermark": "P03-PN06",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视，李斌脸部近景，眼睛完全闭合（按李斌_疲惫闭眼.json）；眉头比 Page 02 时更紧皱（光刺激）；嘴唇紧闭嘴角向下压；鼻翼微张；脸上有强烈的明暗对比，阳光从画面右上方斜入，把右半脸打亮左半脸陷在阴影；几粒灰尘在眼前飘过。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_疲惫闭眼.json#expression-v1（升级版，光刺激加强蹙眉）"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Eye-level close-up of a 30-something East Asian Chinese man's face from forehead to chin, head on a white pillow. Eyes fully closed, eyelids squeezed tighter than before in response to the sudden bright light, lashes pressed against under-eye dark circles, a slight twitch at the outer corners. Eyebrows: inner ends pulled up and pinched even harder together than before — pained-tired furrow now intensified by the light stimulus, almost forming a small V at the bridge. Mouth: lips pressed together hard, corners pulled slightly downward, lower lip a fraction fuller than usual, masseter muscle tensed, two-to-three-day stubble shadow visible on the jaw. Nostrils very slightly flared as if unconsciously shielding from the light. Head tilted slightly downward, chin tucked toward chest by 10-15 degrees. Short black slightly messy side-swept hair. Strong morning sunlight slanting in from the upper right of the frame striking one cheek and forehead brightly, the other half of the face in deep cool blue-grey shadow, a few dust particles drifting across in front of his face caught in the light. Loose grey cotton crew-neck t-shirt collar visible at the neckline. Mood: the still inside the storm, the contrast cut from the burst panel. Text watermark 'P03-PN06' in the bottom-right corner.",
+  "negative_prompt_en": "open or half-open eyes, any smile, tears, exaggerated cartoonish sweat drops, anime proportions, bright flat lighting, wife visible in frame, soft romantic mood",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发侧分 + 两天胡渣 + 黑眼圈）+ wardrobe_default 领口（宽松灰色棉质圆领T恤）+ 李斌_疲惫闭眼 expression_signature 升级版（眼全闭睑挤得更紧 + 内眉蹙得更紧几近 V 字 + 嘴角下压 + 鼻翼微张）+ 体积光中飘过的灰尘",
+    "lighting_match_anchors": "李斌_疲惫闭眼 lighting_preference_for_this_expression.preferred（晨光斜打右半脸左半阴影）"
+  }
+}

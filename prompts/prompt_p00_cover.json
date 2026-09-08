@@ -1,0 +1,50 @@
+{
+  "panel_id": "p00_cover",
+  "watermark": "P00-COVER-L + P00-COVER-R",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 跨页全屏大图（全本封面）。左页：题目《李斌之死》4 个大字（黑色宋体特粗竖排）+ 副标题小字'—— 一个没有争吵的婚姻故事'，背景是窗帘撕开前的冷蓝灰客卧。中央折页：⭐ 窗帘撕开瞬间的暖白光爆 + 妻子侧面剪影（双手举 V 字抓帘，长直发飘起），光柱里灰尘微粒。右页：李斌的脸（极特写，与 Page 01.06 同景别），眼睛完全闭合，内眉蹙紧，嘴唇抿成线，晨光斜打右半脸左半脸阴影，海军蓝被子边缘。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1（疲惫闭眼封面用）",
+    "character_李斌_疲惫闭眼.json#expression-v1",
+    "character_妻子.json#base-v1（剪影 + 扯窗帘动作锚）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "封面题目",
+      "speaker": "无（封面文字）",
+      "position": "left-center-top",
+      "page_side": "left",
+      "text_zh": "《李斌之死》",
+      "rendering_note": "4 个大字，宋体特粗，黑色，竖排"
+    },
+    {
+      "type": "副标题",
+      "speaker": "无（封面文字）",
+      "position": "left-bottom",
+      "page_side": "left",
+      "text_zh": "—— 一个没有争吵的婚姻故事",
+      "rendering_note": "小一号字，灰色"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Two-page spread illustration for the book cover, no panel divisions, eye-level viewpoint about 2.5 meters away from the husband on the bed. The composition is symmetric around the center fold: LEFT PAGE (about 30% empty space) shows the cool blue-grey guest bedroom with the closed beige blackout curtain, and a bold typographic title in heavy black Song-style Chinese characters placed in the upper-left third reading '李斌之死' (the four characters meaning 'The Death of Li Bin') arranged vertically, with a smaller subtitle below in light grey reading '一个没有争吵的婚姻故事' (A marriage story without quarrels). CENTER FOLD is the burst of warm white morning sunlight exploding in as the curtain is just being wrenched open by the wife's side-profile silhouette standing in the window, both arms raised in a V shape gripping the curtain edges, long straight black hair flying, body weight on the front foot, head tilted back, the woman as a near-silhouette against the bright window with dust particles in the light shaft. RIGHT PAGE (about 50% empty space) shows the husband's face in extreme close-up from forehead to chin, half-buried in a white pillow, eyes fully closed, eyelids slightly tensed, dark circles visible, inner ends of eyebrows pulled up and pinched together in the pained-tired furrow, lips pressed together in a thin line, jaw subtly clenched, clean-shaven jaw with no stubble, short black slightly messy side-swept hair, harsh morning sun slicing from upper left through the curtain gap onto one cheek only, the other half in deep shadow, navy blue duvet edge visible at the bottom. The atmosphere is the entire book compressed into one frame: the wife's violent morning entry meets the husband's exhausted surrender, the title and the husband are mirror images on either side of the bursting curtain. Mood: this is not a scene, this is the cover, the visual that makes a reader pick the book off the shelf. Text watermark 'P00-COVER-L' in the bottom-right corner of the left page and 'P00-COVER-R' in the bottom-right corner of the right page, both in small white text placed where they do not obscure the title or the face.",
+  "negative_prompt_en": "people smiling, anime proportions, decorative hallway art, daylight from a side window, second character, romantic soft lighting, bright colors, dramatic shadows, manga speed lines, decorative items like flowers or candles, photographs inside frames, western wedding aesthetics, blood, weapons, exaggerated cute proportions, second character in the background",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "watermark_left": "P00-COVER-L",
+    "watermark_right": "P00-COVER-R",
+    "watermark_combined": "P00-COVER-L + P00-COVER-R",
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ 李斌_疲惫闭眼 expression_signature（眼全闭 + 内眉蹙紧 + 唇抿成线）+ 海军蓝被子；妻子 motion_anchors.pulling_curtain_open 完整呈现（双手 V 字抓帘 + 重心前脚 + 头后仰 + 长直发飘起）封面剪影版",
+    "lighting_match_anchors": "中央折页暖白光爆 + 左页冷蓝灰 + 右页冷蓝灰（晨光斜打）",
+    "splash_page_metadata": {
+      "panel_type": "two_page_spread_cover",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "封面跨页，panel_id 命名 p00_cover",
+      "watermark_naming": "封面专用水印 P00-COVER-L + P00-COVER-R",
+      "narrative_function": "全本物理第一页 + 封面美学"
+    }
+  }
+}

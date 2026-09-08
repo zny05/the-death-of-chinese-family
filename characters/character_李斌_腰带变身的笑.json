@@ -1,0 +1,46 @@
+{
+  "character_id": "libin",
+  "expression_id": "belt_transform_pure_joy",
+  "character_name_cn": "李斌",
+  "expression_name_cn": "腰带变身玩耍时纯粹快乐的笑",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_李斌.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "squinted in a genuine Duchenne smile, lower lids pushed up creating small creases, dark circles still visible but softened by the crinkle, slight wet shine at the corners — the only moment in the whole story his eyes truly light up",
+    "brows": "raised and relaxed, no furrow, slight asymmetry (right brow a touch higher than left)",
+    "mouth": "open in a soft laugh, upper teeth just visible, lips relaxed not stretched, corners lifted high toward cheekbones",
+    "cheeks": "pushed up by the smile, faint natural flush returning to the dull skin",
+    "head": "tilted back slightly, chin up — opposite of his default collapsed posture",
+    "overall_impression": "a man briefly returned to a teenage self — used only on Page 9 (rider belt imitation scene), the emotional peak of the 'solitude' act"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_default_alt": "same loose grey cotton crew-neck t-shirt, but with a plastic toy belt (mimicking Kamen Rider transformation belt) buckled at the waist over the t-shirt — black with silver-colored plastic buckle, LED-style decorations may be implied but keep it matte / non-glowing to stay realistic"
+  },
+  "micro_motion": {
+    "static": "standing in bedroom doorway, belt held in both hands at waist height, slight forward lean",
+    "subtle_motion": "mouth open mid-laugh caught mid-action; right hand making the 'henshin' pose with fingers spread; subtle body bounce as if just landed from a small jump",
+    "transition_to": ["疲惫闭眼", "若有所思的沉默"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "warm tungsten lamp from floor lamp behind him, soft backlight outlining messy hair, slight lens flare off the plastic belt buckle",
+    "avoid": "cold daylight — would kill the intimate home-theater vibe",
+    "narrative_pairing": "best paired with bedroom_guest_room_doorway scene anchor and Page 9 horizontal splash panel"
+  },
+  "voice_lines_examples": [
+    "（模仿变身音效）",
+    "（情不自禁笑出声）"
+  ],
+  "prompt_snippet_en": "genuine joyful Duchenne smile, eyes squinted in real laughter, lower lids pushed up with small creases, slight wet shine at eye corners, eyebrows raised and relaxed, mouth open in a soft laugh with upper teeth just visible, lips relaxed, cheeks pushed up by the smile with faint natural flush, head tilted slightly back and chin up, messy black side-swept hair slightly disheveled, clean-shaven jaw with no stubble (updated 2026-09-05), wearing a loose faded grey cotton t-shirt with a plastic toy rider belt buckled at the waist over the t-shirt (black with silver-colored plastic buckle, matte finish), standing in a doorway with a warm tungsten floor lamp backlighting the messy hair, slight lens flare off the plastic belt buckle, Chinese modern comic style, soft cinematic warm lighting",
+  "do_not_render": [
+    "a polite or restrained smile",
+    "perfect white teeth commercial grin",
+    "glowing / neon belt effects (keep it matte plastic)",
+    "background full of sparkles (this is not a power-up moment, it's a quiet private joy)",
+    "wife in frame (this is his solitary moment)"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '腰带变身玩耍时纯粹快乐的笑'，并显式注明 '这是李斌全本唯一一次真正的笑容'，不得仅写文件名。"
+}

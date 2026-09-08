@@ -1,0 +1,31 @@
+{
+  "panel_id": "p13_panel05",
+  "watermark": "P13-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子的脸 3/4 侧面；表情突然温柔（眉松、嘴小闭唇笑、眼睛半盖）→ 紧接着反击；阴影在眼窝（突然温柔的灯光）。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_突然温柔.json#expression-v1（短暂温态 + 立刻反击）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "不错，什么不错。你觉得她不错你就被这小贱人骗了，你不知道她背后做过多少恶心的事好吧，我是受够了。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese woman on the grey sofa, face shown in three-quarter side view, expression transitioning through sudden softness at its instant before the sting — eyebrows completely relaxed with inner ends no longer pinched, the tension of all other expressions suddenly gone replaced by an unsettling calm, small closed-lip smile with corners lifted gently but only by 2-3 millimeters and lips soft, eyes softened with the sharp focus of anger replaced by a half-lidded gentle look, no flush on cheeks slightly paler than usual the mask of calm, head tilted slightly to the side with chin lowered (opposite of contempt), body language of leaning in. Long straight black hair completely down, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top. Warm intimate lamp light from the side with soft glow on face but shadows in the eye sockets, the warmth is there but the eyes are not fully lit, the smile doesn't reach them. Mood: the moment the mask is most beautiful and most dangerous, the warmest line is the cut. Text watermark 'P13-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "genuine crinkled-eyes warm smile, high blush or rosy cheeks, eyes crinkled in joy, perfectly symmetrical soft expression, background warmth like flowers or sunset, husband visible in the frame, decorative hallway art, daylight from a window, second character, friend/girlfriend character visible, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_突然温柔 expression_signature（眉松 + 嘴小闭唇笑 2-3mm + 眼半盖 + 脸略白 + 头侧倾下巴低）",
+    "lighting_match_anchors": "妻子_突然温柔 lighting_preference_for_this_expression.preferred（暖白侧灯 + 脸柔软但眼窝阴影）",
+    "girlfriend_protocol": "妻子口中的'她'/'小贱人'指代闺蜜，闺蜜仍不进画面"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "panel_id": "p02_panel04",
+  "watermark": "P02-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子再次回到客卧门口站立，3/4 正面，脸朝向镜头方向，牙刷已放下，嘴空了；单手叉腰；表情生气升级——眉压得更紧，眼睛眯得更细。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top-right",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌，起来了，几点了……"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up at a slight 45-degree angle on a 30-something East Asian Chinese woman standing in front of the guest-bedroom door again. Three-quarter front face visible to camera. One hand on hip, the other arm at her side. Expression has escalated from the first call — eyes narrowed even more than before, the upper lid pulled down harder, eyebrows drawn down and inward at the bridge into a tighter scowl (still not the V-shape of rage, just a settled scowl pressing harder), mouth closed with lips pressed together so the lip color goes pale, mouth corners pulled slightly downward, jaw visibly clenched, slight flush on cheeks, head tilted forward and to the right. Long straight black hair tied in a low ponytail, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the hand resting on her hip. Hallway ceiling light from upper right warm white, the cold white morning light leaks from behind the door seam casting a thin cool blade across her face. Mood: the second call, slightly firmer than the first. Text watermark 'P02-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, bloodshot eyes, anime anger vein marks, husband visible in frame, decorative hallway art, daylight from a window",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 拖鞋）+ face_features（低马尾 + 珍珠耳钉 + 裸粉美甲 + 锁骨链）+ 妻子_生气 expression_signature 强化版（眼更窄、眉压更紧、嘴角下拉 1-2mm）+ 单手叉腰变体",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway（走廊顶灯暖白 + 门缝冷白晨光打脸侧）"
+  }
+}

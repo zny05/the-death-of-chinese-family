@@ -1,0 +1,30 @@
+{
+  "panel_id": "p14_panel08",
+  "watermark": "P14-PN08",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 中近景平视对峙构图。妻子站在客卧门口手伸向腰带位置；李斌坐在电脑前（背对妻子）；桌子上的腰带被妻子手指向；妻子表情愤怒临界（眼露白圈、眉压 V 字、嘴张开喊）。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（⭐ 愤怒临界，弱化版）",
+    "character_妻子_愤怒.json#expression-v1（临界，不达 V 字峰值）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌你再不出来，你那什么破玩具腰带，我马上给扔了。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up standoff composition with the wife standing at the guest-bedroom door and the husband sitting at a small desk in the bedroom with his back to her. The wife at the door is shown in three-quarter view, face and body tense. Rage expression at the brink — eyes wide open with the upper lid pulled back exposing a thin ring of white sclera, eyebrows drawn down and pinched inward at the bridge almost forming a V, mouth open mid-threat with the upper teeth visible, lips pulled back, slight flush on the cheeks, head thrust slightly forward. One hand extended pointing at the matte black plastic toy rider belt with silver-colored plastic buckle sitting on the desk beside the husband's right hand. Long straight black hair completely down, single pearl stud earring, small gold locket at neckline, fresh nude-pink gel manicure visible on the pointing hand. Fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings. The husband at the desk has short black slightly messy side-swept hair and is wearing a loose grey cotton crew-neck t-shirt, his back to the wife, shoulders lifting slightly in response to the threat. Warm yellow-white bedroom light plus a single overhead ceiling light behind the camera casting the wife's shadow forward onto the husband. Mood: the marital confiscation, the wife threatening to throw away the only thing that made him smile today. Text watermark 'P14-PN08' in the bottom-right corner.",
+  "negative_prompt_en": "cute anime anger marks like # # # cross veins on forehead, perfectly styled hair, tears, symmetrical cute anime proportions, smile of any kind, husband facing the wife (he is facing the desk), decorative hallway art, daylight from a window, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_愤怒 临界版（眼露白圈 + 眉压 V 字临界 + 嘴张喊 + 手指向腰带）+ 李斌 背影 + 李斌_腰带变身的笑 的腰带（matte black plastic + silver-colored plastic buckle）",
+    "lighting_match_anchors": "妻子_愤怒 lighting_preference_for_this_expression.preferred（背后顶光 + 妻子影投在李斌身上）"
+  }
+}

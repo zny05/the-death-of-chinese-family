@@ -1,0 +1,29 @@
+{
+  "panel_id": "p14_panel07",
+  "watermark": "P14-PN07",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视，妻子大声喊，嘴张最大；表情生气升级。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1（升级版）"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "top",
+      "text_zh": "李斌！李斌！李斌！",
+      "style": "大号粗体三连"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level close-up of a 30-something East Asian Chinese woman on the grey sofa, mouth open at maximum width mid-shout, eyebrows drawn down and inward at the bridge in a hard scowl, eyes narrowed to slits, jaw clenched. Long straight black hair completely down around her face and shoulders, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings. Warm yellow-white living room light. Mood: the breaking point of the summons chain, the three repeated names in quick succession. Text watermark 'P14-PN07' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the frame, decorative hallway art, daylight from a window, second character, bloodshot eyes, romantic soft lighting, dramatic shadows, anime anger vein marks",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_生气 升级版（眉压最紧 + 眼最窄 + 嘴张最大）",
+    "lighting_match_anchors": "妻子_生气 lighting_preference_for_this_expression.preferred"
+  }
+}

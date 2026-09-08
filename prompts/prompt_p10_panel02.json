@@ -1,0 +1,27 @@
+{
+  "panel_id": "p10_panel02",
+  "watermark": "P10-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 半页大特写，平视极特写。一只手机（黑色 matte case）屏幕朝镜头；屏幕亮着来电界面显示'老婆'两个大字 + 绿色接听按钮；时间显示在屏幕顶部；来电界面下方的功能区：取消 / 消息 / 接受；背景模糊的客厅（沙发、外卖盒虚化）。",
+  "character_anchors_invoked": [],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子（电话声音）",
+      "position": "top",
+      "tail_pointing": "画面外（通过电话传来）",
+      "text_zh": "快递拿了吗？我特意打电话跟你说，那快递里面可是有冷冻的，赶紧去拿。什么在吃饭在吃饭的？你现在就去拿呀，我懒得说你了李斌，你能不能长点心，快点，赶紧的。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level extreme close-up of a black smartphone in matte-black case with the screen facing directly at the camera taking up most of the frame. The phone screen is brightly lit showing a Chinese iOS or Android incoming call interface with the caller name displayed in large white Chinese characters on a dark backdrop, a green circular accept button at the bottom center, a red decline button on the left, a small message icon on the right. The time shows at the top of the screen in white digits. The phone is held at a slight angle. Background heavily blurred: a grey sofa, a takeout food container, soft warm white living room light. The phone screen is the brightest element in the frame. Mood: the voice returns through the wire, the wife is not in the room but is more present than ever, the phone screen is the only place she exists. Text watermark 'P10-PN02' in the bottom-right corner placed where it does not obscure the central caller name area.",
+  "negative_prompt_en": "people in frame, anime proportions, hand visible holding the phone (the screen is the subject), decorative phone case design, romantic soft lighting, second character",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "no characters in this panel — only phone interface",
+    "lighting_match_anchors": "电话屏幕自发光冷光为主"
+  }
+}

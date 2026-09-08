@@ -1,0 +1,30 @@
+{
+  "panel_id": "p05_panel05",
+  "watermark": "P05-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视略俯 10 度，李斌坐在床上（被子堆在一侧）；眼睛半睁目光涣散望向中景的墙（不看妻子）；眉头平（既不蹙也不挑）—— 无语特征；嘴闭紧嘴角毫米级不对称；头水平向前；一只手搭在膝盖上；背景窗帘已开，窗外城市轮廓虚化；晨光从画面右上方斜入。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top-left",
+      "tail_pointing": "画面外",
+      "text_zh": "算了，那也别让你手洗了，你就是那机洗的命，上次让你给我洗两条内裤，看洗成那什么鬼样子"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up tilted down about 10 degrees on a 30-something East Asian Chinese man sitting on the edge of the unmade guest-bed, the navy blue duvet bunched to one side behind him. Speechless exasperated expression — eyes half-lidded with slightly unfocused gaze looking past the camera at a middle-distance point on the wall (not making eye contact with the off-frame wife), eyebrows flat and expressionless neither raised nor furrowed, mouth closed with lips pressed together and a tiny breath between them, slight asymmetry with the left corner a millimeter lower than the right, head level facing forward but eyes off-target. Two-to-three-day stubble shadow visible, dark circles under the eyes, short black slightly messy side-swept hair. One hand resting on his knee. Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants. Morning sunlight from the upper right catching the side of his face. The curtain behind him has been opened earlier, the blurred morning cityscape just visible. Mood: the inspection has reduced him to a quiet resignation. Text watermark 'P05-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, open mouth as if speaking, eye-roll visible, sigh lines or cartoonish exasperation marks, hands balled into fists, wife visible in frame, decorative bedroom art, daylight from a window, soft romantic mood",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤）+ default_posture（肩膀略塌 + 脖子略前伸）+ scene_anchors.bedroom_guest_room（海军蓝皱褶被子）+ 李斌_无语 expression_signature（眼半睁不聚焦 + 眉平 + 嘴闭紧毫米不对称 + 头水平）",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred（平光环境光，无戏剧化阴影）"
+  }
+}

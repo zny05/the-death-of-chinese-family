@@ -1,0 +1,30 @@
+{
+  "panel_id": "p13_panel06",
+  "watermark": "P13-PN06",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 横向中景，平视对称构图（从两人背后略俯视 5 度）。画面左侧妻子背影（披散头发）+ 画面右侧李斌背影（短黑发），两人并排坐在沙发上各自面朝电视；电视冷白背光在两人前方打光；沙发靠背在两人身后形成剪影边缘；整个画面完全对称。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1（背面）",
+    "character_妻子.json#base-v1（背面）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "画面外（妻子的嘴部方向）",
+      "text_zh": "你说，你是不是对我朋友有意思，你有想法就说出来，我不怪你。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Eye-level slightly high-angle 5-degree shot from behind a couple sitting side by side on the grey fabric sofa, a perfectly symmetric composition. LEFT: the wife's back, long straight black hair completely down flowing over her shoulders, fitted cream ribbed long-sleeve knit top. RIGHT: the husband's back, short black slightly messy side-swept hair, loose grey cotton crew-neck t-shirt. Both figures sit facing forward toward an off-frame television, neither looking at the other, the shoulder line of each at the same height. The cool blue-white TV backlight is the only illumination on their fronts, casting the sofa backrest and their silhouettes into shadow behind. A faint reflection of the TV content on the back of the husband's head. The atmosphere is the coldest frame of the book, two people sharing a sofa but living in different rooms. Mood: the silent marriage, the cold violence of co-existence. Text watermark 'P13-PN06' in the bottom-right corner placed where it does not obscure the central symmetry line.",
+  "negative_prompt_en": "anime proportions, smiling, faces visible (this is a back view only), decorative hallway art, daylight from a window, second character, romantic soft lighting, dramatic shadows, bright colors, faces turning toward each other (they must not look at each other)",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features 背影（短黑发）+ wardrobe_default（宽松灰色棉质圆领T恤）+ scene_anchors.living_room_sofa；妻子 face_features 背影（长直黑发披散）+ wardrobe_default（紧身奶白罗纹长袖针织衫）+ scene_anchors.living_room_sofa",
+    "lighting_match_anchors": "对称构图 + 电视冷白背光 + 沙发靠背剪影"
+  }
+}

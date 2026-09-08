@@ -1,0 +1,47 @@
+{
+  "character_id": "libin",
+  "expression_id": "exhausted_eyes_closed",
+  "character_name_cn": "李斌",
+  "expression_name_cn": "疲惫闭眼",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_李斌.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "fully closed, eyelids slightly tensed (not relaxed sleep), lashes visible against under-eye dark circles, slight twitch at outer corners",
+    "brows": "inner ends pulled up and pinched together — pained-tired furrow, not angry furrow",
+    "mouth": "lips pressed together in a thin line, corners neither smiling nor frowning, just held",
+    "jaw": "subtly clenched, masseter barely visible, clean-shaven skin (no stubble)",
+    "head": "tilted slightly downward, chin tucked toward chest by 10-15 degrees",
+    "overall_impression": "a body that has stopped pretending to be okay — used heavily in Page 2-4 (wake-up sequence) and Page 7 (after wife leaves)"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_default": "loose grey cotton crew-neck t-shirt + navy blue plaid pajama pants",
+    "default_posture": "shoulders slightly slumped, neck slightly forward",
+    "face_hair_signature": "clean-shaven, no stubble (updated 2026-09-05)"
+  },
+  "micro_motion": {
+    "static": "head bowed, eyes sealed, breath shallow and visible only by chest rise under t-shirt",
+    "subtle_motion": "occasional swallow; left eyelid flicker when spouse raises voice; fingers slowly gripping duvet edge",
+    "transition_to": ["无语", "若有所思的沉默"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "harsh morning sun slicing through curtain gap onto one cheek, the other half in deep shadow",
+    "avoid": "flat even lighting — kills the exhaustion read",
+    "narrative_pairing": "best paired with bedroom_guest_room scene anchor from base-v1"
+  },
+  "voice_lines_examples": [
+    "（闭眼不答）",
+    "（把被子蒙着头）"
+  ],
+  "prompt_snippet_en": "exhausted eyes fully closed, eyelids tensed, visible under-eye dark circles, inner brows pinched upward in tired furrow, lips pressed in a thin line, chin tucked toward chest, loose grey cotton t-shirt collar slightly stretched, clean-shaven jaw with no stubble, harsh morning window light slicing across one cheek only, the other half in deep shadow, dust beam in the light, navy duvet crumpled around shoulders, bedroom interior, Chinese modern comic style, soft cinematic lighting",
+  "do_not_render": [
+    "open or half-open eyes",
+    "a smile of any kind",
+    "tears (this is exhaustion, not sadness)",
+    "exaggerated cartoonish sweat drops"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '疲惫闭眼'，不得仅写文件名。"
+}

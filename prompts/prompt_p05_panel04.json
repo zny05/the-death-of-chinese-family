@@ -1,0 +1,27 @@
+{
+  "panel_id": "p05_panel04",
+  "watermark": "P05-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，滚筒洗衣机（白色前面有圆形舱门）；舱门打开，里面堆着袜子、内裤、其他衣物混在一起（细节）；洗衣机旁边洗衣液瓶（绿色或蓝色）；洗衣机上方/旁边的脏衣篓里有更多衣物堆出；卫生间灯从画面左上方打光。无人。",
+  "character_anchors_invoked": [],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "画面外",
+      "text_zh": "内裤袜子衣服又放在一起洗，说了多少遍手洗手还放洗衣机洗，那脏那要着干嘛的"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a front-loading white washing machine in a Chinese apartment laundry nook. The round hatch door is open and inside the drum mixed together are a small pile of socks, underwear, and other garments tossed in together with no separation. Beside the washing machine a bottle of green or blue laundry detergent. Above or beside the machine a small laundry basket with more mixed clothes overflowing. Bathroom ceiling light from upper left warm white. No people in the frame. Mood: the second piece of evidence, the inspection continues through the home. Text watermark 'P05-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "people in frame, anime proportions, decorative laundry room art, daylight from a window, romantic soft lighting, second character, neatly sorted laundry",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "no characters in this panel",
+    "lighting_match_anchors": true
+  }
+}

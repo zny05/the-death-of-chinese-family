@@ -1,0 +1,30 @@
+{
+  "panel_id": "p10_panel04",
+  "watermark": "P10-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，李斌一边夹外卖（筷子夹起面条），一边听电话；手机被肩膀和头夹住（hands-free）；表情无语 + 疲惫；外卖盒打开放在茶几上。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子（电话声音）",
+      "position": "top",
+      "tail_pointing": "画面外",
+      "text_zh": "你管什么榴莲不榴莲的，买点榴莲，你还唧唧歪歪了，咋地比你泡面健康。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese man on the sofa in a multitasking posture: the black smartphone in matte-black case is tucked between his right shoulder and ear, both hands occupied — one hand holding chopsticks lifting noodles from an opened white takeout food container on the coffee table in front of him, the other hand holding the takeout lid. Speechless exasperated expression with mouth slightly open mid-chew, eyes half-lidded, eyebrows flat, dark circles under the eyes, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt. Warm white living room light. The takeout container shows noodles and a small portion of greens. Mood: the body's submission, he cannot stop eating even while being scolded, the multi-tasking survivor. Text watermark 'P10-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, smiling, wife visible in frame, decorative hallway art, daylight from a window, second character, romantic soft lighting, exaggerated cartoonish sweat drops",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤）+ 李斌_无语 + 嘴半张在嚼",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred"
+  }
+}

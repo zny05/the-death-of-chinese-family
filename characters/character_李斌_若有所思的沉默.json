@@ -1,0 +1,46 @@
+{
+  "character_id": "libin",
+  "expression_id": "thoughtful_silence_ending",
+  "character_name_cn": "李斌",
+  "expression_name_cn": "结尾处若有所思的沉默",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_李斌.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "open but slightly narrowed, focused on something off-camera at a far middle-distance — not unfocused like '无语', but pointed at an idea rather than a person, with a faint reflective wetness at the lower lid (not tears, just thinking-moisture)",
+    "brows": "slightly drawn together but not in anger — in concentration, the inner ends lifted very slightly as if asking himself a question",
+    "mouth": "closed, lips together, lower lip a fraction fuller than usual — the posture of a man chewing on an unspoken word",
+    "head": "tilted slightly to the right by 5 degrees, chin slightly up (more upright than his default collapse — he has straightened up to think)",
+    "overall_impression": "the face of a man who has just heard his own life named — used only on Page 18 (the 'naming' cross-spread), the emotional climax of the whole story"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_for_this_moment": "going-out alt: same loose grey cotton t-shirt but now with a dark grey zip-up hoodie over it, hood down — he is dressed to go to a matchmaking meeting, not pajama-home anymore",
+    "default_posture_override": "upright, shoulders squared for the first time in the story, neck no longer forward"
+  },
+  "micro_motion": {
+    "static": "seated at a small table across from MC 鲁迅, hands lightly clasped together on the table edge, knuckles not white, just held",
+    "subtle_motion": "a slow single swallow before he speaks; thumbs tapping once against each other; gaze finally lifting from the table to meet the listener's eyes in the final beat",
+    "transition_to": ["(终点，无下一表情 — 这是结尾帧)"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "single overhead warm light source casting a soft pool on the table between two figures, the rest of the room in cool ambient shadow — two islands of warmth separated by darkness",
+    "avoid": "any daylight or window light — this is an interior night meeting, the artificial light is the point",
+    "narrative_pairing": "cross-spread Page 18, the second his hand grips MC 鲁迅's hand"
+  },
+  "voice_lines_examples": [
+    "（沉默片刻）",
+    "就叫《李斌之死》。"
+  ],
+  "prompt_snippet_en": "thoughtful silent expression at the climax of the story, eyes open and slightly narrowed, focused on something off-camera at far middle-distance, faint reflective wetness at the lower lids (not tears, just thinking-moisture), eyebrows slightly drawn together but in concentration not anger, inner brow ends lifted as if asking himself a question, mouth closed with lips together and lower lip slightly fuller, head tilted slightly to the right by 5 degrees, chin slightly up, posture upright with shoulders squared for the first time (no longer collapsed), neck no longer forward, wearing a faded grey cotton t-shirt under an unzipped dark grey hoodie with hood resting on shoulders, messy black side-swept hair, dark circles under eyes still present but face more awake than earlier scenes, clean-shaven jaw with no stubble (updated 2026-09-05), single overhead warm light source casting a soft pool on the table between two figures with the rest of the room in cool ambient shadow, two islands of warmth separated by darkness, seated at a small table, hands lightly clasped together on the table edge, Chinese modern comic style, soft cinematic lighting, emotional weight",
+  "do_not_render": [
+    "tears streaming down cheeks (would cheapen the moment)",
+    "a smile or any warmth at the mouth (this is sober, not relieved)",
+    "background details of home (this is no longer his apartment)",
+    "wife or any other character in frame (this is the two-person scene)",
+    "exaggerated heroic pose — he is a tired man who has named his own death"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '结尾处若有所思的沉默'，并显式注明 '这是全本唯一一次李斌坐直'。不得仅写文件名。"
+}

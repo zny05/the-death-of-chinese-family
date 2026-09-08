@@ -1,0 +1,30 @@
+{
+  "panel_id": "p14_panel03",
+  "watermark": "P14-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子坐在沙发上伸出一只手（示意倒水）；表情不耐烦（眼瞟别处、眉中拱、嘴微张）；李斌在画面外。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_不耐烦.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌，给我倒杯水。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese woman sitting on the grey fabric sofa, one hand casually extended outward at hip height with palm up indicating '李斌，给我倒杯水。'. Impatient done-with-this expression — eyes looking toward the TV or the phone (not at the husband off-frame in the bedroom), eyebrows slightly raised in the middle in a done-with-this arch, mouth slightly open with exhaled breath. Long straight black hair completely down, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the extended hand. Warm yellow-white living room light plus cool TV backlight. Mood: the first summon of the chain, casual but pointed. Text watermark 'P14-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the frame, decorative hallway art, daylight from a window, second character, bloodshot eyes, romantic soft lighting, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features + 妻子_不耐烦 + 单手伸掌姿态",
+    "lighting_match_anchors": "妻子_不耐烦 lighting_preference_for_this_expression.preferred"
+  }
+}

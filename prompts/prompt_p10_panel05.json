@@ -1,0 +1,22 @@
+{
+  "panel_id": "p10_panel05",
+  "watermark": "P10-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视，李斌把手机从耳边放下来；脸无表情；手中的筷子停了；肩膀仍塌。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level close-up of a 30-something East Asian Chinese man in the act of lowering the black smartphone in matte-black case away from his ear, the motion frozen at the moment the call has just ended. Face expressionless, eyes half-lidded looking down at nothing in particular, eyebrows flat, lips pressed together, dark circles under the eyes, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. The hand holding the chopsticks has stopped mid-air, the noodles hanging limp. Shoulders still slumped. Wearing a loose grey cotton crew-neck t-shirt. Warm white living room light. Mood: the after-the-call quiet, the husband has just been issued the next order and is about to obey. Text watermark 'P10-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, smiling, wife visible in frame, decorative hallway art, daylight from a window, second character, romantic soft lighting, exaggerated cartoonish sweat drops, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤）+ 李斌_无语",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred"
+  }
+}

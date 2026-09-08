@@ -1,0 +1,22 @@
+{
+  "panel_id": "p04_panel04",
+  "watermark": "P04-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 横长条格（横向通栏，极宽极窄，约占整页 1/6 高度），平视极特写。李斌脸部从额头到下巴全脸，眼睛完全闭合（按李斌_疲惫闭眼.json），眼睛闭合比 Page 03.06 时更紧；内眉蹙起用力蹙眉；嘴唇抿成一条细线；下巴略收；脸侧有明显冷阴影（妻子站在他前方挡住光）；画面左右两侧大量留白；不出现手、不出现身体——只有脸。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_疲惫闭眼.json#expression-v1（用力蹙眉被压制版）"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Eye-level extreme close-up of a 30-something East Asian Chinese man's face from forehead to chin, framed in an extremely wide and narrow horizontal band that compresses the figure into the center of the frame with vast empty space to the left and right. Eyes fully closed, eyelids squeezed very tight in response to the wife's rebuke, lashes pressed against dark under-eye circles. Eyebrows: inner ends pulled up and pinched together very hard, the most intense tired furrow of the whole page — actively pushing down against the brow bone, a small visible crease forming between them. Mouth: lips pressed together hard in a thin line, corners neither smiling nor frowning, just sealed. Jaw subtly clenched, two-to-three-day stubble shadow visible. Head slightly bowed, chin tucked. Short black slightly messy side-swept hair. Cool blue-grey shadow dominates most of the face — the wife standing in front of him physically blocks a large portion of the warm morning light, the metaphor of 'silenced' rendered as a shadow. A small sliver of the grey cotton t-shirt collar at the very bottom edge. Mood: the silence frame of the page, the only panel with no speech and no narration, the husband has been silenced. Text watermark 'P04-PN04' in the bottom-right corner placed where it does not obscure the central face.",
+  "negative_prompt_en": "open or half-open eyes, any smile, tears, exaggerated cartoonish sweat drops, anime proportions, bright flat lighting, wife visible in frame, soft romantic mood, sunrise colors, hands or body visible",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default 领口（宽松灰色棉质圆领T恤）+ 李斌_疲惫闭眼 用力蹙眉被压制版（眼全闭睑挤极紧 + 内眉蹙极紧几近 V 字 + 唇抿成线）+ 微动静态（头垂眼闭）",
+    "lighting_match_anchors": "李斌_疲惫闭眼 lighting_preference_for_this_expression.preferred（晨光被妻子身影遮挡，整体偏冷蓝灰阴影）"
+  }
+}

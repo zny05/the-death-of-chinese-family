@@ -1,0 +1,38 @@
+{
+  "panel_id": "p03_panel05",
+  "watermark": "P03-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 通栏大格，平视（窗外打光）。窗帘被双手猛地向两侧扯开，窗帘像两扇门被推开；大量晨光爆涌入客卧，光柱里飞舞的灰尘微粒；妻子侧面剪影站在窗户正中央，双手高举呈 V 字形抓住窗帘边缘；妻子整个身体被强烈逆光打成黑色剪影，但能看清长发飘起、低马尾扬起、针织衫下摆被气流带起；窗外城市轮廓隐约可见（对面居民楼剪影、灰蓝色晨空）；速度线从窗帘两侧辐射状发出。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_愤怒.json#expression-v1（弱化版，主调是动作爆发）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "mid-right",
+      "tail_pointing": "妻子的嘴部方向（剪影侧）",
+      "style": "粗体气泡（强调喊声）",
+      "text_zh": "给我起来！"
+    }
+  ],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "top-left",
+      "text_zh": "唰——",
+      "style": "特大号粗体"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level full-spread widescreen shot from the bed looking toward the bedroom window. A 30-something East Asian Chinese woman has just wrenched the beige blackout curtain open with both hands, the curtain flaring out to the two sides like opened doors. Powerful cold white morning sunlight pours in through the window in a wide blast, lighting up the room and making the dust particles in the air glow like sparks in a light shaft. The woman stands in the center of the window in near-full silhouette against the bright window, both arms raised in a V shape gripping the curtain edges, body weight on the front foot, head tilted slightly back, long straight black hair tied in a low ponytail flying upward from the force, the hem of her fitted cream ribbed long-sleeve knit top billowing from the inrushing air. Her face in silhouette shows wide-open eyes, eyebrows sharply pinched inward, mouth open mid-shout. Through the window behind her the faint cool blue-grey cityscape of neighboring apartment blocks is just visible in early morning haze. Multiple radial speed lines burst from the curtain edges to emphasize the violent opening. Cold blue-grey bedroom interior contrasts with the bright warm-white window. Mood: this is the visual peak of the page and the preview of the book's front cover, the moment the curtain is torn open and everything changes. Text watermark 'P03-PN05' in the bottom-right corner placed where it does not obscure the central light shaft.",
+  "negative_prompt_en": "anime proportions, face fully lit and clearly showing soft features, husband visible in bed, decorative window art, daylight already flooding the room (this frame is the moment the light first arrives), second character, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫下摆扬起）+ face_features 剪影可见项（低马尾扬起、长直发飘起）+ motion_anchors.pulling_curtain_open 完整呈现（双手 V 字抓帘 + 重心前脚 + 头略后仰）+ 妻子_愤怒 弱化版（眼露白圈 + 眉压 V 字 + 张嘴喊）+ 体积光中的灰尘",
+    "lighting_match_anchors": "妻子 愤怒 lighting_preference_for_this_expression.preferred（背后逆光打成强轮廓）"
+  }
+}

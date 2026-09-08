@@ -1,0 +1,30 @@
+{
+  "panel_id": "p16_panel03",
+  "watermark": "P16-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，李斌坐在电脑前（电脑椅）；头半抬看妻子方向；眼睛微微睁开一条缝（疲惫闭眼的被叫醒变体）；嘴微张（说话中）；表情疲惫闭眼。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_疲惫闭眼.json#expression-v1（微睁变体）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "李斌",
+      "position": "right",
+      "tail_pointing": "李斌的嘴部方向",
+      "text_zh": "今天是我的生日你知道吗？…………啊?不是吧，我记得过两天啊。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese man sitting in an office chair at a small desk in the guest bedroom, his head half-raised looking toward the off-frame wife direction. Exhausted eyes with the slightest slit of an opening — eyelids only barely raised showing a thin sliver of dark brown iris, inner ends of the eyebrows still pulled up and pinched together in the tired furrow, lips slightly parted mid-speech, dark circles under the eyes very visible, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt. A computer monitor glows cool blue-white on the desk in front of him. Cool blue-grey ambient bedroom light plus the monitor glow. Mood: the half-asleep response, the husband's mind just catching up to the question. Text watermark 'P16-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "fully open alert eyes, smiling, tears, wife visible in the frame, decorative hallway art, daylight from a window, second character, romantic soft lighting, exaggerated cartoonish sweat drops, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤）+ 李斌_疲惫闭眼 微睁版（眼微睁一条缝 + 内眉蹙紧 + 嘴微张）",
+    "lighting_match_anchors": "李斌_疲惫闭眼 lighting_preference_for_this_expression.preferred + 电脑屏幕冷光"
+  }
+}

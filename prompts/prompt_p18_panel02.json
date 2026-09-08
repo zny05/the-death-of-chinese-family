@@ -1,0 +1,52 @@
+{
+  "panel_id": "p20_panel01",
+  "watermark": "P20-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 整页不分格（splash page），平视。画面中央被一条隐形的垂直分割线分成左右两个'万家灯火'视觉半区。左半画：一只白色蜡烛插在桌面，火焰温暖的金色（暖金光晕柔和扩散），烛光映在桌面形成椭圆光斑，烛光旁一只完整的玻璃酒杯（暗示烛光晚餐）。中央折页：李斌的极小侧脸（占画面 1/10，人如模型母题），3/4 侧面错愕态——眉微挑、嘴微张、目光凝固失焦、头微前倾，穿着宽松灰色棉质圆领T恤 + 深灰色拉链外套。右半画：一只碎裂的酒瓶躺在桌面（瓶口向上瓶身碎成多片），玻璃碎片反射冷金色光（与烛光同色但更尖锐），酒精的飞溅（速度线 + 散落小光点），桌面有几滴飞溅的酒精液滴。画面左下角：MC 鲁迅的前臂 + 袖口（米白色男式休闲衬衫）+ 放在桌上的手，不露脸。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1（极小侧脸，人如模型母题）",
+    "character_李斌_若有所思的沉默.json#expression-v1（错愕变体）",
+    "MC 鲁迅：⭐ 局部身体/不露脸（仅前臂袖口）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-band-full-width",
+      "text_zh": "我打趣说，不如就叫《李斌之死》如何，烛光晚餐映起的余晖是万家灯火，酒瓶砸碎飞溅的酒精也是万家灯火。他听了之后有些错愕，紧接着沉默不语。"
+    },
+    {
+      "type": "对话框",
+      "speaker": "MC 鲁迅",
+      "position": "left",
+      "tail_pointing": "画面外（MC 鲁迅嘴部方向）",
+      "text_zh": "不如就叫《李斌之死》如何？"
+    }
+  ],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "right-center",
+      "text_zh": "哗啦——",
+      "style": "大号粗体"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Full-page splash illustration, no panel divisions, eye-level. The page is split conceptually by an invisible vertical line into two halves, each side illustrating one of the two faces of 'the lights of ten thousand homes' mentioned in the narration. LEFT HALF: a single white candle standing in a small brass holder on a dark wood table, the warm golden flame glowing softly, a circular pool of warm golden light spreading on the table surface around the candle, beside the candle a complete intact wine glass catching the warm light, a quiet anniversary candlelight dinner mood. CENTER FOLD: the husband as a very small side-profile head taking up only about one-tenth of the page width, the 'man as a small model' motif from page 08 returning. The 30-something East Asian Chinese man in three-quarter side profile, caught in the instant of startled silence — eyes frozen with a slightly unfocused fixed gaze, eyebrows lifted in surprise, mouth slightly open in shock, head tilted slightly forward as if the words just landed. Wearing a faded grey cotton crew-neck t-shirt under an unzipped dark grey zip-up hoodie with the hood resting on the shoulders, short black slightly messy side-swept hair, dark circles under the eyes, clean-shaven jaw with no stubble. RIGHT HALF: a shattered wine bottle lying on the same dark wood table, the bottle neck still pointing upward, the body broken into multiple glass shards scattered across the table surface, each shard catching a cold golden reflection that matches the candle's color but reads sharper and colder. Small splashes of alcohol frozen in mid-air rendered as scattered tiny light points and a few drops on the table surface, three or four diagonal speed lines indicating the moment of impact, the muted sound of glass breaking. LOWER LEFT CORNER shows only the narrator's partial body — a forearm in a beige men's casual shirt cuff resting on the table edge, the hand lying flat and still, no face visible. The atmosphere is the most poetic single image of the whole book, the same golden color temperature expressing both the warm anniversary dinner and the cold marital conflict, two sources of the same lights of ten thousand homes. Mood: the line between warmth and destruction is just the angle of the light. Text watermark 'P20-PN01' in the bottom-right corner placed where it does not obscure the central figure.",
+  "negative_prompt_en": "face of the narrator visible, anime proportions, smiling, decorative hallway art, daylight from a window, second character, romantic soft lighting, bright colors, dramatic shadows outside the table, blood, weapons, the husband taking up more than one-tenth of the page, both halves of the page showing the same lighting (they must be warm-gold left and cold-gold right)",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ 李斌_若有所思的沉默 错愕变体（眼凝固失焦 + 眉微挑 + 嘴微张 + 头微前倾）+ wardrobe_for_this_motion（宽松灰色棉质圆领T恤 + 深灰色拉链外套）+ 极小侧脸（人如模型母题复用 Page 08）；MC 鲁迅 仅前臂袖口 + 放在桌上的手（不露脸）",
+    "lighting_match_anchors": "⭐ 画面分屏：左半画烛光暖金 + 右半画碎玻璃冷金（双侧同色不同温）",
+    "splash_page_metadata": {
+      "panel_type": "full_page_splash_with_conceptual_split",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "整页不分格 + 概念分屏，panel_id 命名 p20_panel01",
+      "watermark_naming": "页面级唯一水印 P20-PN01",
+      "narrative_function": "全本最诗意的一帧，烛光 / 酒瓶碎万家灯火双重视觉隐喻",
+      "mc_lu_xun_protocol": "MC 鲁迅仅前臂 + 袖口 + 放在桌上的手，不露脸"
+    }
+  }
+}

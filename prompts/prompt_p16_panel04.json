@@ -1,0 +1,30 @@
+{
+  "panel_id": "p16_panel04",
+  "watermark": "P16-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 极特写俯视 60 度，中央偏上手机（rose-pink 硅胶壳）躺在白色桌面上；屏幕亮着显示'订单详情'（生日礼物的快递）；妻子的手（裸粉色凝胶美甲）按在手机上，5 指覆盖；李斌的手指（不修指甲男性手）正在伸向手机即将被拦截；两人的指尖几乎重叠（差 2-3cm）；桌面的木纹细节清晰。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（仅手，裸粉色凝胶美甲标记）",
+    "character_李斌.json#base-v1（仅手）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "画面外（妻子的嘴部方向）",
+      "text_zh": "别碰我手机！说了买了就是买了，老是动手动脚的干嘛。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. High-angle 60-degree extreme close-up looking down at a small white computer desk surface. Center top: a smartphone in a rose-pink silicone case lying flat on the desk with its screen brightly lit showing an e-commerce order details page in Chinese for a birthday gift delivery. Center: two hands in close confrontation — a female hand with fresh nude-pink gel manicure pressing down flat on the phone with all five fingers splayed, the fingertips going slightly white from the pressure — and a male hand with untrimmed fingernails reaching in from the lower-right of the frame, the index and middle fingers extended toward the phone but stopped just 2-3 centimeters short of the woman's fingers, the two sets of fingertips almost touching. The wood grain of the desk surface is visible in sharp detail. Cool blue-white light from the desk lamp above. Mood: the smallest unit of marital violence, the conflict reduced to fingertips and a phone, no faces, no words can soften this physical standoff. Text watermark 'P16-PN04' in the bottom-right corner placed where it does not obscure the central hands.",
+  "negative_prompt_en": "anime proportions, full faces visible, smiling, decorative phone case design beyond the rose-pink silicone, daylight from a window, second character in frame, romantic soft lighting, dramatic shadows, hands already touching or grabbing each other (they must almost touch but not quite)",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 裸粉色凝胶美甲标记（手部）+ 李斌 男性手（不修指甲）",
+    "lighting_match_anchors": "电脑屏幕冷光 + 桌面台灯"
+  }
+}

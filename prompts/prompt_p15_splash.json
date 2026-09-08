@@ -1,0 +1,58 @@
+{
+  "panel_id": "p15_splash",
+  "watermark": "P15-SPLASH",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 跨页全屏大图（两页拼合）。左页：白色枕头飞在画面中心偏上（飞行最高点定帧）+ 妻子手臂从画面外左侧伸出投掷动作最高点 + 枕头周围 3-4 条速度线 + 背景客卧门外走廊暖白光；中央折页：妻子站在客卧门口脸 3/4 侧面，愤怒峰值（眼露白圈、眉压 V 字、嘴张喊、脸红、颈青筋、头前倾），长直黑发披散；右页：李斌低头不动的剪影坐在客卧床沿或电脑前，头深深低垂，海军蓝被子在他身后，整个画面是冷蓝灰，桌子上腰带在剪影边缘隐约可见。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（⭐ 愤怒峰值）",
+    "character_妻子_愤怒.json#expression-v1",
+    "character_李斌.json#base-v1（疲惫闭眼最终态）",
+    "character_李斌_疲惫闭眼.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-band-full-width",
+      "page_side": "both",
+      "text_zh": "（持续的控诉后家里再次陷入死寂。枕头持续摔打声……）"
+    },
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "left",
+      "page_side": "left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "你给我起来，你睡什么睡，不说清楚我今天跟你没完。你给我起来！"
+    }
+  ],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "left-center",
+      "text_zh": "噗——",
+      "style": "特大号粗体"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Two-page spread illustration that reads as a single continuous scene when the book is opened flat, no panel divisions, eye-level medium distance about 2 meters. The composition is split warm-cold: LEFT PAGE (about 40% empty space) shows a frozen moment in the air — a single white rectangular pillow suspended in mid-air at the apex of a throw about two-thirds of the way up the left page, with three to four thin diagonal speed lines radiating from it indicating motion-frozen. An arm extends from off-frame at the lower left, captured at the top of the throw motion, fingers just released. The warm white hallway light from upper right pours in. CENTER FOLD shows the wife standing at the guest-bedroom door in three-quarter view, face at peak rage — eyes wide open with both upper and lower lids pulled back exposing a thin ring of white sclera, eyebrows sharply drawn down and pinched inward nearly touching at the bridge forming a clear V, mouth open at maximum width mid-shout with upper and lower teeth visible, lips pulled back into a snarl, face flushed red from neck up to the ears, visible veins at the temples and along the neck, head thrust forward, long straight black hair completely down and flying. Fitted cream ribbed long-sleeve knit top, light grey high-waisted yoga leggings, single pearl stud earring, small gold locket at neckline, fresh nude-pink gel manicure visible. RIGHT PAGE (about 70% empty space) shows the husband as a near-silhouette in the cold blue-grey guest bedroom, sitting on the bed edge or at the desk with his head deeply bowed, shoulders slumped, eyes fully closed, eyebrows pinched in the exhausted-tired furrow, lips pressed together. Loose grey cotton crew-neck t-shirt, navy blue plaid pajama pants, short black slightly messy side-swept hair, dark circles under the eyes, clean-shaven jaw. The matte black plastic toy rider belt with silver-colored plastic buckle is just visible at the desk edge near his right hand. The cold blue-grey light from the single overhead ceiling light in the bedroom is the only illumination on the right page. Mood: the marital violence frozen in time, warm rage on the left meets cold surrender on the right, the most violent frame of the book caught in stillness. Text watermark 'P15-L' in the bottom-right corner of the left page and 'P15-R' in the bottom-right corner of the right page, both in small white text.",
+  "negative_prompt_en": "cute anime anger marks, perfectly styled hair, tears, symmetrical cute anime proportions, smile of any kind, husband facing the wife (he is facing down), decorative hallway art, daylight from a window, second character, romantic soft lighting, bright colors, dramatic shadows, manga speed lines everywhere",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "watermark_left": "P15-L",
+    "watermark_right": "P15-R",
+    "watermark_combined": "P15-SPLASH",
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features（长直黑发完全散飞扬 + 珍珠耳钉 + 锁骨链 + 裸粉美甲）+ 妻子_愤怒 峰值（眼露白圈 + 眉压 V 字 + 嘴张喊 + 脸红 + 颈青筋 + 头前倾 + 手投掷）；李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤）+ 李斌_疲惫闭眼 最终态（眼全闭 + 内眉蹙紧 + 唇抿成线 + 头深深低垂）+ 李斌_腰带变身的笑 的腰带边缘（matte black plastic + silver-colored plastic buckle）+ scene_anchors.bedroom_guest_room（海军蓝被子）",
+    "lighting_match_anchors": "左暖右冷（走廊暖白 + 卧室单顶灯冷蓝灰）",
+    "splash_page_metadata": {
+      "panel_type": "two_page_spread",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "跨页不分格，panel_id 命名 p15_splash 复用 Page 08 命名",
+      "watermark_naming": "跨页级联合水印 P15-SPLASH，左页 P15-L + 右页 P15-R",
+      "first_two_page_spread_in_book": false,
+      "narrative_function": "Act Ⅳ 收官 + 全本情绪倒数第二个高点"
+    }
+  }
+}

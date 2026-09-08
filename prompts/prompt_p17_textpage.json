@@ -1,0 +1,38 @@
+{
+  "panel_id": "p17_textpage",
+  "watermark": "P17-TEXT",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 纯文字排版页（不画漫画图）。整页铺满极淡的雾化李斌家客厅照片（虚化的 L 形沙发、电视柜、白墙 + 空相框，雾化程度 90%，色调暖白偏黄）；前景 5 段作者声文字居中竖排，字体思源宋体黑色约 24pt，宽松行距 1.8 倍，每段之间空一行；右下角页码水印 P17-TEXT。文字原文：我写过很多相亲中的人，爱情中的人。但仔细回想，之前写的好像都比较特殊，比较黑色幽默。今天这篇我想写点细节，写点生活化的视角，写点绕开很多典型矛盾后，婚姻平淡日子里暗藏的洪流。你会发现这篇文章中，没有剧烈的、暴力的撕扯，也没有任何超越认知的抽象与抗争。那些有关精神之间的折磨，才是细小而可怕的刺。",
+  "character_anchors_invoked": [
+    "scene_anchors.living_room_sofa（背景底纹引用）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "整页旁白",
+      "speaker": "MC 鲁迅",
+      "position": "center",
+      "text_zh": "我写过很多相亲中的人，爱情中的人。\n\n但仔细回想，之前写的好好像都比较特殊，比较黑色幽默。\n今天这篇我想写点细节，写点生活化的视角，\n写点绕开很多典型矛盾后，婚姻平淡日子里暗藏的洪流。\n\n你会发现这篇文章中，没有剧烈的争吵没有暴力的撕扯，\n也没有任何超越认知的抽象与抗争。\n\n那些有关精神之间的折磨，\n\n才是细小而可怕的刺。",
+      "rendering_note": "此 JSON 提供背景底纹，文字由 Comick / Photoshop 排版。Nano Banana 2 不负责文字像素对齐。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. A full-page typographic illustration NOT a comic panel: a heavily blurred background photograph of a modest Chinese apartment living room at about 90% blur — only soft color blocks of a grey L-shaped fabric sofa, a low walnut TV cabinet, a plain white wall with three empty photo frames (matching the spread on page 08) are just barely recognizable, the rest dissolves into warm white and pale yellow haze. The blur is so heavy that no sharp edges or details are visible, only the color temperature and a sense of an empty room. There are no people, no panel borders, no speech bubbles, no SFX. The page is intended to receive a Chinese text overlay in Source Han Serif font, 24-point black, centered, with 1.8 line spacing and one blank line between paragraphs, in the post-production step. The background color is the warm yellow-white of evening at 8:15pm, matching the palette of the time-lapse splash on page 11. The page has only the small bottom-right watermark 'P17-TEXT' in small white text. Mood: the silence of the book's most important page, the moment the author steps out of the frame to address the reader directly, the empty living room is the answer to every panel before this. Text watermark 'P17-TEXT' in the bottom-right corner.",
+  "negative_prompt_en": "people in frame, anime proportions, sharp focused background, decorative hallway art, daylight from a window, second character, romantic soft lighting, bright colors, dramatic shadows, comic panels, speech bubbles, SFX, any legible text other than the small bottom-right watermark, decorative items like flowers or clocks, photographs inside the frames (they must be empty)",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "无人物引用，仅 scene_anchors.living_room_sofa + 三个空相框",
+    "lighting_match_anchors": "暖白偏黄（与 Page 11 蒙太奇 splash 一致）",
+    "text_page_metadata": {
+      "panel_type": "full_page_text_only",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "纯文字页，panel_id 命名 p17_textpage 与 splash 区分",
+      "watermark_naming": "页面级唯一水印 P17-TEXT",
+      "first_text_only_page_in_book": true,
+      "narrative_function": "MC 鲁迅作为叙事者完整登场，承上启下",
+      "post_production_note": "Nano Banana 2 只生成背景底纹；5 段中文文字由 Comick / Photoshop 在底纹上精确对齐排版"
+    }
+  }
+}

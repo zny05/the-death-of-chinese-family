@@ -1,0 +1,30 @@
+{
+  "panel_id": "p04_panel05",
+  "watermark": "P04-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视略仰（李斌视角望妻子），妻子略微前倾（重心前脚）；单手叉腰，另一只手指向李斌方向；脸是 3/4 侧面，眉压紧、嘴微张（在数落中）；表情生气临界版——比 Panel 4.03 略升级；身后窗帘已开逆光暖白光晕；身体微微前倾到画面中央偏下。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1（临界版）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "你跟我说话什么态度啊？你凶我干嘛呀？"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up slightly low-angle from the seated husband's POV, slightly closer than the previous panel, on a 30-something East Asian Chinese woman standing at the bedside leaning slightly forward. Body weight clearly on the front foot, one hand on her hip, the other arm extended with index finger pointing down toward the seated husband. Face shown in three-quarter side view. Expression escalated from the previous panel — eyebrows drawn down and inward at the bridge in a tighter scowl than before, eyes narrowed to slits, mouth slightly open mid-scolding, jaw clenched, masseter muscle defined, slight flush on cheeks. Long straight black hair tied in a low ponytail, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fresh nude-pink gel manicure visible on the pointing hand. Behind her the curtain has been pulled open, warm white morning sunlight from upper right casts a halo on her hair and shoulder line, the body leaning forward into the lower half of the frame. Mood: the final line of Act I, the husband has been silenced, the page closes on her dominance. Text watermark 'P04-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in bed, decorative bedroom art, daylight from a side window, second character, soft flattering lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤）+ face_features（低马尾 + 珍珠耳钉 + 锁骨链 + 裸粉美甲）+ 妻子_生气 临界版（蹙眉更紧 + 眯缝眼 + 嘴微张在数落 + 咬肌凸 + 头部前倾）+ 单手叉腰 + 手指点姿 + 身体前倾",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway（背后窗帘暖白逆光 + 头发肩线光晕）"
+  }
+}

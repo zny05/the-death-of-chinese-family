@@ -1,0 +1,30 @@
+{
+  "panel_id": "p03_panel03",
+  "watermark": "P03-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视斜对角，妻子停下脚步回头望向床方向；一只手叉腰；脸是 3/4 侧面，能看到眉压紧、嘴闭紧；背景客卧米白色遮光帘尚未被扯开，帘缝里能看见窗外的模糊阳光。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top-right",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "我跟你说话你当没听见是吧"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot on a slight diagonal angle of a 30-something East Asian Chinese woman who has stopped mid-stride and turned her head back over her shoulder toward the bed direction (husband is in bed). One hand resting on her hip. Face shown in three-quarter side view, the scowl still locked in place: eyebrows drawn down and inward at the bridge forming a hard scowl, eyes narrowed to slits looking back at the bed, mouth closed with lips pressed together, jaw visibly clenched. Long straight black hair tied in a low ponytail, a single pearl stud earring visible, small gold locket at neckline, hair slightly loosened from the recent burst. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the hand on her hip. Background: the bedroom's beige blackout curtain still closed across the window, a few faint warm daylight leaks at the curtain seam, plain white bedroom wall. Cold blue-grey bedroom interior with a sliver of warm light at the curtain seam. Mood: the scolding has started. Text watermark 'P03-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in bed, decorative hallway art, daylight from a side window, soft flattering lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 拖鞋）+ face_features（低马尾 + 珍珠耳钉 + 锁骨链 + 裸粉美甲）+ 妻子_生气 expression_signature（蹙眉 + 眯缝眼 + 嘴闭紧 + 咬肌凸）+ 单手叉腰变体",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway"
+  }
+}

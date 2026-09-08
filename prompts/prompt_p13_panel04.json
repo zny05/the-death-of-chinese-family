@@ -1,0 +1,31 @@
+{
+  "panel_id": "p13_panel04",
+  "watermark": "P13-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，李斌坐在沙发另一头；表情无语 + 微微抬头（他在尝试为闺蜜说话）；嘴微张；脸 3/4 侧面。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1（尝试说话变体）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "李斌",
+      "position": "top",
+      "tail_pointing": "李斌的嘴部方向",
+      "text_zh": "……那你这朋友人其实还不错。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of the 30-something East Asian Chinese husband sitting on the other end of the grey fabric sofa, his body angled slightly toward his wife but his head tilted forward just a degree. Speechless exasperated expression with a slight attempt at speech — eyes half-lidded looking toward the wife's direction, eyebrows flat but the inner ends just barely lifted, mouth slightly open mid-speech with a tiny breath between the lips, dark circles under the eyes, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants. The plastic snack bag sits between them on the sofa. Warm yellow-white living room light. Mood: the rare moment he opens his mouth to defend someone else, immediately regretted. Text watermark 'P13-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, fully open alert eyes, smiling, wife visible in the frame, decorative hallway art, daylight from a window, second character, friend/girlfriend character visible, romantic soft lighting, exaggerated cartoonish sweat drops, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default + 李斌_无语 尝试说话版（眼半睁 + 眉平内端微抬 + 嘴微张）+ scene_anchors.living_room_sofa",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred",
+    "girlfriend_protocol": "妻子口中的'她'指代闺蜜，闺蜜仍不进画面"
+  }
+}

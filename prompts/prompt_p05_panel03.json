@@ -1,0 +1,27 @@
+{
+  "panel_id": "p05_panel03",
+  "watermark": "P05-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 中近景俯视 60-70 度（模拟妻子弯腰盯着花盆）；中央偏上一个深褐色烟头躺在花盆边沿；花盆是绿色塑料，盆里有小型绿萝；烟头旁边几粒烟灰散落；花盆外的阳台瓷砖上有 1-2 个旧的烟头痕迹（细节）；阳台栏杆影子斜斜打过来；阳光从画面右上方斜入烟头有明显高光。无人。",
+  "character_anchors_invoked": [],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "画面外（弯腰看花盆的妻子方向）",
+      "text_zh": "这阳台花盆上不知道哪来一个烟头，不是你?"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. High-angle medium close-up looking down 60-70 degrees as if a woman is bending to inspect a balcony flower pot. Center frame slightly above: a single dark brown cigarette butt lying on the rim of a green plastic flower pot containing a small green pothos or similar leafy plant. A few flecks of loose tobacco ash scattered next to the butt. On the balcony tile outside the pot one or two older cigarette butt marks from previous offenses visible as small discolorations. The diagonal shadow of the balcony railing falls across the frame. Bright morning sunlight from upper right casting a clear highlight on the cigarette butt itself. No people in the frame. The cigarette butt is intentionally framed larger than any character in the previous page — the visual weight of the offense. Mood: the surveillance motif, the home being watched and judged. Text watermark 'P05-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "people in frame, anime proportions, decorative balcony art, romantic soft lighting, ashtray present (the butt is supposed to be on the pot rim not in an ashtray), second character, second cigarette butt prominently displayed",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "no characters in this panel — scene_anchors.balcony_smoking_spot（绿色花盆 + 生锈烟灰缸 + 阳台栏杆）",
+    "lighting_match_anchors": true
+  }
+}

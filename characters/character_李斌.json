@@ -1,0 +1,87 @@
+{
+  "character_id": "libin",
+  "character_name_cn": "李斌",
+  "role": "男主角 / 丈夫",
+  "version": "base-v1",
+  "created": "2026-09-05",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "demographics": {
+    "gender": "male",
+    "age_range": "32-36",
+    "ethnicity": "East Asian Chinese",
+    "build": "average, slightly lean from irregular meals, soft midsection",
+    "height_impression": "172-176cm, average Chinese male stature",
+    "skin_tone": "warm pale, dull from sleep deprivation, slight dark circles under eyes"
+  },
+  "face_features": {
+    "face_shape": "soft square jawline, slightly rounded cheeks",
+    "hair": {
+      "style": "short black hair, slightly messy side-swept bangs",
+      "length": "temple-length on sides, 4-5cm on top",
+      "texture": "fine, slightly oily at the end of the day",
+      "color": "natural black (#1a1a1a)"
+    },
+    "eyebrows": "natural, straight, medium thickness, slightly drooping inner ends (gives a tired look)",
+    "eyes": "single eyelids with subtle inner fold, dark brown irises, smaller than wife's, often half-lidded",
+    "nose": "average bridge, slightly rounded tip",
+    "mouth": "thin to medium lips, often pressed together in silence, corners naturally downturned at rest",
+    "facial_hair": "clean-shaven, no stubble (updated 2026-09-05 per user request)",
+    "distinctive_marks": "none prominent; faint dark circles are the signature"
+  },
+  "wardrobe_default": {
+    "top": "loose grey cotton crew-neck t-shirt, slightly wrinkled, faded from many washes",
+    "bottom": "navy blue plaid pajama pants, elastic waistband, cuffs at ankles",
+    "footwear_brief": "off-white foam slippers, scuffed at toes",
+    "accessories": "none by default; on Page 9 he briefly wears a toy rider belt over the t-shirt (see expression anchor)",
+    "fit": "slightly oversized, comfort-first weekend home wear"
+  },
+  "wardrobe_alt": {
+    "going_out_quick_errand": "same pajama pants but pulls on a dark grey zip-up hoodie over the t-shirt, hood down",
+    "phone_in_hand": "always holding a black smartphone (case: matte black, no pattern) in right hand or resting on knee"
+  },
+  "default_posture": "shoulders slightly slumped, neck slightly forward, gaze lowered — a 'deflated' silhouette",
+  "scene_anchors": {
+    "bedroom_guest_room": "narrow single bed pushed against the wall, navy duvet crumpled, white pillow half off the bed, beige blackout curtains, white walls, a small wooden nightstand with a half-empty glass of water and a charging cable",
+    "living_room_sofa": "L-shaped grey fabric sofa with a folded cream knit throw on the armrest, across from a low walnut TV cabinet, the sofa always slightly sunken where he sits",
+    "kitchen_table": "small two-person dining table, white surface, two empty chairs, a glass kettle and a used glass always present",
+    "balcony_smoking_spot": "small balcony with a green potted plant and a rusted ashtray, cigarette butts on the floor near the railing"
+  },
+  "angle_descriptions": {
+    "front_view": "face-on, symmetrical, both eyes visible, shoulders squared (rarely used; he usually avoids eye contact)",
+    "three_quarter_view": "head turned 30-40 degrees to his left, eyes glancing sideways or downward — the most common angle for him",
+    "side_profile": "head turned 90 degrees to camera, one eye hidden, clean-shaven jawline silhouette visible — used in moments of withdrawal",
+    "low_angle": "camera below chin level, looking up — used sparingly to imply brief authority (rare in this story)",
+    "high_angle_overhead": "camera above looking down on him — used heavily to show 'being watched / being judged', especially on sofa and bed scenes",
+    "over_shoulder_behind_wife": "camera behind wife's silhouette, his small figure across the room — used to show emotional distance"
+  },
+  "lighting_preference": {
+    "default": "soft window light from the right (camera-left), warm-cool contrast, slight haze",
+    "morning_bedroom": "harsh morning sun slicing through curtain gap, dust in light beam",
+    "evening_living_room": "warm tungsten lamp from a floor lamp behind sofa, rest of room in cool shadow",
+    "night_climax": "single overhead ceiling light casting hard shadows under eyes and nose — emotionally cold"
+  },
+  "motion_anchors": {
+    "waking_up": "eyes squinting against light, one arm thrown over face, duvet pulled to chin",
+    "sitting_on_sofa": "lower back not touching backrest, elbows on knees, phone held in both hands at chest height",
+    "pouring_cabbage_powder": "standing at kitchen counter, head slightly bowed, hand hovering over the sink before pouring",
+    "wiping_floor": "kneeling on one knee, sleeve pushed up to forearm, eyes fixed on the floor",
+    "imitating_rider_belt": "standing in bedroom doorway, belt held in both hands at waist height, slight smile"
+  },
+  "rendering_constraints": {
+    "do_not_include": [
+      "aspect ratio flags (e.g. --ar) — controlled centrally",
+      "page-panel watermark text — added per-prompt in Step 6",
+      "exaggerated cartoonish proportions",
+      "western comic superhero anatomy"
+    ],
+    "always_include_in_prompts": [
+      "Chinese modern comic style",
+      "naturalistic character proportions",
+      "soft cinematic lighting"
+    ]
+  },
+  "usage_note_for_step_4_5_6": "后续分镜或生图提示词中，对李斌的描述必须**原文引用**本文件中 `face_features`、`wardrobe_default`、`default_posture`、`angle_descriptions`、`motion_anchors` 中的具体短语，不得使用文件名标注或文件链接引用。",
+  "changelog": [
+    {"date": "2026-09-05", "change": "初版基础锚点（base-v1）"}
+  ]
+}

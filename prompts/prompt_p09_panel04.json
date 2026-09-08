@@ -1,0 +1,22 @@
+{
+  "panel_id": "p09_panel04",
+  "watermark": "P09-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视特写，李斌脸部近景（从额头到下巴）；笑保留 Duchenne 真笑仍在脸上；笑容稍微缓下来——不是变身瞬间的兴奋峰值，是收尾的余温；头微后仰；黑色塑料腰带扣在他胸口位置露出一点。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_腰带变身的笑.json#expression-v1（收尾态）"
+  ],
+  "dialogue_or_narration": [],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level close-up of a 30-something East Asian Chinese man's face from forehead to chin, the smile still genuine and present but easing slightly from the peak of the previous panel into a softer afterglow. Eyes still squinted in real laughter but less tightly, lower lids pushed up with small creases still showing, slight wet shine at the corners, eyebrows raised and relaxed, mouth still open with upper teeth just visible but the cheeks not pushed up quite as high. Faint natural flush returning to the dull skin. Head still tilted slightly back and chin up. Short black slightly messy side-swept hair, two-to-three-day stubble shadow on the jaw. The matte black plastic toy rider belt buckle with the silver-colored plastic detail just visible at the bottom edge of the frame at his chest. Warm tungsten floor lamp and morning window light combining to give the face a soft warm glow. Mood: the afterglow of the only true laugh, the breath held for a moment before the world comes back in the next act. Text watermark 'P09-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "polite or restrained smile, perfect white teeth commercial grin, glowing or neon belt effects, anime proportions, wife in frame, second character, exaggerated heroic pose, romantic soft lighting, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ 李斌_腰带变身的笑 收尾态（笑仍在但缓下）+ wardrobe_alt 腰带扣边缘",
+    "lighting_match_anchors": "李斌_腰带变身的笑 lighting_preference_for_this_expression.preferred"
+  }
+}

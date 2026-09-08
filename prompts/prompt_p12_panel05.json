@@ -1,0 +1,30 @@
+{
+  "panel_id": "p12_panel05",
+  "watermark": "P12-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子快步走回客厅，手里还提着那袋零食；脸上更怀疑了；她的视线扫向沙发方向（李斌在那里）；头发是低马尾（随走动晃动）。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_alt.yoga_class_returned）",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "那一定是在窗帘后面，要不就是在阳台。不行，我得去找找，我看家里是不是真藏人了？"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up in the living room of a 30-something East Asian Chinese woman walking back into the room with the translucent plastic snack bag in one hand, the other hand gesturing forward. Yoga-class-returned outfit: sage green zip-up jacket, charcoal grey leggings, white sneakers. Face shown in three-quarter side view, the scowl deepened by frustration, eyebrows drawn down and inward at the bridge in a tighter scowl than before, eyes narrowed scanning toward the off-frame sofa direction, mouth slightly open mid-scolding. Long straight black hair is the low ponytail with strands framing the face. Single pearl stud earring, small gold locket at neckline, fresh nude-pink gel manicure visible on the gesturing hand. Warm yellow-white living room light. Mood: the suspicion now includes '那一定是在窗帘后面，要不就是在阳台。不行，我得去找找，我看家里是不是真藏人了？' — the marital surveillance taken to its absurd end. Text watermark 'P12-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the room, decorative hallway art, daylight from a window, second character, bloodshot eyes, romantic soft lighting, decorative items like a clock or wall art",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_alt.yoga_class_returned（face_features + 妻子_生气 升级版（眉压更深 + 嘴微张）",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.evening_living_room"
+  }
+}

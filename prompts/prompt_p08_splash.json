@@ -1,0 +1,42 @@
+{
+  "panel_id": "p08_splash",
+  "watermark": "P08-SPLASH",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 跨页全屏大图（两页拼合）。左页（80% 留白）：L 形灰色布艺沙发空段 + 扶手上折叠的奶油色针织毯 + 低矮核桃木电视柜；中央折页（紧致）：李斌坐在沙发中段，身形只占跨页宽度约 1/8，穿着宽松灰色棉质圆领T恤 + 海军蓝格子睡裤，双手握手机放在膝盖上，头微低；右页（80% 留白）：白墙 + 三个空的相框（木色横向 4:3 + 黑色方形 1:1 + 米白色纵向 3:4，所有相框里面空）。沙发背后窗户投下清晨暖光带斜斜打在李斌身上。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1",
+    "scene_anchors.living_room_sofa"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "right-page-top",
+      "page_side": "right",
+      "text_zh": "（视频中他再次躺下想睡一会，但大约十分钟后发现睡不着便起身。中间滴滴声，拿起手机看了一下，发现是qq邮箱的自动消息，他自嘲的笑了。）"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Two-page spread illustration that reads as a single continuous scene when the book is opened flat, no panel divisions. Eye-level slightly high angle about 5 degrees from a viewpoint about 3 meters away across the living room. LEFT PAGE (about 80% empty space) shows the empty section of an L-shaped grey fabric sofa with a folded cream knit throw blanket resting on the armrest, and a low walnut TV cabinet across from the sofa. CENTER FOLD (compact) shows the husband sitting alone on the middle section of the sofa, his figure taking up only about one-eighth of the total spread width — a man made small by his house. He wears a loose faded grey cotton crew-neck t-shirt slightly wrinkled at the waistband, navy blue plaid pajama pants, fluffy-cuff light grey slippers. Speechless exhausted expression — eyes half-lidded looking unfocused at the smartphone in his hands, eyebrows flat, lips pressed together, two-to-three-day stubble shadow on the jaw, dark circles under the eyes, short black slightly messy side-swept hair. Both hands hold a black smartphone in matte-black case at chest height, the lower back not touching the backrest, elbows resting on knees. RIGHT PAGE (about 80% empty space) shows a plain white living-room wall with three empty photo frames of different sizes hung at different heights — a wood-tone horizontal 4:3 frame about 30x40cm at lower left, a black thin-frame square 1:1 frame about 25x25cm at upper middle, a cream-white thin-frame vertical 3:4 frame about 20x27cm at lower right — every frame is empty containing only a pale backing card and no photograph. A band of soft warm morning sunlight slants in from the window behind the sofa casting a quiet glow across the man's shoulders and the wall. The atmosphere is the quietest page of the entire book, the home is large the man is small, the house has frames but no memories. Text watermark 'P08-L' in the bottom-right corner of the left page and 'P08-R' in the bottom-right corner of the right page, both in small white text.",
+  "negative_prompt_en": "anime proportions, smiling, wife visible in frame, second character, decorative hallway art, daylight streaming in through windows, romantic soft lighting, photographs inside the frames (they must be empty), bold bright colors, dramatic shadows, manga speed lines",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "watermark_left": "P08-L",
+    "watermark_right": "P08-R",
+    "watermark_combined": "P08-SPLASH",
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤 + 浅灰拖鞋）+ default_posture（肩膀略塌 + 脖子略前伸）+ motion_anchors.sitting_on_sofa（腰不靠背 + 手肘在膝盖 + 手机双手握在胸口高度）+ 李斌_无语 expression_signature（眼半睁不聚焦 + 眉平 + 嘴闭紧）+ scene_anchors.living_room_sofa（L 形灰色布艺沙发 + 折叠奶油色针织毯 + 低矮核桃木电视柜）",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred（平光 + 客厅暖白，无戏剧化阴影）",
+    "splash_page_metadata": {
+      "panel_type": "two_page_spread",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "跨页不分格，panel_id 命名为 p08_splash 与单页 splash 的 p07_panel01 区分",
+      "watermark_naming": "跨页级联合水印 P08-SPLASH，左页 P08-L + 右页 P08-R",
+      "first_two_page_spread_in_book": true,
+      "narrative_function": "全本第二个呼吸页（更长更静），Act Ⅲ 开篇"
+    }
+  }
+}

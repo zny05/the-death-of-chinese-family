@@ -1,0 +1,30 @@
+{
+  "panel_id": "p04_panel01",
+  "watermark": "P04-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视偏俯 15 度（床头视角），李斌刚刚坐起的半身姿态；被子从脸滑到胸口位置（露出上半身）；头发乱糟糟；脸仍朝向床的方向（低头）；嘴张开准备说话；背景海军蓝皱褶被子、白色枕头虚化；晨光从画面右上方斜入。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_疲惫闭眼.json#expression-v1（微睁版，第一次半睁眼）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "李斌",
+      "position": "right",
+      "tail_pointing": "李斌的嘴部方向",
+      "text_zh": "我昨天加班到夜里 4 点多，我很累了，我想多休息一会不行吗？"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Eye-level medium shot tilted down about 15 degrees from a bedside-lamp angle on a 30-something East Asian Chinese man who has just sat up in bed. The navy blue duvet has slid down from his face to his chest exposing his upper body. Short black hair is completely messy from sleeping, sticking up on one side. Head still angled slightly downward looking at the bed rather than at the camera, but his mouth is open mid-speech. Eyes only half-open — eyelids loose, gaze unfocused, lashes pressed against under-eye dark circles, two-to-three-day stubble shadow visible on the jaw. Loose grey cotton crew-neck t-shirt collar pulled low at the neckline. Background soft-focus: crumpled navy blue duvet, white pillow. Cold white morning sunlight slanting in from the upper right (the curtain was already opened in the previous page). Mood: the first counterattack, the first time he speaks in the whole story. Text watermark 'P04-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, fully open alert eyes, smiling, tears, exaggerated cartoonish sweat drops, bright flat lighting, wife visible in frame, soft romantic mood, well-groomed hair",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发乱糟糟 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤领口拉低）+ default_posture（肩膀略塌）+ scene_anchors.bedroom_guest_room（海军蓝皱褶被子 + 白色枕头）+ 李斌_疲惫闭眼 微睁版（眼半睁睑松 + 目光涣散 + 嘴张开）",
+    "lighting_match_anchors": "李斌_疲惫闭眼 lighting_preference_for_this_expression.preferred"
+  }
+}

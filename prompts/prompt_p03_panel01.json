@@ -1,0 +1,26 @@
+{
+  "panel_id": "p03_panel01",
+  "watermark": "P03-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，客卧门被撞开到 60 度角，门把手位置震动的余光（虚化残影）；门框里妻子半身剪影（侧身），刚跨入门槛；门框外走廊顶灯暖白光打进门内；门缝冷白晨光被撞门动作晃了一下；门板撞到墙上。",
+  "character_anchors_invoked": ["character_妻子.json#base-v1（仅剪影）"],
+  "dialogue_or_narration": [],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "top-right",
+      "text_zh": "砰——",
+      "style": "大号粗体"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot looking from the hallway into the guest-bedroom door being pushed open to about a 60-degree angle by force. The brushed-silver doorknob area shows a faint blurred motion-trail of the impact. In the door frame a half-body silhouette of a slender woman just crossing the threshold, shown in profile. Warm white hallway ceiling light pours in from the doorway. The thin blade of cold white morning light from the door seam visibly shakes from the impact. Cool blue-grey bedroom interior beyond the door. Mood: physical intrusion, the sound barrier just broke. Text watermark 'P03-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, decorative door carvings, daylight streaming in from the side, any furniture in the hallway, second character visible, soft romantic lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 base-v1（剪影，仅侧面轮廓可见）",
+    "lighting_match_anchors": true
+  }
+}

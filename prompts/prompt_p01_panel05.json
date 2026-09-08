@@ -1,0 +1,33 @@
+{
+  "panel_id": "p01_panel05",
+  "watermark": "P01-PN05",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视偏俯 10 度，妻子半转身推开门，一脚已踏入门槛，一脚还在走廊；右手握白色电动牙刷，左手扶在门框上；脸是半脸（侧面 + 1/4 正面）；长直黑发低马尾、珍珠耳钉可见；表情中性，base-v1 默认态（脊背直、下巴微抬）；走廊顶灯背光，头发边缘有暖白光晕。",
+  "character_anchors_invoked": ["character_妻子.json#base-v1"],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-left",
+      "text_zh": "今天，我想用文字直播给大家看。"
+    },
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "mid-left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌，起来。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up tilted down about 10 degrees, framed from inside the dim guest bedroom looking out at the doorway. A 30-something East Asian Chinese woman is half-turning to push the door open, one foot already across the threshold onto the bedroom floor and the other foot still in the hallway. Her right hand grips a white electric toothbrush at chest height. Her left hand rests on the door frame. Her face is shown in three-quarter view (side profile plus a quarter of the front face), visible eyes, eyebrows, and mouth contour without going to full frontal. Long straight black hair tied in a low ponytail, a single pearl stud earring visible. Expression is the neutral base-v1 default posture: spine straight, chin slightly raised, scanning the room. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings. Fluffy-cuff light grey memory-foam house slippers. Hallway ceiling light behind her casts a warm white halo on the edges of her hair. Cool blue-grey bedroom interior in foreground. Hand on the door frame shows a fresh nude-pink gel manicure (small detail, not the focus). Text watermark 'P01-PN05' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling or angry expression (this frame must stay neutral), husband figure visible in the bedroom, decorative hallway art, daylight from a window, any background character",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白色罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 浅灰记忆棉拖鞋）+ face_features 可见项（长直黑发低马尾、珍珠耳钉）+ default_posture（脊背直、下巴微抬）+ 美甲特征（裸粉色凝胶美甲）",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway: backlit by hallway light, hair rim light, face slightly in shadow"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "panel_id": "p02_panel03",
+  "watermark": "P02-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视侧面跟拍，妻子背向镜头方向行走，右手仍举白色电动牙刷，嘴边有淡蓝色牙膏泡沫（细节），低马尾走动中轻摆，步幅稍大，脊背挺直；走廊纵深延伸至客厅方向模糊灯光。",
+  "character_anchors_invoked": ["character_妻子.json#base-v1"],
+  "dialogue_or_narration": [],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "top-right",
+      "text_zh": "嗡——",
+      "style": "小字浅灰色"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level side-tracking medium shot of a 30-something East Asian Chinese woman walking away from camera down a domestic hallway, shot from behind and slightly to her side. Back of her head visible — long straight black hair tied in a low ponytail swaying slightly with each step, a single pearl stud earring catching a glint. Right hand raised at chest height still holding a white electric toothbrush, faint pale-blue toothpaste foam at the corner of her mouth (small detail). Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers. Spine straight, brisk stride, controlled tense posture. The hallway recedes into soft focus in the distance toward the living room with warm dim lighting. Hallway ceiling light uniform warm white along the length, slight depth falloff toward the far end. Mood: a brief withdrawal before the next escalation. Text watermark 'P02-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "face visible to camera, anime proportions, husband in frame, decorative hallway art, daylight from a window, anyone else in the hallway, soft romantic lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 拖鞋）+ face_features 背面可见项（低马尾 + 珍珠耳钉）+ default_posture（脊背直、步伐克制）",
+    "lighting_match_anchors": true
+  }
+}

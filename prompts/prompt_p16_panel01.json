@@ -1,0 +1,30 @@
+{
+  "panel_id": "p16_panel01",
+  "watermark": "P16-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视，妻子坐在电脑椅旁边（接续原文'妻子推开客房门，坐在老哥电脑椅旁边'）；脸 3/4 侧面；表情突然温柔；身体微微前倾（不是俯视，是靠近）。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_突然温柔.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "好了老公，咱们不闹了行吗。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up of a 30-something East Asian Chinese woman sitting beside an office chair in the guest bedroom, body leaning slightly toward the off-frame husband. Sudden soft manipulative expression — eyes softened with the sharp focus of anger replaced by a half-lidded gentle look, eyelids lowered to half-cover the iris and lashes slightly downcast, eyebrows completely relaxed with inner ends no longer pinched, the tension of all other expressions suddenly gone replaced by an unsettling calm, small closed-lip smile with corners lifted gently but only by 2-3 millimeters and lips soft, no flush on cheeks slightly paler than usual, head tilted slightly to the side with chin lowered. Long straight black hair completely down around her shoulders, single pearl stud earring, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top. Warm intimate lamp light from the side with soft glow on face but shadows in the eye sockets. Mood: the first line of the mask, the soft opening. Text watermark 'P16-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "genuine crinkled-eyes warm smile, high blush, eyes crinkled in joy, perfectly symmetrical soft expression, background warmth like flowers or sunset, husband visible in the frame, decorative hallway art, daylight from a window, second character, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features（长直黑发完全散）+ 妻子_突然温柔 expression_signature（眉松 + 嘴小闭唇笑 2-3mm + 眼半盖 + 脸略白 + 头侧倾下巴低）",
+    "lighting_match_anchors": "妻子_突然温柔 lighting_preference_for_this_expression.preferred"
+  }
+}

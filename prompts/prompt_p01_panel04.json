@@ -1,0 +1,26 @@
+{
+  "panel_id": "p01_panel04",
+  "watermark": "P01-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景仰视 20 度斜对角，老哥（李斌）半身，双手正在调整三脚架云台，手指捏着小卡扣；穿宽松灰色棉质圆领T恤略显皱褶；不拍脸；背景虚化白墙墙角。",
+  "character_anchors_invoked": ["character_李斌.json#base-v1"],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-left",
+      "text_zh": "我经常在一些相亲交流会上播放。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Low-angle medium shot tilted up about 20 degrees on a diagonal axis. The camera deliberately frames only from the chest down, not showing the face, of a 30-something East Asian Chinese man. Wearing a loose grey cotton crew-neck t-shirt, slightly wrinkled and faded from many washes. Navy blue plaid pajama pants visible at the waistband. Both hands are adjusting a small quick-release clamp on a tripod head in front of him. Shoulders slightly slumped and neck slightly forward — the man's posture is deflated and quiet. Background a soft-focus plain white wall corner, no decoration. Cool blue-grey ambient light with a slight warm bias from the living room. Quiet, methodical, almost shy mood. Text watermark 'P01-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "the man's face visible, anime proportions, muscular arms, sharp focused background, daylight streaming through window, any female figure in frame, branded logos on the t-shirt, a confident upright posture",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤）+ default_posture（肩膀略塌、脖子略前伸）",
+    "lighting_match_anchors": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "character_id": "wife",
+  "expression_id": "tantrum",
+  "character_name_cn": "妻子",
+  "expression_name_cn": "撒泼",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_妻子.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "half-squeezed shut with tears brimming but not yet falling — wetness pooling at the lower lid, lashes clumped together, eye corners red",
+    "brows": "drawn up and together — the opposite direction of anger, this is the 'about to cry in self-pity' configuration",
+    "mouth": "pushed forward into a trembling pout, lower lip pushed out and quivering, the upper lip curled slightly inward, a child-like protest face, not a snarl",
+    "cheeks": "wet with the first tear tracks, foundation streaked downward with the tear path",
+    "head": "thrown slightly to one side in a 'poor me' tilt, hair in disarray",
+    "overall_impression": "the 'I'm the victim here' face — used on Page 13 (defending her gossip about the friend) and Page 14 ('你要不给我钱要不给我时间要不给我自由，我倒好啥都没捞着')"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_default": "as in base-v1 — fitted cream ribbed long-sleeve knit top + light grey high-waisted yoga leggings",
+    "default_posture_override": "one hand clutching own chest or the sofa cushion, body language turned half-away from husband in theatrical grievance"
+  },
+  "micro_motion": {
+    "static": "half-turned away, one hand on chest, lower lip trembling",
+    "subtle_motion": "a single fat tear rolling down one cheek; shoulders shaking with one fake sob; fingers digging into the sofa cushion; chin quivering",
+    "transition_to": ["生气", "突然温柔"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "warm TV-backlight glow on her face when sitting on sofa, the rest of the room in cool shadow — the artificial warmth frames her 'victim' performance",
+    "avoid": "harsh overhead light — would make the tears look ugly rather than manipulative",
+    "narrative_pairing": "living_room_sofa scene anchor"
+  },
+  "voice_lines_examples": [
+    "我就适合一个人过",
+    "我真是没事找事，还好心喊你起来吃早饭"
+  ],
+  "prompt_snippet_en": "tantrum self-pity expression, eyes half-squeezed shut with tears brimming but not yet falling, wetness pooling at the lower lid and lashes stuck together, eye corners red, eyebrows drawn up and together in the about-to-cry configuration (opposite of anger), mouth pushed forward into a trembling pout with lower lip pushed out and quivering and upper lip curled slightly inward, child-like protest face not a snarl, wet cheeks with first tear tracks and foundation streaked downward along the tear path, head thrown slightly to one side in a poor-me tilt, long straight black hair slightly disheveled with strands loose around face, fitted cream ribbed long-sleeve knit top with one hand clutching the fabric at her own chest, fresh nude-pink manicure visible on clutching hand, pearl stud earrings, body half-turned away in theatrical grievance, warm TV-backlight glow on her face with rest of room in cool shadow, sitting on sofa, Chinese modern comic style, soft cinematic lighting",
+  "do_not_render": [
+    "eyes wide open in anger (this is the opposite configuration)",
+    "snarling mouth (this is pout, not snarl)",
+    "anime-style fountain tears with crossed arms — keep it naturalistic",
+    "perfectly composed hair",
+    "a smirk underneath the tears — that would be '轻蔑', not '撒泼'"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '撒泼'，配合气泡类型 '心理独白' 或 '旁白框' 强化受害者叙事。不得仅写文件名。"
+}

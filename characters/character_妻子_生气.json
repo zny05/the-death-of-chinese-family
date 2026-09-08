@@ -1,0 +1,47 @@
+{
+  "character_id": "wife",
+  "expression_id": "annoyed",
+  "character_name_cn": "妻子",
+  "expression_name_cn": "生气",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_妻子.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "narrowed to slits, sharp focus on the offender, the upper lid pulled down hard to half-cover the iris",
+    "brows": "drawn down and inward at the bridge, forming a clear frown — less extreme than '愤怒', no V-shape, just a settled scowl",
+    "mouth": "closed, lips pressed hard together so the lip color goes pale in the middle, corners pulled slightly downward, jaw visibly clenched",
+    "cheeks": "slight flush, not the deep red of rage",
+    "head": "tilted slightly forward and to the right by 5-10 degrees — the classic 'I'm giving you one chance' head tilt",
+    "overall_impression": "the everyday scolding face — used heavily across Page 2-6 (morning wake-up sequence) and Page 12 (homecoming), this is her default 'mode' for most of the story"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_default": "as in base-v1 — fitted cream ribbed long-sleeve knit top + light grey high-waisted yoga leggings",
+    "default_posture_override": "one hand on hip, the other hand pointing or holding a phone / toothbrush / doorframe"
+  },
+  "micro_motion": {
+    "static": "standing in doorway or by sofa, weight on front foot, ready to advance or retreat",
+    "subtle_motion": "nostrils flare once at the start of a sentence; head shake of two sharp ticks during '你跟我说话什么态度'; one hand pointing finger taps the air twice for emphasis",
+    "transition_to": ["愤怒", "不耐烦", "撒泼"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "harsh morning sun behind her from hallway, backlit hair rim light, face partially in shadow — intimidating doorway silhouette",
+    "avoid": "flat frontal lighting — would soften the scowl",
+    "narrative_pairing": "bedroom_guest_room doorway, kitchen_table_exit_morning, balcony_doorway_pointing"
+  },
+  "voice_lines_examples": [
+    "我跟你说话你当没听见是吧",
+    "什么态度啊，你凶我干嘛呀"
+  ],
+  "prompt_snippet_en": "annoyed everyday scolding expression, eyes narrowed to slits with the upper lid pulled down hard to half-cover the iris, sharp focus on the offender, eyebrows drawn down and inward at the bridge forming a settled scowl (less extreme than rage, no V-shape), mouth closed with lips pressed hard together so the lip color goes pale in the middle, mouth corners pulled slightly downward, jaw visibly clenched, slight flush on cheeks not the deep red of rage, head tilted slightly forward and to the right by 5-10 degrees in the classic one-chance head tilt, long straight black hair tied in a low ponytail at home, fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fresh nude-pink manicure visible on pointing hand, small gold locket at neckline, pearl stud earrings, standing in doorway with weight on front foot, harsh morning sun behind her from the hallway backlighting her hair, face partially in shadow, Chinese modern comic style, soft cinematic lighting",
+  "do_not_render": [
+    "anime anger vein marks (too theatrical)",
+    "open mouth shouting (this is '生气' not '愤怒', mouth stays closed)",
+    "bloodshot eyes (those belong in '愤怒')",
+    "cartoonish vein on forehead",
+    "messy hair — this is a composed, controlled anger"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '生气'。注意：本表情是妻子全本的默认脸，不能与 '愤怒' 混用；吵架高潮必须升级到 '愤怒'，日常数落用 '生气'。不得仅写文件名。"
+}

@@ -1,0 +1,30 @@
+{
+  "panel_id": "p04_panel03",
+  "watermark": "P04-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视略仰（李斌视角望妻子），妻子站立在床边，一只脚略前；单手叉腰，另一只手指向李斌；脸是 3/4 侧面眉压紧嘴闭紧；身后窗帘已开逆光暖白光晕；脚下能看到床沿边缘建立空间关系。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "首先我不知道你昨天晚上加班了，其次，就算加班了，咱能不能早上起来吃点早饭再睡？"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up slightly low-angle from the seated husband's POV looking up at a 30-something East Asian Chinese woman standing at the bedside. One foot slightly forward, body weight on the front foot, one hand on her hip, the other arm extended with index finger pointing down toward the husband on the bed. Face shown in three-quarter side view. Expression: eyebrows drawn down and inward at the bridge forming a hard scowl, eyes narrowed to slits, mouth closed with lips pressed together hard so the lip color goes pale, jaw clenched, slight flush on cheeks, head tilted forward. Long straight black hair tied in a low ponytail, single pearl stud earring visible, small gold locket at neckline. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fresh nude-pink gel manicure visible on the pointing hand. Behind her the curtain has already been pulled open, warm white morning sunlight pours through from the upper right casting a halo on her hair and shoulder line. The bed edge visible at her feet establishes the spatial relationship: she stands, he sits. Mood: physical dominance, the sound returns to silence the husband. Text watermark 'P04-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in bed, decorative bedroom art, daylight from a side window, second character, soft flattering lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤）+ face_features（低马尾 + 珍珠耳钉 + 锁骨链 + 裸粉美甲）+ 妻子_生气 expression_signature（蹙眉 + 眯缝眼 + 嘴闭紧咬紧 + 下颌咬肌 + 头部前倾）+ 单手叉腰 + 手指点姿",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway（背后窗帘暖白逆光 + 头发肩线光晕）"
+  }
+}

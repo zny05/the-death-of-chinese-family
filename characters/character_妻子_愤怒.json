@@ -1,0 +1,47 @@
+{
+  "character_id": "wife",
+  "expression_id": "rage",
+  "character_name_cn": "妻子",
+  "expression_name_cn": "愤怒",
+  "version": "expression-v1",
+  "created": "2026-09-05",
+  "inherits_from": "characters/character_妻子.json#base-v1",
+  "style_anchor": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, restrained chiaroscuro, slice-of-life interior drama, naturalistic character proportions, muted warm-cool palette",
+  "expression_signature": {
+    "eyes": "wide open, both upper and lower lids pulled back exposing a thin ring of white sclera around the iris, pupils fixed hard on the target, eyebrows pulled down and inward so they nearly touch at the bridge",
+    "brows": "sharply drawn down and pinched inward — the classic 'V' of anger, sharper and more aggressive than the '生气' anchor which is just a frown",
+    "mouth": "open mid-shout, upper and lower teeth visible, lips pulled back into a snarl that just barely stops short of showing gums, corners pulled back toward the ears",
+    "cheeks": "flushed red from neck up to the ears, foundation streaked slightly at the jaw from heat",
+    "neck": "veins visible at the temples and along the sternocleidomastoid muscle, head thrust forward",
+    "overall_impression": "the face of a woman who has lost the argument she started — used only on Page 15 (pillow-throw / '给我起来！') and Page 16 (birthday phone-snatch), the story's two physical violence peaks"
+  },
+  "inherit_from_base": {
+    "demographics": "as in base-v1",
+    "face_features": "as in base-v1",
+    "wardrobe_default": "fitted cream ribbed long-sleeve knit top + light grey high-waisted yoga leggings at home (or charcoal A-line midi skirt if she's about to go out)",
+    "default_posture_override": "spine rigid, head thrust forward toward target, one hand already in motion (slapping / grabbing / pointing)"
+  },
+  "micro_motion": {
+    "static": "standing over the target, chest heaving, right hand raised or clenched",
+    "subtle_motion": "hair loosened from ponytail, strands sticking to sweaty temple; manicured fingers curled into a claw; chest heave visible under ribbed top; spit particles at the corner of the mouth when shouting",
+    "transition_to": ["撒泼", "生气"]
+  },
+  "lighting_preference_for_this_expression": {
+    "preferred": "single overhead ceiling light from behind camera — she becomes the bright source casting her shadow forward onto the husband, the room otherwise dark",
+    "avoid": "soft window light or any flattering glow — this face is meant to be unflattering",
+    "narrative_pairing": "bedroom_guest_room doorway or over husband's seated shoulder"
+  },
+  "voice_lines_examples": [
+    "给我起来！！",
+    "别碰我手机！"
+  ],
+  "prompt_snippet_en": "rage expression at peak intensity, eyes wide open with both upper and lower lids pulled back exposing a thin ring of white sclera around the iris, pupils fixed hard on the target, eyebrows sharply drawn down and pinched inward nearly touching at the bridge, mouth open mid-shout with upper and lower teeth visible and lips pulled back into a snarl just short of showing gums, mouth corners pulled back toward the ears, cheeks flushed red from neck up to the ears with foundation streaked slightly at the jaw from heat, visible veins at the temples and along the neck, head thrust forward, long straight black hair loosened from ponytail with strands sticking to sweaty temple, fitted cream ribbed long-sleeve knit top, fresh nude-pink manicure visible on raised right hand, pearl stud earrings still in place, single overhead ceiling light from behind camera casting her shadow forward onto husband below, room otherwise dark, Chinese modern comic style, soft cinematic lighting, emotional weight",
+  "do_not_render": [
+    "cute anime anger marks like # # # cross veins on forehead",
+    "perfectly styled hair — this is broken loose from its ponytail",
+    "tears (this is rage, not sadness)",
+    "symmetrical cute anime proportions — keep her naturalistic",
+    "smile of any kind, even a smirk"
+  ],
+  "usage_note_for_step_4_5_6": "引用本表情时，Step 4/5/6 必须把 `prompt_snippet_en` 整体作为人物描述嵌入，并在面板说明里复述中文语义 '愤怒'，并显式注明 '全书只用 2 次：Page 15 枕头戏、Page 16 抢手机戏'，不要在日常数落场景滥用此表情。不得仅写文件名。"
+}

@@ -1,0 +1,30 @@
+{
+  "panel_id": "p02_panel02",
+  "watermark": "P02-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子站立客卧门外，一脚略前一脚略后，右手举着白色电动牙刷带蓝绿色刷头，左手自然垂身侧；侧面 + 1/4 正面，表情生气；米色墙壁白色踢脚线背景。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top-left",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌，起来。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese woman standing in a hallway just outside a closed guest-bedroom door. One foot slightly forward, weight on the front foot. Right hand raised holding a white electric toothbrush with a blue-green brush head. Left arm relaxed at her side. Face shown in three-quarter view (side profile plus a quarter of the front), looking toward the door not at camera. Expression: annoyed everyday scolding — eyes narrowed to slits with upper lid pulled down to half-cover the iris, eyebrows drawn down and inward at the bridge forming a settled scowl, mouth closed with lips pressed hard together so the lip color goes pale in the middle and corners pulled slightly downward, jaw visibly clenched, slight flush on cheeks, head tilted slightly forward and to the right by 5-10 degrees in the classic one-chance head tilt. Long straight black hair tied in a low ponytail, a single pearl stud earring visible. Fitted cream ribbed long-sleeve knit top tucked into light grey high-waisted yoga leggings, fluffy-cuff light grey memory-foam house slippers, fresh nude-pink gel manicure visible on the right hand holding the toothbrush, small gold locket at neckline. Background: plain beige hallway wall and white skirting board. Hallway ceiling light from upper right, warm white rim light on hair edges, face partially in shadow. The mood is the first call of the morning — already firm. Text watermark 'P02-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband figure visible behind the door, decorative hallway art, daylight from a window, any background character, cute anger vein marks on forehead",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白色罗纹长袖针织衫 + 浅灰高腰瑜伽裤 + 浅灰记忆棉拖鞋）+ face_features（长直黑发低马尾 + 珍珠耳钉 + 裸粉色凝胶美甲）+ 妻子_生气 expression_signature（眯缝眼 + 蹙眉 + 嘴闭紧咬紧 + 下颌咬肌 + 头部右倾 5-10 度）+ lighting_preference.morning_bedroom_doorway（走廊顶灯背光 + 头发暖白光晕）",
+    "lighting_match_anchors": true
+  }
+}

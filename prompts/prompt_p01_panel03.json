@@ -1,0 +1,26 @@
+{
+  "panel_id": "p01_panel03",
+  "watermark": "P01-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，从客卧内部望向门口；客卧敞开的门，门外走廊亮着顶灯；门框正中一个黑色女性剪影站立，长直发、低马尾、纤细身形；剪影一只手持牙刷；门下拖鞋投下短影；门右侧一线冷白晨光从窗帘缝透入。",
+  "character_anchors_invoked": ["character_妻子.json#base-v1 (仅剪影轮廓, 不暴露面部/美甲/配饰)"],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-right",
+      "text_zh": "因为经典程度堪称艺术，"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot viewed from inside a dark guest bedroom looking out through an open doorway into a brightly lit hallway. Centered in the doorway stands a tall female silhouette in full black against the bright hallway ceiling light behind her. Silhouette shape: long straight black hair tied in a low ponytail, slim petite build, fitted long-sleeve top tucked into high-waisted leggings, fluffy-cuff house slippers. One arm raised to chest height holding a thin toothbrush shape. Face details entirely obscured by the backlight silhouette treatment. A short shadow of the slippers falls on the hallway floor. A thin blade of cold white morning light cuts through the bedroom curtain seam on the right side of the frame. Cool blue-grey bedroom interior, warm white hallway light. Documentarian mood, doorway-as-threshold tension. Text watermark 'P01-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "any visible face details on the silhouette, anime proportions, bright daylight bedroom, decorative hallway art, smiling figure, approaching figure (she is stationary), any second character in frame",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default 轮廓（长直发低马尾 + 修身长袖 + 高腰瑜伽裤 + 拖鞋）",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.morning_bedroom_doorway: backlit by hallway light, hair rim light, face slightly in shadow"
+  }
+}

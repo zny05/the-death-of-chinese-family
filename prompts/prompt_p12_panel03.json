@@ -1,0 +1,30 @@
+{
+  "panel_id": "p12_panel03",
+  "watermark": "P12-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 俯视 60 度中近景，模拟上帝视角看妻子在屋里乱窜；中央妻子快步冲进主卧室（大门敞开）；身影拉长（俯视下身体被压扁）；速度线在她身后；主卧的床、电视柜、衣柜虚化。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_alt.yoga_class_returned）",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "卧室也没人呀。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. High-angle 60-degree overhead shot looking down at a 30-something East Asian Chinese woman striding fast into the master bedroom through a wide-open door, the body foreshortened by the downward angle. Yoga-class-returned outfit: sage green zip-up jacket, charcoal grey leggings, the white sneakers still on her feet. Face seen from above in a compressed three-quarter view, the scowl visible. Long straight black hair in a loosened high ponytail with strands flying from her fast motion. Single pearl stud earring. One hand holds the plastic snack bag, the other arm swinging with her stride. Behind her several speed lines trail back toward the door she came through. The master bedroom is shown with the bed, a low TV cabinet, and a wardrobe all visible from above but slightly soft-focus. Warm yellow-white ceiling light from above. Mood: she is not looking for him she is searching him, the surveillance has gone vertical. Text watermark 'P12-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the bedroom, decorative bedroom art, daylight from a window, second character, bloodshot eyes, romantic soft lighting, eye-level shot (this must be high angle)",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_alt.yoga_class_returned + 妻子_生气 + motion_anchors.door_slam_or_throw_pillow 预备（快步冲 + 一手零食袋）",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.evening_living_room"
+  }
+}

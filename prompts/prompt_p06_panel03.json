@@ -1,0 +1,27 @@
+{
+  "panel_id": "p06_panel03",
+  "watermark": "P06-PN03",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视（穿衣镜前），妻子已换上瑜伽出门装：黑色运动内衣 + 鼠尾草绿拉链外套（半拉上）+ 炭灰色瑜伽裤 + 白色运动鞋（替代拖鞋）；长直黑发高马尾（不是低马尾）；一只手正在拉外套拉链另一只手扶在腰上；正在看镜子（脸是 3/4 侧面，眼睛望向画面外的镜子）；旁边瑜伽垫（卷起来的，露出肩带）。",
+  "character_anchors_invoked": ["character_妻子.json#base-v1（wardrobe_alt.yoga_class_going_out）"],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "top-right",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_chinese": "什么去干嘛呀，啥都问。我上次不是跟你说了吗？跟我朋友团了一张瑜伽馆的年卡。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot framed as if the viewer is standing in front of a mirror in the entryway, showing a 30-something East Asian Chinese woman in her going-out-to-yoga outfit. Black sports bra layered under a sage green zip-up jacket with the zipper half-pulled-up, charcoal grey high-waisted leggings, white sneakers (replacing the house slippers), long straight black hair pulled into a high ponytail (not the usual low ponytail), single pearl stud earring, small gold locket at neckline, fresh nude-pink gel manicure visible on both hands. One hand is actively pulling the jacket zipper up, the other hand rests on her hip. Her face shown in three-quarter side view, eyes looking off-frame toward where the mirror would be, examining her own reflection. Beside her on the floor a rolled-up yoga mat with its carrying strap visible. Entryway light warm white from above. Mood: the transformation, the public self replacing the private scolding self. Text watermark 'P06-PN03' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the frame, decorative hallway art, daylight from a window, second character, casual home clothes (she has already changed)",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_alt.yoga_class_going_out（黑色运动内衣 + 鼠尾草绿拉链外套 + 炭灰瑜伽裤 + 白色运动鞋 + 高马尾）+ face_features（珍珠耳钉 + 锁骨链 + 裸粉美甲）+ motion_anchors.adjusting_outfit_before_yoga（拉拉链 + 另一手理头发）",
+    "lighting_match_anchors": true
+  }
+}

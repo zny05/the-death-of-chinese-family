@@ -1,0 +1,27 @@
+{
+  "panel_id": "p03_panel04",
+  "watermark": "P03-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中近景平视偏俯 10 度，妻子背对镜头站立在窗前，双手高举抓住米白色遮光帘的两边，手部位置约在胸部高度；右手可见裸粉色凝胶美甲；低马尾垂在背中央；肩胛骨因抓帘子凸出，背部线条紧绷；窗帘尚未被扯开，缝里漏出几道细晨光。",
+  "character_anchors_invoked": ["character_妻子.json#base-v1"],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "top-left",
+      "tail_pointing": "妻子的嘴部方向（背影侧）",
+      "text_zh": "看这屋里给你造的，这一股味儿啊。窗帘也不开，拖鞋也乱扔，真服了你了。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up tilted down about 10 degrees, showing the back view of a 30-something East Asian Chinese woman standing right in front of a closed beige blackout curtain in the guest bedroom. Both hands raised gripping the curtain edges at about chest height, palms curled around the fabric, fresh nude-pink gel manicure clearly visible on the right hand. Long straight black hair tied in a low ponytail hanging down the center of her back. Shoulder blades visibly tense and protruding from the gripping effort, spine straight, body weight on the front foot. Fitted cream ribbed long-sleeve knit top with the fabric slightly stretched at the shoulders, light grey high-waisted yoga leggings. The curtain is still closed but several thin slivers of cold white morning light leak through the seam between the curtain panels. Mood: the calm before the burst, the coil is wound. Text watermark 'P03-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, face visible to camera, smiling, husband visible in bed, decorative bedroom art, bright daylight interior, second character, soft romantic lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default（紧身奶白罗纹长袖针织衫 + 浅灰高腰瑜伽裤）+ face_features 背面可见项（低马尾 + 裸粉美甲）+ motion_anchors.pulling_curtain_open 准备态（双手抓帘 V 字预备 + 重心前脚 + 肩胛紧绷）+ scene_anchors.bedroom_guest_room 窗帘",
+    "lighting_match_anchors": true
+  }
+}

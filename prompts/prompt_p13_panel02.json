@@ -1,0 +1,31 @@
+{
+  "panel_id": "p13_panel02",
+  "watermark": "P13-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子倾身向前；表情委屈（眉上挑反向、嘴撅起颤、一脸被欺负）；头发完全散。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1",
+    "character_妻子_撒泼.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "我是真看出来了，xx就是一个贱人。之前就是我眼瞎，没看出她到底是什么货色。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot of a 30-something East Asian Chinese woman on the grey sofa leaning her body forward toward the camera, weight on the front edge of the cushion. Tantrum self-pity expression, wetness pooling at the lower lid and lashes stuck together, eye corners red, eyebrows drawn up and together in the about-to-angry configuration (opposite of anger direction), mouth pushed forward into a trembling pout with lower lip pushed out and quivering, upper lip curled slightly inward, child-like protest face not a snarl. Long straight black hair completely down, single pearl stud earring, small gold locket at neckline. fresh nude-pink gel manicure visible. The other hand clutching her own chest through the fabric. Warm yellow-white living room light, the TV-backlight glow soft behind her. Mood: the victim mask, the 'I am the wounded one' face. Text watermark 'P13-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "eyes wide open in anger, snarling mouth, anime-style fountain tears with crossed arms, perfectly composed hair, smirk underneath the tears, husband visible in the frame, decorative hallway art, daylight from a window, second character, friend/girlfriend character visible, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_default + face_features（长直黑发完全散）+ 妻子_撒泼 expression_signature（眼半挤泪 + 眉上挑反向 + 嘴撅颤 + 一手叉胸）+ motion_anchors（手指指向）",
+    "lighting_match_anchors": "妻子_撒泼 lighting_preference_for_this_expression.preferred（电视背光暖白 + 室内冷阴影）",
+    "girlfriend_protocol": "闺蜜 'xx' 仅通过对白匿名提及，永不进画面"
+  }
+}

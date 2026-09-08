@@ -1,0 +1,45 @@
+{
+  "panel_id": "p07_panel01",
+  "watermark": "P07-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "⭐ 整页不分格（splash page），平视室内全景。画面上半部客厅天花板吊灯、白色墙壁、关上的门；中部李斌站在厨房料理台前，一只手悬在一杯绿色糊状物（羽衣甘蓝粉）上方（决策瞬间）；下半部地板上一滴绿色液体（伏笔）。整体空旷安静只有李斌一人。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1",
+    "scene_anchors.kitchen_table + scene_anchors.living_room_sofa"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-right",
+      "text_zh": "（随后视频开始陷入无声状态）"
+    }
+  ],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "top-left",
+      "text_zh": "砰——",
+      "style": "大号粗体"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions, muted warm-cool palette. Full-page splash illustration, no panel divisions, a single calm domestic interior scene of the husband alone after the wife has left. The frame is vertically composed in three bands: upper third shows a closed apartment entry door against a plain white wall with a small ceiling light fixture, the closed door carrying the just-now weight of the wife's departure. Middle third shows the husband standing at a small kitchen counter in profile, head slightly bowed, one hand hovering over a clear glass containing an opaque light green vegetable powder mixture (the kale powder from the script), the gesture is the suspended decision of whether to pour it out or drink it. He wears a loose grey cotton crew-neck t-shirt slightly wrinkled at the waistband, navy blue plaid pajama pants, fluffy-cuff light grey slippers. Speechless exhausted expression, eyes half-lidded looking unfocused at the green mixture, eyebrows flat, lips pressed together, two-to-three-day stubble shadow on the jaw, dark circles under the eyes, short black slightly messy side-swept hair. Lower third shows the bottom of the counter and a single small drop of the green liquid on the floor tile, a foreshadow of the pour. Soft natural morning window light from the upper right casting a quiet glow on the scene. The entire page has no people except him, no speech, no narration visible except the small watermark text and the off-frame narration hint at the top. Mood: the first breath of the book, the house is empty and quiet, the husband stands alone with his kale powder and his silence. Text watermark 'P07-PN01' in the bottom-right corner placed where it does not obscure the central suspended hand and glass.",
+  "negative_prompt_en": "anime proportions, smiling, wife visible in frame, second character, decorative hallway art, daylight streaming in through windows, romantic soft lighting, kaleidoscopic colors, dramatic shadows, manga speed lines",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 两天胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤 + 浅灰拖鞋）+ default_posture（肩膀略塌）+ motion_anchors.pouring_cabbage_powder（手悬在杯子上方）+ 李斌_无语 expression_signature（眼半睁不聚焦 + 眉平 + 嘴闭紧）+ scene_anchors.kitchen_table + scene_anchors.living_room_sofa",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred（平光 + 厨房自然光，无戏剧化阴影）",
+    "splash_page_metadata": {
+      "panel_type": "full_page_splash",
+      "panel_count_for_page": 1,
+      "panel_naming_convention": "整页不分格，但 panel_id 沿用 p07_panel01 与多格页结构对齐",
+      "watermark_naming": "页面级唯一水印 P07-PN01",
+      "first_splash_in_book": true,
+      "narrative_function": "全本第一个呼吸页，Act Ⅱ 收官"
+    }
+  }
+}

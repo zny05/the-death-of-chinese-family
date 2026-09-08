@@ -1,0 +1,26 @@
+{
+  "panel_id": "p01_panel01",
+  "watermark": "P01-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "全景俯视，客厅一角，架在三脚架上的小型摄像机，镜头朝向客卧门口，镜头有微弱反光，反光里隐约映出房间局部；地面有折叠灰毯、空烟灰缸、未开封可乐罐；门缝透出一线冷白晨光；整个画面几乎接近黑白。",
+  "character_anchors_invoked": [],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "top-left",
+      "text_zh": "这是一个离异老哥提供的自制视频。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. High-angle overhead establishing shot of a small consumer camcorder mounted on a tripod in the corner of a modest Chinese apartment living room. The camera lens faces a closed guest-bedroom door in the lower-right of the frame. A faint reflection glints on the camera lens, the reflection hinting at the room's interior without showing clear detail. On the floor beside the tripod sit a folded grey blanket, an empty glass ashtray, and an unopened red-and-white soda can. The guest-bedroom door seam leaks a thin blade of cold white morning light. The rest of the room is dim and near-monochrome cool blue-grey. Near-black overall, only two faint light sources. Documentary surveillance mood. Text watermark 'P01-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "people in frame, anime proportions, exaggerated lighting, daylight interior, bright living room, decorative plants, family photos on walls, any readable brand logos on the camcorder",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "no characters in this panel — anchors not invoked",
+    "lighting_match_anchors": true
+  }
+}

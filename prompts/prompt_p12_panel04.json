@@ -1,0 +1,30 @@
+{
+  "panel_id": "p12_panel04",
+  "watermark": "P12-PN04",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子冲进客卧（客卧门大开）；床上的海军蓝被子、白枕头；她的脸是 3/4 侧面；头发已经更散了；嘴里喘着气。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_alt.yoga_class_returned）",
+    "character_妻子_生气.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "客卧也没有……"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot looking from the door of the guest bedroom inward as a 30-something East Asian Chinese woman stands in the middle of the room having just rushed in, the door wide open behind her. Yoga-class-returned outfit: sage green zip-up jacket, charcoal grey leggings, white sneakers. Face shown in three-quarter side view, scowl locked in, eyebrows drawn down and inward, eyes narrowed scanning the room, mouth slightly open mid-breath. Long straight black hair in a now very loosened high ponytail with multiple strands escaped around the face. Single pearl stud earring visible, small gold locket at neckline. The unmade guest bed with navy blue duvet and white pillow is visible to her left. The room is empty, no husband in sight. Warm yellow-white ceiling light. Mood: the second empty room, the suspicion is climbing. Text watermark 'P12-PN04' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the room, decorative hallway art, daylight from a window, second character, bloodshot eyes, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_alt.yoga_class_returned + face_features（高马尾更松散）+ 妻子_生气 + scene_anchors.bedroom_guest_room",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.evening_living_room"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "panel_id": "p12_panel01",
+  "watermark": "P12-PN01",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，妻子刚推门进家（瑜伽归来装）；脸微红（瑜伽后血色）；高马尾但已经松散（有几缕掉下来）；手里提着一个塑料零食袋；脸 3/4 侧面，能看到蹙眉；身后门外的走廊光。",
+  "character_anchors_invoked": [
+    "character_妻子.json#base-v1（wardrobe_alt.yoga_class_returned）",
+    "character_妻子_生气.json#expression-v1（带倦版）"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "矩形对话框",
+      "speaker": "妻子",
+      "position": "right",
+      "tail_pointing": "妻子的嘴部方向",
+      "text_zh": "李斌，不用想我都知道你这一天又干嘛，打游戏，还能有什么事呦，人家老公有点空闲时间，都知道去跑跑滴滴，送外卖，再不济也知道网上找找兼职。都想法子钻研赚钱，你到好……整天就是知道打游戏打游戏，钻他妈那游戏里面，那家里不用我说，肯定又是……"
+    }
+  ],
+  "sfx": [
+    {
+      "type": "音效字",
+      "position": "top-left",
+      "text_zh": "砰——（开门）",
+      "style": "中号粗体"
+    }
+  ],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium shot from inside the apartment looking toward the entryway as a 30-something East Asian Chinese woman has just pushed the front door open and is stepping in. Yoga-class-returned outfit: black sports bra layered under a sage green zip-up jacket, charcoal grey high-waisted leggings, white sneakers (not yet changed into house slippers). Face shown in three-quarter side view, the cheeks slightly flushed from the yoga workout, the high ponytail already loosened with a few strands escaped around the face. Expression: eyebrows drawn down and inward at the bridge in a scowl, eyes narrowed, mouth closed, jaw clenched, a slightly tired edge to the anger. Long straight black hair mostly tied in a high ponytail with loose strands, single pearl stud earring visible, small gold locket at neckline. One hand holds a translucent plastic snack bag with a few items inside, the other hand still on the door handle. Behind her the dim hallway ceiling light. Warm white entryway light, slightly yellow-shifted to indicate evening at about 8:15pm. Mood: the return, the resuming of command, the second long speech of the day begins. Text watermark 'P12-PN01' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, full frontal face shot, smiling, husband visible in the room, decorative hallway art, daylight from a window, second character, bloodshot eyes, anime anger vein marks, romantic soft lighting",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "妻子 wardrobe_alt.yoga_class_returned（黑色运动内衣 + 鼠尾草绿拉链外套 + 炭灰瑜伽裤 + 白色运动鞋 + 脸微红 + 高马尾松散 + 塑料零食袋）+ face_features（珍珠耳钉 + 锁骨链）+ 妻子_生气 带倦版（蹙眉 + 眯缝眼 + 嘴闭紧咬紧）",
+    "lighting_match_anchors": "妻子 base-v1 lighting_preference.evening_living_room（暖白偏黄）"
+  }
+}

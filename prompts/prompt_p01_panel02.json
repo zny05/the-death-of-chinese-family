@@ -1,0 +1,26 @@
+{
+  "panel_id": "p01_panel02",
+  "watermark": "P01-PN02",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "中景平视，客卧床头柜上的电子闹钟，绿色数字显示 07:45 略微过曝；旁边半空玻璃水杯、白色充电线盘成圈；浅景深，时钟清晰背景虚化。",
+  "character_anchors_invoked": [],
+  "dialogue_or_narration": [
+    {
+      "type": "旁白框",
+      "speaker": "MC 鲁迅",
+      "position": "bottom-left",
+      "text_zh": "记录了他婚前一整天的生活。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level medium close-up with shallow depth of field on a small round LED alarm clock sitting on a plain wooden nightstand. The clock screen glows green and clearly reads 07:45, the digits slightly overexposed for emphasis. Beside the clock: a half-empty clear glass of water and a white charging cable neatly coiled into a circle. Background wood grain of the nightstand softly blurred. Cool blue-grey ambient bedroom light, the clock screen is the only warm green light source. Text watermark 'P01-PN02' in the bottom-right corner.",
+  "negative_prompt_en": "people in frame, anime style, smartphone showing the time instead of a clock, watches or wristwatches, daylight streaming in, decorative bed frame in view, romantic bedroom mood",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "no characters in this panel — anchors not invoked",
+    "lighting_match_anchors": true
+  }
+}

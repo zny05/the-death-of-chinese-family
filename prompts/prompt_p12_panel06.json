@@ -1,0 +1,30 @@
+{
+  "panel_id": "p12_panel06",
+  "watermark": "P12-PN06",
+  "version": "v1",
+  "created": "2026-09-05",
+  "panel_description_zh": "近景平视，李斌坐在沙发上（和 Page 08/09 同位置）；表情无语；眼睛半睁，目光望向中景的墙（不看她）；妻子在画面外（刚发现他坐在沙发上）。",
+  "character_anchors_invoked": [
+    "character_李斌.json#base-v1",
+    "character_李斌_无语.json#expression-v1"
+  ],
+  "dialogue_or_narration": [
+    {
+      "type": "对话框",
+      "speaker": "妻子",
+      "position": "top",
+      "tail_pointing": "画面外",
+      "text_zh": "不对劲，不对劲不对劲。啥情况啊，李斌。"
+    }
+  ],
+  "sfx": [],
+  "prompt_en": "Chinese modern comic style, contemporary urban realism, soft cinematic lighting, naturalistic proportions. Eye-level close-up of the 30-something East Asian Chinese husband sitting on the grey fabric sofa in the same position as page 08 and 09, the wife's frantic search just now ending here. Speechless exasperated expression — eyes half-lidded with slightly unfocused gaze looking past the camera at a middle-distance point on the wall (not making eye contact with the wife who has just spotted him), eyebrows flat and expressionless, mouth closed with lips pressed together and a tiny breath between them, slight asymmetry with the left corner a millimeter lower than the right, head level facing forward but eyes off-target. Dark circles under the eyes, clean-shaven jaw with no stubble, short black slightly messy side-swept hair. Wearing a loose grey cotton crew-neck t-shirt and navy blue plaid pajama pants. The plastic snack bag she has been carrying is presumably now being set down. Warm yellow-white living room light. Mood: the irony peak of the page, she searched every room while he sat in the same place the whole time. Text watermark 'P12-PN06' in the bottom-right corner.",
+  "negative_prompt_en": "anime proportions, open mouth as if speaking, eye-roll visible, sigh lines or cartoonish exasperation marks, wife visible in the frame, decorative hallway art, daylight from a window, second character, romantic soft lighting, dramatic shadows",
+  "render_constraints_check": {
+    "no_aspect_ratio_flag": true,
+    "watermark_present": true,
+    "style_anchor_referenced": true,
+    "character_anchors_referenced_inline": "李斌 face_features（短黑发 + 干净无胡渣 + 黑眼圈）+ wardrobe_default（宽松灰色棉质圆领T恤 + 海军蓝格子睡裤）+ default_posture + 李斌_无语 expression_signature + scene_anchors.living_room_sofa",
+    "lighting_match_anchors": "李斌_无语 lighting_preference_for_this_expression.preferred"
+  }
+}
