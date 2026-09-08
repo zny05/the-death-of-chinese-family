@@ -9,6 +9,12 @@
 - **Theme**: The erosion of marriage's appeal to young people, explored through quiet, detailed domestic moments rather than dramatic conflict
 - **Adaptation Style**: Realistic comic journalism — using the "comic journal" format to transform real-life marital observations into a visual narrative
 
+### 项目来源
+
+- **原文链接**：[婚姻制度在年轻人眼中为何失去吸引力？](https://www.zhihu.com/question/2064210525970608692/answer/2078428412390139392)
+- **作者**：MC鲁迅（婚恋从业纪实作者）
+- **主题**：通过细腻的 domestic 细节探讨婚姻对年轻人的吸引力如何流失，不依靠戏剧冲突，只展现“婚姻平淡日子里的暗流”
+
 ## 🎨 Project Overview
 
 This project adapts MC鲁迅's marriage observations into a **19-page manga** (including cover) that explores marital dynamics through:
@@ -27,6 +33,24 @@ The adaptation follows a complete 6-step workflow:
 5. **Nano Banana 2 Prompt Engineering** — 37 generation prompts with watermarks, style keywords, and composition rules
 6. **Visual Style Guide** — Consistent aesthetics across all pages
 
+### 项目概览
+
+本项目将 MC鲁迅的婚姻观察改编为 **19页漫画**（含封面），通过以下方式叙事：
+
+- **安静的观察叙事** — 无高 volume争吵，无暴力，只有“精神折磨的细小而可怕的刺”
+- **家庭空间作为角色** — 家 itself 成为一个角色，通过重复的空间元素营造氛围
+- **时间作为结构装置** — 单日（7:45 AM 至 8:15 PM）划分为 5 个叙事 Act
+- **极简视觉风格** — 国际漫画风格，柔和电影光影，调和的暖冷色调
+
+本项目遵循完整的 6 步工作流：
+
+1. **架构与铺排** — 叙事结构、页数、视觉节奏（`story_pacing_plan.md`）
+2. **人物一致性** — 基于 JSON 的人物锚点，用于 李斌 和 妻子（表情、情绪、特质）
+3. **逐页拆解分镜** — 22 页带有面板 composition 和 visual重心
+4. **每格细节处理** — 58 个面板带有 composition、人物表现和 text 元素
+5. **Nano Banana 2 提示词工程** — 37 个 generation 提示词带有 watermarks、style keywords 和 composition rules
+6. **视觉风格指南** — 全页一致的美学
+   
 ## 📁 Repository Structure
 
 ```
@@ -62,70 +86,6 @@ The adaptation follows a complete 6-step workflow:
     ├── prompt_p01_panel01.json - prompt_p01_panel06.json  # Panel prompts
     └── ... (p02-p18 prompts)
 ```
-
-## ⚙️ Workflow
-
-The project follows a standardized 6-step SOP documented in `CLAUDE.md`:
-
-1. **Step 1** — Architecture & pacing plan (`story_pacing_plan.md`)
-2. **Step 2** — Character consistency JSON anchors
-3. **Step 3** — Stage-by-stage implementation
-4. **Step 4** — Page-level breakdown (`pages/page_NN.md`)
-5. **Step 5** — Panel-level detailing (`panels/p[页码]_panel[分格号].md`)
-6. **Step 6** — Nano Banana 2 prompt generation (`prompts/prompt_p[页码]_panel[分格号].json`)
-
-**Key constraints**:
-- No `--ar` ratio specifications (Nano Banana 2 unified)
-- Fixed watermark: `生成页码-分格序号` in corner
-- All prompt content references Step 2 JSON (no filename/link references)
-- Page pacing: 18 pages + 1 cover spread = 19 page units
-
-## 🛠️ Technical Details
-
-- **Art Style**: 国漫·现代都市 (Chinese modern comic style)
-- **Color Temperature**: 偏冷 (cool bias — 卧室偏蓝灰, 客厅偏暖白, 夜场偏青黑)
-- **Nano Banana 2 Format**: JSON with `text watermark 'P01-PN01' in the corner`
-- **Page Count**: 19 pages (18 content + 1 cover spread)
-- **Characters**: 李斌 (husband, 30s, fatigued silence), 妻子 (wife, strong, control-oriented), MC鲁迅 (author/narrator, appears later)
-
-## 📜 License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
-## 🙏 Acknowledgments
-
-- Original article author: MC鲁迅
-- All character observations drawn from real marital dynamics
-- Inspired by the "slice-of-life" manga journalism tradition
-
----
-
-## 📖 中文文档
-
-### 项目来源
-
-- **原文链接**：[婚姻制度在年轻人眼中为何失去吸引力？](https://www.zhihu.com/question/2064210525970608692/answer/2078428412390139392)
-- **作者**：MC鲁迅（婚恋从业纪实作者）
-- **主题**：通过细腻的 domestic 细节探讨婚姻对年轻人的吸引力如何流失，不依靠戏剧冲突，只展现“婚姻平淡日子里的暗流”
-
-### 项目概览
-
-本项目将 MC鲁迅的婚姻观察改编为 **19页漫画**（含封面），通过以下方式叙事：
-
-- **安静的观察叙事** — 无高 volume争吵，无暴力，只有“精神折磨的细小而可怕的刺”
-- **家庭空间作为角色** — 家 itself 成为一个角色，通过重复的空间元素营造氛围
-- **时间作为结构装置** — 单日（7:45 AM 至 8:15 PM）划分为 5 个叙事 Act
-- **极简视觉风格** — 国际漫画风格，柔和电影光影，调和的暖冷色调
-
-本项目遵循完整的 6 步工作流：
-
-1. **架构与铺排** — 叙事结构、页数、视觉节奏（`story_pacing_plan.md`）
-2. **人物一致性** — 基于 JSON 的人物锚点，用于 李斌 和 妻子（表情、情绪、特质）
-3. **逐页拆解分镜** — 22 页带有面板 composition 和 visual重心
-4. **每格细节处理** — 58 个面板带有 composition、人物表现和 text 元素
-5. **Nano Banana 2 提示词工程** — 37 个 generation 提示词带有 watermarks、style keywords 和 composition rules
-6. **视觉风格指南** — 全页一致的美学
-
 ### 📁 仓库结构
 
 ```markdown
@@ -162,6 +122,23 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
     └── ... (p02-p18 prompts)
 ```
 
+## ⚙️ Workflow
+
+The project follows a standardized 6-step SOP documented in `CLAUDE.md`:
+
+1. **Step 1** — Architecture & pacing plan (`story_pacing_plan.md`)
+2. **Step 2** — Character consistency JSON anchors
+3. **Step 3** — Stage-by-stage implementation
+4. **Step 4** — Page-level breakdown (`pages/page_NN.md`)
+5. **Step 5** — Panel-level detailing (`panels/p[页码]_panel[分格号].md`)
+6. **Step 6** — Nano Banana 2 prompt generation (`prompts/prompt_p[页码]_panel[分格号].json`)
+
+**Key constraints**:
+- No `--ar` ratio specifications (Nano Banana 2 unified)
+- Fixed watermark: `生成页码-分格序号` in corner
+- All prompt content references Step 2 JSON (no filename/link references)
+- Page pacing: 18 pages + 1 cover spread = 19 page units
+
 ### ⚙️ 工作流
 
 项目遵循 `CLAUDE.md` 中规定的标准化 6 步 SOP：
@@ -179,6 +156,14 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 - 所有提示词内容引用 Step 2 JSON（不使用"文件名"或"文件链接"引用）
 - 页铺排：18 页 + 1 封面跨页 = 19 页单位
 
+## 🛠️ Technical Details
+
+- **Art Style**: 国漫·现代都市 (Chinese modern comic style)
+- **Color Temperature**: 偏冷 (cool bias — 卧室偏蓝灰, 客厅偏暖白, 夜场偏青黑)
+- **Nano Banana 2 Format**: JSON with `text watermark 'P01-PN01' in the corner`
+- **Page Count**: 19 pages (18 content + 1 cover spread)
+- **Characters**: 李斌 (husband, 30s, fatigued silence), 妻子 (wife, strong, control-oriented), MC鲁迅 (author/narrator, appears later)
+
 ### 🛠️ 技术细节
 
 - **艺术风格**：国漫·现代都市 (Chinese modern comic style)
@@ -187,9 +172,19 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 - **页数**：19 页 (18 content + 1 封面跨页)
 - **人物**： 李斌 (丈夫，30多岁，熬夜后疲惫沉默), 妻子 (妻子，强势，控制欲强，细节敏感), MC鲁迅 (作者/叙事者， Page 18 后出现)
 
+## 📜 License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
 ### 📜 许可证
 
 本项目采用 MIT License - 详见 `LICENSE` 文件。
+
+## 🙏 Acknowledgments
+
+- Original article author: MC鲁迅
+- All character observations drawn from real marital dynamics
+- Inspired by the "slice-of-life" manga journalism tradition
 
 ### 🙏 致谢
 
